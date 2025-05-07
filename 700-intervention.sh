@@ -43,16 +43,97 @@ fi
 
 ##################################################################################################################################
 
-
-if grep -q "ArchBang" /etc/os-release; then
+if grep -q "CachyOS" /etc/os-release; then
 
   echo
-  tput setaf 3
+  tput setaf 2
   echo "########################################################################"
-  echo "################### Intervention first for ArchBang"
+  echo "################### We are on Manjaro"
   echo "########################################################################"
   tput sgr0
   echo
+
+  # putting back the original pacman.conf
+  sudo cp -v /etc/pacman.conf.nemesis /etc/pacman.conf
+
+# Define the lines to append
+config_block="
+[nemesis_repo]
+SigLevel = Never
+Server = https://erikdubois.github.io/\$repo/\$arch
+
+[chaotic-aur]
+SigLevel = Required DatabaseOptional
+Include = /etc/pacman.d/chaotic-mirrorlist
+"
+
+  # Append to /etc/pacman.conf
+  echo "$config_block" | sudo tee -a /etc/pacman.conf > /dev/null
+
+  echo "Repositories (chaotic/nemesis) added to /etc/pacman.conf"
+
+fi
+
+
+if grep -q "Manjaro" /etc/os-release; then
+
+  echo
+  tput setaf 2
+  echo "########################################################################"
+  echo "################### We are on Manjaro"
+  echo "########################################################################"
+  tput sgr0
+  echo
+
+  # putting back the original pacman.conf
+  sudo cp -v /etc/pacman.conf.nemesis /etc/pacman.conf
+
+# Define the lines to append
+config_block="
+[nemesis_repo]
+SigLevel = Never
+Server = https://erikdubois.github.io/\$repo/\$arch
+
+[chaotic-aur]
+SigLevel = Required DatabaseOptional
+Include = /etc/pacman.d/chaotic-mirrorlist
+"
+
+  # Append to /etc/pacman.conf
+  echo "$config_block" | sudo tee -a /etc/pacman.conf > /dev/null
+
+  echo "Repositories (chaotic/nemesis) added to /etc/pacman.conf"
+
+fi
+
+if grep -q "Garuda" /etc/os-release; then
+
+  echo
+  tput setaf 2
+  echo "########################################################################"
+  echo "################### We are on Garuda"
+  echo "########################################################################"
+  tput sgr0
+  echo
+
+  # putting back the original pacman.conf
+  sudo cp -v /etc/pacman.conf.nemesis /etc/pacman.conf
+
+# Define the lines to append
+config_block="
+[nemesis_repo]
+SigLevel = Never
+Server = https://erikdubois.github.io/\$repo/\$arch
+"
+
+  # Append to /etc/pacman.conf
+  echo "$config_block" | sudo tee -a /etc/pacman.conf > /dev/null
+
+  echo "Repository (nemesis) added to /etc/pacman.conf"
+
+fi
+
+if grep -q "ArchBang" /etc/os-release; then
 
   echo
   tput setaf 2
@@ -61,18 +142,6 @@ if grep -q "ArchBang" /etc/os-release; then
   echo "########################################################################"
   tput sgr0
   echo
-
-
-  if [ -f /usr/local/bin/fixkey ]; then
-    echo
-    tput setaf 2
-    echo "########################################################################"
-    echo "################### Running fixkey if it exists"
-    echo "########################################################################"
-    tput sgr0
-    echo
-    /usr/local/bin/fixkey
-  fi
 
   echo "Making backups of important files to start openbox"
 
