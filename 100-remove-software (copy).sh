@@ -198,16 +198,46 @@ fi
 if grep -q "Arch Linux" /etc/os-release && [ ! -e /bootloader ]; then
 
   echo
+  tput setaf 2
+  echo "##############################################################"
+  echo "############### Removing software for Arch"
+  echo "##############################################################"
+  tput sgr0
+  echo
+
+  echo
   tput setaf 3
   echo "########################################################################"
-  echo "######## Nothing to do"
+  echo "######## Removing the drivers"
   echo "########################################################################"
+  tput sgr0
+  echo
+
+  # sudo pacman -Rs --noconfirm xf86-video-amdgpu --noconfirm
+  # sudo pacman -Rs --noconfirm xf86-video-ati --noconfirm
+  # sudo pacman -Rs --noconfirm xf86-video-fbdev --noconfirm
+  # sudo pacman -Rs --noconfirm xf86-video-nouveau --noconfirm
+  # sudo pacman -Rs --noconfirm xf86-video-openchrome --noconfirm
+  # sudo pacman -Rs --noconfirm xf86-video-vesa --noconfirm
+
+  # sudo pacman -Rs --noconfirm archinstall
+  # sudo pacman -Rs --noconfirm hardinfo-gtk3
+  # sudo pacman -Rs --noconfirm lftp
+  # sudo pacman -Rs --noconfirm memtest86+
+  # sudo pacman -Rs --noconfirm memtest86+-efi
+
+  echo
+  tput setaf 2
+  echo "##############################################################"
+  echo "################### Software on Arch removed"
+  echo "##############################################################"
   tput sgr0
   echo
 
 fi
 
-# when on EOS - remove
+# when on EOS - remove conflicting files
+
 if grep -q "EndeavourOS" /etc/os-release; then
 
   echo
@@ -217,13 +247,14 @@ if grep -q "EndeavourOS" /etc/os-release; then
   echo "##############################################################"
   tput sgr0
   echo
+  if [ -f /etc/skel/.config/rofi/config.rasi ]; then
+    sudo rm -v /etc/skel/.config/rofi/config.rasi
+  fi   
 
-  # I do not want the firewall
   sudo systemctl disable firewalld
-  sudo pacman -Rs --noconfirm firewalld
+  sudo pacman -R --noconfirm firewalld
 
-  # we will get the -git version and also paru-git
-  sudo pacman -Rs --noconfirm yay
+  sudo pacman -R --noconfirm yay
 
   echo
   tput setaf 3
@@ -242,55 +273,32 @@ if grep -q "Garuda" /etc/os-release; then
   echo
   tput setaf 3
   echo "##############################################################"
-  echo "############### Removing btrfs pacman hooks"
-  echo "##############################################################"
-  tput sgr0
-  echo
-  sudo rm /etc/systemd/system/timers.target.wants/btrfs*
-
-  echo
-  tput setaf 3
-  echo "##############################################################"
-  echo "############### Removing touchpad"
-  echo "##############################################################"
-  tput sgr0
-  echo
-  sudo rm /etc/X11/xorg.conf.d/30-touchpad.conf
-
-  echo
-  tput setaf 3
-  echo "##############################################################"
   echo "############### Removing software for Garuda"
   echo "##############################################################"
   tput sgr0
   echo
 
-  sudo pacman -Rs --noconfirm garuda-common-settings
-  
-  sudo pacman -Rs --noconfirm abiword
-  sudo pacman -Rs --noconfirm audacity
-  sudo pacman -Rs --noconfirm blueman
-  sudo pacman -Rs --noconfirm celluloid
-  sudo pacman -Rs --noconfirm fastfetch
-  sudo pacman -Rs --noconfirm garuda-browser-settings 
-  sudo pacman -Rs --noconfirm garuda-fish-config
-  sudo pacman -Rs --noconfirm garuda-icons
-  sudo pacman -Rs --noconfirm garuda-wallpapers
-  sudo pacman -Rs --noconfirm garuda-xfce-settings
-  sudo pacman -Rs --noconfirm geary
-  sudo pacman -Rs --noconfirm gestures
-  sudo pacman -Rs --noconfirm gtkhash
-  sudo pacman -Rs --noconfirm linux-wifi-hotspot garuda-network-assistant
-  sudo pacman -Rs --noconfirm modemmanager modem-manager-gui networkmanager-support
-  sudo pacman -Rs --noconfirm neofetch
-  sudo pacman -Rs --noconfirm onboard
-  sudo pacman -Rs --noconfirm paru
-  sudo pacman -Rs --noconfirm pitivi
-  sudo pacman -Rs --noconfirm redshift
+  sudo pacman -R --noconfirm blueman
+  sudo pacman -R --noconfirm garuda-xfce-settings
+  sudo pacman -R --noconfirm garuda-common-settings
+  sudo pacman -R --noconfirm garuda-bash-config
+  sudo pacman -R --noconfirm redshift
   sudo pacman -Rs --noconfirm transmission-gtk
-  sudo pacman -Rs --noconfirm veracrypt
-  sudo pacman -Rs --noconfirm vim vim-runtime
+  sudo pacman -Rs --noconfirm geary
+  sudo pacman -Rs --noconfirm celluloid
+  sudo pacman -Rs --noconfirm pitivi
+  sudo pacman -Rs --noconfirm audacity
   sudo pacman -Rs --noconfirm xfburn
+  sudo pacman -Rs --noconfirm abiword
+  sudo pacman -Rs --noconfirm veracrypt
+  sudo pacman -Rs --noconfirm gtkhash
+  sudo pacman -Rs --noconfirm onboard
+  sudo pacman -Rs --noconfirm vim vim-runtime
+  sudo pacman -Rs --noconfirm gestures
+  sudo pacman -Rs --noconfirm pinta
+  sudo pacman -Rdd --noconfirm hblock
+  sudo pacman -Rdd --noconfirm modemmanager modem-manager-gui
+  sudo pacman -Rdd --noconfirm linux-wifi-hotspot
 
   echo
   tput setaf 2
@@ -314,10 +322,10 @@ if grep -q "Archman" /etc/os-release; then
   tput sgr0
 
   sudo systemctl disable firewalld
-  sudo pacman -Rs --noconfirm firewalld
-  sudo pacman -Rs --noconfirm imagewriter
-  sudo pacman -Rs --noconfirm surfn-icons
-  sudo pacman -Rs --noconfirm grml-zsh-config
+  sudo pacman -R --noconfirm firewalld
+  sudo pacman -R --noconfirm imagewriter
+  sudo pacman -R --noconfirm surfn-icons
+  sudo pacman -R --noconfirm grml-zsh-config
 
   sudo rm -r /etc/skel/.config/Thunar
   sudo rm -r /etc/skel/.config/xfce4
@@ -357,12 +365,13 @@ if grep -q "archcraft" /etc/os-release; then
   sudo rm /etc/skel/.face
   sudo rm /etc/skel/.gtkrc-2.0
 
-  sudo pacman -Rs --noconfirm archcraft-skeleton
-  sudo pacman -Rs --noconfirm archcraft-omz
-  sudo pacman -Rs --noconfirm archcraft-skeleton
-  sudo pacman -Rs --noconfirm archcraft-openbox
-  sudo pacman -Rs --noconfirm archcraft-gtk-theme-arc
-  sudo pacman -Rs --noconfirm archcraft-config-qt
+  sudo pacman -R --noconfirm archcraft-skeleton
+  sudo pacman -R --noconfirm archcraft-omz
+  sudo pacman -R --noconfirm archcraft-skeleton
+  sudo pacman -R --noconfirm archcraft-openbox
+  sudo pacman -R --noconfirm archcraft-gtk-theme-arc
+  sudo pacman -R --noconfirm archcraft-config-qt
+  #sudo pacman -R --noconfirm archcraft-neofetch
 
   echo
   tput setaf 2
@@ -384,7 +393,7 @@ if grep -q "BigLinux" /etc/os-release; then
   tput sgr0
   echo
 
-  sudo pacman -Rs --noconfirm big-skel
+  sudo pacman -R --noconfirm big-skel
 
   echo
   tput setaf 2
@@ -430,54 +439,14 @@ if grep -q "cachyos" /etc/os-release; then
   tput sgr0
   echo
 
-  sudo pacman -R --noconfirm cachyos-kernel-manager
-
-  sudo pacman -Rs --noconfirm btrfs-progs
-  sudo pacman -Rs --noconfirm cachy-browser
   sudo pacman -Rs --noconfirm cachyos-fish-config
-  sudo pacman -Rs --noconfirm cachyos-hello
-  sudo pacman -Rs --noconfirm cachyos-micro-settings 
-  sudo pacman -Rs --noconfirm cachyos-packageinstaller
-  sudo pacman -Rs --noconfirm cachyos-rate-mirrors
-  sudo pacman -Rs --noconfirm cachyos-wallpapers
-  sudo pacman -Rs --noconfirm cachyos-zsh-config
   sudo pacman -Rs --noconfirm fastfetch
-  sudo pacman -Rs --noconfirm octopi
   sudo pacman -Rs --noconfirm paru
-  sudo pacman -Rs --noconfirm ufw
-
-  # for icons in chadwm
-  sudo pacman -R --noconfirm noto-color-emoji-fontconfig
-  sudo pacman -R --noconfirm noto-fonts-cjk
-  sudo pacman -R --noconfirm ttf-meslo-nerd
-
 
   echo
   tput setaf 3
   echo "##############################################################"
   echo "################### Software removed"
-  echo "##############################################################"
-  tput sgr0
-  echo
-
-fi
-
-# when on Manjaro - remove conflicting files - xfce iso is default
-if grep -q "Manjaro" /etc/os-release; then
-  echo
-  tput setaf 2
-  echo "##############################################################"
-  echo "####### Removing software for Manjaro"
-  echo "##############################################################"
-  tput sgr0
-  echo
-
-  sudo pacman -Rs manjaro-xfce-settings --noconfirm
-
-  echo
-  tput setaf 2
-  echo "##############################################################"
-  echo "################### Software on Manjaro removed"
   echo "##############################################################"
   tput sgr0
   echo

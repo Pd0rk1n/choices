@@ -103,6 +103,7 @@ sudo pacman -S --noconfirm --needed font-manager
 3sudo pacman -S --noconfirm --needed gimp
 sudo pacman -S --noconfirm --needed git
 sudo pacman -S --noconfirm --needed gnome-disk-utility
+sudo pacman -S --noconfirm --needed gnome-keyring
 sudo pacman -S --noconfirm --needed gparted
 sudo pacman -S --noconfirm --needed gvfs-smb
 sudo pacman -S --noconfirm --needed gvfs-dnssd
