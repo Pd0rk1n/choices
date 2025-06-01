@@ -1,0 +1,2394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/arcolinux-nemesis/120-install-core-software.sh" added="2025-05-11T23:58:09.092192Z" modified="2025-05-12T00:45:19.974948Z" visited="2025-05-11T23:58:09.092193Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;/usr/bin/subl %F&apos;" modified="2025-05-11T23:58:09.092195Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-05-12T00:45:19.974946Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/Fixes/BraveUnlock.txt" added="2025-05-12T00:26:43.878567Z" modified="2025-05-12T00:45:30.046923Z" visited="2025-05-12T00:26:43.878568Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;/usr/bin/subl %F&apos;" modified="2025-05-12T00:26:43.878570Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-05-12T00:45:18.248520Z" count="1"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-12T00:45:30.046921Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.config/fish/config.fish" added="2025-05-12T00:30:18.836256Z" modified="2025-05-31T12:23:20.955036Z" visited="2025-05-12T00:30:18.836257Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-fishscript"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-31T12:23:20.955034Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/Fixes/Fix%20Missing%20Archives%20Directory" added="2025-05-12T00:45:14.858204Z" modified="2025-05-12T00:45:36.582131Z" visited="2025-05-12T00:45:14.858204Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;/usr/bin/subl %F&apos;" modified="2025-05-12T00:45:14.858206Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-05-12T00:45:17.288601Z" count="1"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-12T00:45:36.582130Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/Fixes/Manual%20Trim" added="2025-05-12T00:45:50.225038Z" modified="2025-05-12T00:45:50.225043Z" visited="2025-05-12T00:45:50.225039Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-12T00:45:50.225041Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/Fixes/Remove%20Directory%20in%20CLI%20Arch" added="2025-05-12T00:47:01.277418Z" modified="2025-05-12T00:47:01.277422Z" visited="2025-05-12T00:47:01.277418Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-12T00:47:01.277420Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/Fixes/Set%20Mirrors%20With%20Reflector" added="2025-05-12T00:47:19.080062Z" modified="2025-05-12T01:29:28.675986Z" visited="2025-05-12T00:47:19.080062Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-12T01:29:28.675985Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.config/fastfetch/config.jsonc" added="2025-05-12T00:48:45.278681Z" modified="2025-05-12T00:50:23.196526Z" visited="2025-05-12T00:48:45.278682Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/schema+json"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-12T00:50:23.196525Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/backgrounds/archlinux%20wallpapers" added="2025-05-12T00:53:09.477580Z" modified="2025-05-12T00:53:09.477588Z" visited="2025-05-12T00:53:09.477581Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="archlinux-betterlockscreen.py" exec="&apos;archlinux-betterlockscreen.py %u&apos;" modified="2025-05-12T00:53:09.477584Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.zshrc" added="2025-05-12T01:04:59.755435Z" modified="2025-05-12T01:20:22.124967Z" visited="2025-05-12T01:04:59.755435Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-12T01:20:22.124966Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.zshrc-nemesis" added="2025-05-12T01:15:14.001149Z" modified="2025-05-21T02:51:44.682306Z" visited="2025-05-12T01:15:14.001150Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-21T02:51:44.682303Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.zshrc.pre-oh-my-zsh" added="2025-05-12T01:19:26.454593Z" modified="2025-05-12T01:23:54.037399Z" visited="2025-05-12T01:19:26.454593Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-12T01:23:54.037398Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.zshrc%20(copy)" added="2025-05-12T01:19:50.848393Z" modified="2025-05-12T01:27:30.271690Z" visited="2025-05-12T01:19:50.848394Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-12T01:27:30.271688Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/github/arcolinux-nemesis/arcolinux-desktops/i3.sh" added="2025-05-12T01:48:46.774867Z" modified="2025-05-12T01:48:46.774871Z" visited="2025-05-12T01:48:46.774867Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-12T01:48:46.774869Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///" added="2025-05-12T02:44:00.805895Z" modified="2025-05-12T02:44:00.805902Z" visited="2025-05-12T02:44:00.805896Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:groups>
+          <bookmark:group>baobab</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="baobab" exec="&apos;baobab %u&apos;" modified="2025-05-12T02:44:00.805899Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n" added="2025-05-12T02:44:35.443102Z" modified="2025-05-12T02:47:48.282268Z" visited="2025-05-12T02:44:35.443103Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:groups>
+          <bookmark:group>baobab</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="baobab" exec="&apos;baobab %u&apos;" modified="2025-05-12T02:47:48.282266Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="smb://10.0.0.19/6tb/" added="2025-05-12T02:48:48.299862Z" modified="2025-05-12T02:48:48.299871Z" visited="2025-05-12T02:48:48.299863Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:groups>
+          <bookmark:group>baobab</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="baobab" exec="&apos;baobab %u&apos;" modified="2025-05-12T02:48:48.299866Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Downloads/26100.1742.240906-0331.ge_release_svc_refresh_CLIENT_IOT_LTSC_EVAL_x64FRE_en-us.iso" added="2025-05-12T14:34:51.743455Z" modified="2025-05-12T14:34:51.993494Z" visited="2025-05-12T14:34:51.743456Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-12T14:34:51.993491Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/github/arcolinux-nemesis/up.sh" added="2025-05-12T21:58:05.950930Z" modified="2025-05-12T21:58:05.950934Z" visited="2025-05-12T21:58:05.950930Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-12T21:58:05.950932Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/github/arcolinux-nemesis/setup-git-v5.sh" added="2025-05-12T21:58:22.379399Z" modified="2025-05-12T21:58:22.379404Z" visited="2025-05-12T21:58:22.379399Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-12T21:58:22.379402Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/github/arcolinux-nemesis/set-locale.sh" added="2025-05-12T21:58:51.256214Z" modified="2025-05-12T21:58:51.256218Z" visited="2025-05-12T21:58:51.256214Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-12T21:58:51.256216Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/github/arcolinux-nemesis/replace-with-in-scripts-v1.sh" added="2025-05-12T21:59:14.623980Z" modified="2025-05-12T21:59:14.623983Z" visited="2025-05-12T21:59:14.623980Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-12T21:59:14.623982Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/bc26cc48-76ee-485b-8819-e136661b9ca7/home/pd0rk1n/github/arcolinux-nemesis%20(copy)/.git/config" added="2025-05-12T22:03:26.986376Z" modified="2025-05-12T22:03:26.986381Z" visited="2025-05-12T22:03:26.986377Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-12T22:03:26.986379Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/github/arcolinux-nemesis/.git/config" added="2025-05-13T02:47:56.362781Z" modified="2025-05-25T02:09:08.929626Z" visited="2025-05-13T02:47:56.362781Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-25T02:09:08.929624Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.ssh/id_ed25519.pub" added="2025-05-13T03:06:33.339792Z" modified="2025-05-19T14:26:50.441315Z" visited="2025-05-13T03:06:33.339794Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.ms-publisher"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;/usr/bin/subl %F&apos;" modified="2025-05-13T03:18:26.894328Z" count="4"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T03:28:15.141835Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-05-19T14:26:50.441311Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.ssh/id_ed25519" added="2025-05-13T03:06:42.154117Z" modified="2025-05-13T03:27:35.771787Z" visited="2025-05-13T03:06:42.154118Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T03:27:35.771786Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.ssh/known_hosts" added="2025-05-13T03:06:53.123821Z" modified="2025-05-14T20:52:19.602453Z" visited="2025-05-13T03:06:53.123821Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T20:52:19.602451Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.ssh/id_rsa.pub" added="2025-05-13T03:25:49.962535Z" modified="2025-05-19T14:26:48.716813Z" visited="2025-05-13T03:25:49.962536Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.ms-publisher"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;/usr/bin/subl %F&apos;" modified="2025-05-13T03:27:54.461578Z" count="2"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T03:29:13.965081Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-05-19T14:26:48.716808Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.ssh/id_rsa" added="2025-05-13T03:27:25.789420Z" modified="2025-05-13T03:27:25.789425Z" visited="2025-05-13T03:27:25.789420Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T03:27:25.789422Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/github/arcolinux-nemesis/100-remove-software.sh" added="2025-05-13T03:33:29.491532Z" modified="2025-05-13T03:33:29.491536Z" visited="2025-05-13T03:33:29.491533Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T03:33:29.491534Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/github/arcolinux-nemesis/110-install-nemesis-software.sh" added="2025-05-13T03:35:07.325038Z" modified="2025-05-13T04:05:22.840592Z" visited="2025-05-13T03:35:07.325039Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T04:05:22.840591Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/github/arcolinux-nemesis/180-ananicy.sh" added="2025-05-13T03:36:06.746879Z" modified="2025-05-13T03:36:06.746883Z" visited="2025-05-13T03:36:06.746879Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T03:36:06.746881Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/github/arcolinux-nemesis/0-current-choices.sh" added="2025-05-13T03:36:31.192679Z" modified="2025-05-13T03:36:31.192682Z" visited="2025-05-13T03:36:31.192679Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T03:36:31.192681Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/github/ulauncher/.git/config" added="2025-05-13T03:42:38.129973Z" modified="2025-05-13T03:42:38.129978Z" visited="2025-05-13T03:42:38.129974Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T03:42:38.129976Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/arcolinux-nemesis/up.sh" added="2025-05-13T03:43:08.979143Z" modified="2025-05-13T03:43:08.979147Z" visited="2025-05-13T03:43:08.979143Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T03:43:08.979145Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///etc/skel/.bin/starwars" added="2025-05-13T03:54:44.965869Z" modified="2025-05-13T03:54:44.965894Z" visited="2025-05-13T03:54:44.965872Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T03:54:44.965874Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///etc/skel/.config/xfce4/helpers.rc" added="2025-05-13T03:55:47.341018Z" modified="2025-05-13T03:56:51.638164Z" visited="2025-05-13T03:55:47.341018Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T03:56:51.638163Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.config/xfce4/helpers.rc" added="2025-05-13T03:56:16.650900Z" modified="2025-05-13T03:57:43.215757Z" visited="2025-05-13T03:56:16.650901Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T03:57:43.215756Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/github/arcolinux-nemesis/120-install-core-software.sh" added="2025-05-13T04:05:41.205828Z" modified="2025-05-13T04:07:01.542262Z" visited="2025-05-13T04:05:41.205829Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T04:07:01.542261Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/backgrounds" added="2025-05-13T11:23:27.281033Z" modified="2025-05-13T11:23:27.281041Z" visited="2025-05-13T11:23:27.281034Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="archlinux-betterlockscreen.py" exec="&apos;archlinux-betterlockscreen.py %u&apos;" modified="2025-05-13T11:23:27.281037Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/backgrounds/WallPapers" added="2025-05-13T11:23:44.883425Z" modified="2025-05-13T11:23:44.883428Z" visited="2025-05-13T11:23:44.883426Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="archlinux-betterlockscreen.py" exec="&apos;archlinux-betterlockscreen.py %u&apos;" modified="2025-05-13T11:23:44.883426Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.config/neofetch/config.conf" added="2025-05-13T13:59:35.577129Z" modified="2025-05-13T13:59:35.577134Z" visited="2025-05-13T13:59:35.577130Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T13:59:35.577132Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/cleanup_server.sh" added="2025-05-13T21:45:00.286949Z" modified="2025-05-13T21:45:00.572803Z" visited="2025-05-13T21:45:00.286950Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T21:45:00.572802Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/clean_inodes.sh" added="2025-05-13T22:13:28.680052Z" modified="2025-05-13T22:13:28.953586Z" visited="2025-05-13T22:13:28.680053Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T22:13:28.953584Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/clean_sdc2_inodes.sh" added="2025-05-13T22:28:25.525760Z" modified="2025-05-13T22:28:25.797877Z" visited="2025-05-13T22:28:25.525761Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T22:28:25.797876Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/clean_sdc2_inodes_verbose.sh" added="2025-05-13T22:34:30.519257Z" modified="2025-05-13T22:34:30.792852Z" visited="2025-05-13T22:34:30.519258Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T22:34:30.792850Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/fast_inode_cleanup.sh" added="2025-05-13T22:39:57.607458Z" modified="2025-05-13T22:39:57.882767Z" visited="2025-05-13T22:39:57.607459Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-13T22:39:57.882765Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/clean_temp_files.sh" added="2025-05-14T00:08:14.092010Z" modified="2025-05-14T00:08:14.378508Z" visited="2025-05-14T00:08:14.092011Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T00:08:14.378507Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/docker_cleanup.sh" added="2025-05-14T00:12:21.538800Z" modified="2025-05-14T00:12:21.809941Z" visited="2025-05-14T00:12:21.538801Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T00:12:21.809939Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/ubuntu_repair.sh" added="2025-05-14T00:15:21.034568Z" modified="2025-05-14T00:15:21.322861Z" visited="2025-05-14T00:15:21.034569Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T00:15:21.322859Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/arch_repair.sh" added="2025-05-14T00:18:19.498911Z" modified="2025-05-14T00:20:30.443235Z" visited="2025-05-14T00:18:19.498912Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T00:20:30.443233Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/github/nemesis_repo/.git/config" added="2025-05-14T00:28:24.755885Z" modified="2025-05-24T13:37:01.526562Z" visited="2025-05-14T00:28:24.755887Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-24T13:37:01.526561Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/update-keys-and-mirrors.sh" added="2025-05-14T00:51:32.775445Z" modified="2025-05-14T00:55:50.855883Z" visited="2025-05-14T00:51:32.775446Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T00:55:50.855882Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/auto-select-fastest-canadian-mirror.sh" added="2025-05-14T01:05:22.094286Z" modified="2025-05-14T01:05:22.370240Z" visited="2025-05-14T01:05:22.094287Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T01:05:22.370238Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="smb://10.0.0.19/data/Downloads/auto-select-fastest-canadian-mirror.sh" added="2025-05-14T01:07:53.098060Z" modified="2025-05-14T01:09:59.321955Z" visited="2025-05-14T01:07:53.098061Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T01:09:59.321953Z" count="4"/>
+          <bookmark:application name="nemo" exec="&apos;xed %U&apos;" modified="2025-05-14T01:09:24.945318Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/update-or-install-casaos.sh" added="2025-05-14T01:16:28.175587Z" modified="2025-05-14T01:16:28.456184Z" visited="2025-05-14T01:16:28.175589Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T01:16:28.456180Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/Bash%20Scripts/unwanted-apps" added="2025-05-14T01:43:19.855602Z" modified="2025-05-14T01:47:10.093069Z" visited="2025-05-14T01:43:19.855604Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T01:47:10.093068Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/github/arcolinux-nemesis/170-install-cups.sh" added="2025-05-14T01:49:57.600717Z" modified="2025-05-14T01:49:57.600721Z" visited="2025-05-14T01:49:57.600717Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T01:49:57.600719Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/github/arcolinux-nemesis/200-software-aur-repo.sh" added="2025-05-14T01:51:47.624454Z" modified="2025-05-14T01:51:47.624458Z" visited="2025-05-14T01:51:47.624454Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T01:51:47.624456Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/Bash%20Scripts/Arch%20Scripts/install-virtuakbox" added="2025-05-14T01:56:36.674968Z" modified="2025-05-14T01:56:36.949991Z" visited="2025-05-14T01:56:36.674969Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T01:56:36.949988Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/Bash%20Scripts/Arch%20Scripts/fix_vboxdrv.sh" added="2025-05-14T02:10:44.407969Z" modified="2025-05-14T02:10:44.680830Z" visited="2025-05-14T02:10:44.407970Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T02:10:44.680829Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/Bash%20Scripts/Arch%20Scripts/add_endeavouros_keys.sh" added="2025-05-14T02:20:41.788730Z" modified="2025-05-19T12:04:20.579272Z" visited="2025-05-14T02:20:41.788731Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-19T12:04:20.579271Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///etc/pacman.d/mirrorlist" added="2025-05-14T02:24:52.502782Z" modified="2025-05-14T02:25:23.477471Z" visited="2025-05-14T02:24:52.502782Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T02:25:23.477469Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///etc/pacman.conf" added="2025-05-14T02:25:54.615737Z" modified="2025-05-14T02:25:54.615741Z" visited="2025-05-14T02:25:54.615737Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T02:25:54.615739Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/test_keys.sh" added="2025-05-14T02:27:33.678176Z" modified="2025-05-28T22:39:26.794295Z" visited="2025-05-14T02:27:33.678177Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-28T22:39:26.794294Z" count="13"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/att-exports/packages-x86_64.txt" added="2025-05-14T03:14:41.758391Z" modified="2025-05-14T03:14:41.758395Z" visited="2025-05-14T03:14:41.758392Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T03:14:41.758394Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/arcolinux-nemesis/0-current-choices.sh" added="2025-05-14T20:53:16.430198Z" modified="2025-05-14T20:53:16.430218Z" visited="2025-05-14T20:53:16.430198Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T20:53:16.430200Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/arcolinux-nemesis/.git/config" added="2025-05-14T20:53:29.722077Z" modified="2025-05-14T21:05:33.761381Z" visited="2025-05-14T20:53:29.722078Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T21:05:33.761380Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch%20My%20Way/i3/.git/config" added="2025-05-14T20:55:51.780917Z" modified="2025-05-14T20:55:51.780922Z" visited="2025-05-14T20:55:51.780918Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T20:55:51.780920Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch%20My%20Way/i3/pacman.conf" added="2025-05-14T20:56:52.547494Z" modified="2025-05-14T20:56:52.547499Z" visited="2025-05-14T20:56:52.547495Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T20:56:52.547497Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch%20My%20Way/arcolinux-nemesis/.git/config" added="2025-05-14T21:04:08.838057Z" modified="2025-05-14T21:04:08.838062Z" visited="2025-05-14T21:04:08.838058Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T21:04:08.838060Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch%20My%20Way/xfce4%20config%20with%20rofi/.config/rofi/rofi-run.sh" added="2025-05-14T21:05:11.989987Z" modified="2025-05-14T21:05:11.989992Z" visited="2025-05-14T21:05:11.989987Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T21:05:11.989989Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.ssh/config" added="2025-05-14T21:09:09.542125Z" modified="2025-05-14T21:09:09.542128Z" visited="2025-05-14T21:09:09.542125Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T21:09:09.542127Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/i3/config" added="2025-05-14T23:18:07.809302Z" modified="2025-05-14T23:18:07.809326Z" visited="2025-05-14T23:18:07.809302Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T23:18:07.809304Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.config/i3/picom.conf" added="2025-05-14T23:54:35.324157Z" modified="2025-05-28T22:55:04.230670Z" visited="2025-05-14T23:54:35.324157Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-28T22:55:04.230669Z" count="16"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch%20My%20Way/i3/Fixes/Manual%20Trim" added="2025-05-14T23:57:58.338772Z" modified="2025-05-14T23:57:58.338777Z" visited="2025-05-14T23:57:58.338772Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-14T23:57:58.338774Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Downloads/archlinux-2025.04.04-x86_64.iso" added="2025-05-15T00:28:12.545183Z" modified="2025-05-15T00:28:12.795095Z" visited="2025-05-15T00:28:12.545185Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-15T00:28:12.795089Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Downloads/Calam-Arch-Installer-2025-05.iso" added="2025-05-15T00:30:07.470523Z" modified="2025-05-25T22:55:04.627463Z" visited="2025-05-15T00:30:07.470524Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-25T22:55:04.627452Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Downloads/cachyos-desktop-linux-250422.iso" added="2025-05-15T00:47:02.215057Z" modified="2025-05-15T00:47:02.464072Z" visited="2025-05-15T00:47:02.215058Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-15T00:47:02.464069Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Downloads/ubuntu-24.04.2-live-server-amd64.iso" added="2025-05-15T00:49:50.658207Z" modified="2025-05-15T00:49:50.907688Z" visited="2025-05-15T00:49:50.658208Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-15T00:49:50.907685Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Downloads/linuxmint-22.1-cinnamon-64bit.iso" added="2025-05-15T00:53:09.286745Z" modified="2025-05-15T00:53:28.350689Z" visited="2025-05-15T00:53:09.286746Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-15T00:53:28.350685Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Downloads/linuxmint-22.1-xfce-64bit.iso" added="2025-05-15T00:57:42.269914Z" modified="2025-05-15T00:57:42.519863Z" visited="2025-05-15T00:57:42.269915Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-15T00:57:42.519859Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Downloads/lmde-6-cinnamon-64bit.iso" added="2025-05-15T01:00:45.447618Z" modified="2025-05-15T01:00:45.697675Z" visited="2025-05-15T01:00:45.447619Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-15T01:00:45.697670Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Downloads/debian-12.10.0-amd64-DVD-1.iso" added="2025-05-15T01:05:16.429154Z" modified="2025-05-15T01:05:16.679114Z" visited="2025-05-15T01:05:16.429155Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-15T01:05:16.679110Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="admin:///boot/efi/loader/entries/3552e107071849458099317092b62588-6.14.6-zen1-1-zen.conf" added="2025-05-15T02:02:22.839615Z" modified="2025-05-15T02:02:26.127356Z" visited="2025-05-15T02:02:22.839616Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;xed %U&apos;" modified="2025-05-15T02:02:22.839619Z" count="1"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-15T02:02:26.127352Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Downloads/en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso" added="2025-05-16T07:56:07.917737Z" modified="2025-05-16T07:56:08.167754Z" visited="2025-05-16T07:56:07.917737Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-16T07:56:08.167750Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Downloads/Win11_24H2_English_x64.iso" added="2025-05-16T09:24:43.126153Z" modified="2025-05-16T09:24:43.376185Z" visited="2025-05-16T09:24:43.126153Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-16T09:24:43.376183Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Part%20One/iso/Win11_24H2_English_x64.iso" added="2025-05-16T14:28:43.778759Z" modified="2025-05-16T14:28:43.778767Z" visited="2025-05-16T14:28:43.778760Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.efi.iso"/>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;gnome-disk-image-mounter %U&apos;" modified="2025-05-16T14:28:43.778762Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/github/edu/arcolinux-nemesis/500-plasma.sh" added="2025-05-17T13:15:07.338390Z" modified="2025-05-17T13:15:07.338396Z" visited="2025-05-17T13:15:07.338391Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-17T13:15:07.338393Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/github/edu/arcolinux-nemesis/600-chadwm.sh" added="2025-05-17T13:15:26.023950Z" modified="2025-05-17T13:15:26.023954Z" visited="2025-05-17T13:15:26.023950Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-17T13:15:26.023952Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/brave.txt" added="2025-05-18T14:13:35.665419Z" modified="2025-05-22T03:08:06.681232Z" visited="2025-05-18T14:13:35.665420Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-22T03:08:06.681231Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/bookmarks_18_05_2025.html" added="2025-05-18T14:30:03.375622Z" modified="2025-05-18T14:30:03.625508Z" visited="2025-05-18T14:30:03.375624Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-18T14:30:03.625504Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Downloads/X23-81951_26100.1742.240906-0331.ge_release_svc_refresh_CLIENT_ENTERPRISES_OEM_x64FRE_en-us.iso_640de540-87c4-427f-be87-e6d53a3a60b4" added="2025-05-18T16:40:42.365008Z" modified="2025-05-18T16:40:42.615017Z" visited="2025-05-18T16:40:42.365009Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-18T16:40:42.615015Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Downloads/en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814%20(1).iso" added="2025-05-18T16:41:01.577258Z" modified="2025-05-18T16:41:01.827261Z" visited="2025-05-18T16:41:01.577259Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-18T16:41:01.827258Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/arch/when-on-Arch/pacman.conf" added="2025-05-19T11:42:49.853355Z" modified="2025-05-19T11:42:49.853359Z" visited="2025-05-19T11:42:49.853356Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-19T11:42:49.853357Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/110-install-nemesis-software.sh" added="2025-05-19T11:43:55.309390Z" modified="2025-06-01T02:00:06.585638Z" visited="2025-05-19T11:43:55.309391Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:00:06.585637Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/120-install-core-software.sh" added="2025-05-19T11:45:14.298550Z" modified="2025-06-01T02:11:59.244650Z" visited="2025-05-19T11:45:14.298550Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:11:59.244648Z" count="11"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/140-install-nemesis-icon-themes.sh" added="2025-05-19T11:46:42.539931Z" modified="2025-06-01T02:08:25.272383Z" visited="2025-05-19T11:46:42.539931Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:08:25.272381Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/get-me-started" added="2025-05-19T11:47:17.586592Z" modified="2025-06-01T02:12:51.638991Z" visited="2025-05-19T11:47:17.586593Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:12:51.638989Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/give-me-pacman.conf.sh" added="2025-05-19T11:48:29.999986Z" modified="2025-06-01T02:13:27.908150Z" visited="2025-05-19T11:48:29.999986Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:13:27.908149Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/mirrorlist" added="2025-05-19T11:48:47.701262Z" modified="2025-06-01T02:15:28.224233Z" visited="2025-05-19T11:48:47.701262Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:15:28.224232Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/gpg.conf" added="2025-05-19T11:48:57.626914Z" modified="2025-06-01T02:15:10.653466Z" visited="2025-05-19T11:48:57.626915Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:15:10.653465Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.gnupg/gpg.conf" added="2025-05-19T11:49:30.478437Z" modified="2025-05-31T13:43:18.972254Z" visited="2025-05-19T11:49:30.478437Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-31T13:43:18.972252Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/replace-with-in-scripts-v1.sh" added="2025-05-19T11:49:54.348550Z" modified="2025-05-19T11:49:54.348557Z" visited="2025-05-19T11:49:54.348551Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-19T11:49:54.348554Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/200-software-aur-repo.sh" added="2025-05-19T11:50:44.309628Z" modified="2025-06-01T02:09:11.669842Z" visited="2025-05-19T11:50:44.309629Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:09:11.669841Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/Bash%20Scripts/Arch%20Scripts/unwanted-apps.sh" added="2025-05-19T12:04:08.532738Z" modified="2025-05-28T22:31:02.642272Z" visited="2025-05-19T12:04:08.532739Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-28T22:31:02.642271Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch%20My%20Way/i3/etc/endeavouros-mirrorlist" added="2025-05-19T12:06:13.943201Z" modified="2025-05-19T12:06:13.943205Z" visited="2025-05-19T12:06:13.943201Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-19T12:06:13.943203Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/endeavouros-mirrorlist" added="2025-05-19T12:07:06.438699Z" modified="2025-05-19T12:07:06.438704Z" visited="2025-05-19T12:07:06.438700Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-19T12:07:06.438702Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/github/arcolinux-nemesis/arch/create-arch-linux-iso/create-arch-linux-iso.sh" added="2025-05-19T12:12:04.426000Z" modified="2025-05-19T12:12:04.426005Z" visited="2025-05-19T12:12:04.426000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-19T12:12:04.426003Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/archlinux-2025.05.19-x86_64.iso" added="2025-05-19T12:21:42.622914Z" modified="2025-05-19T12:21:42.622919Z" visited="2025-05-19T12:21:42.622915Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.efi.iso"/>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;gnome-disk-image-mounter %U&apos;" modified="2025-05-19T12:21:42.622917Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/ARCH_202505/arch/pkglist.x86_64.txt" added="2025-05-19T12:22:02.467149Z" modified="2025-05-19T12:22:02.467154Z" visited="2025-05-19T12:22:02.467150Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-19T12:22:02.467152Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/ARCH_202505/arch/version" added="2025-05-19T12:22:28.815823Z" modified="2025-05-19T12:22:28.815827Z" visited="2025-05-19T12:22:28.815824Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-19T12:22:28.815825Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/ARCH_202505/loader/loader.conf" added="2025-05-19T12:23:09.761971Z" modified="2025-05-19T12:23:09.761975Z" visited="2025-05-19T12:23:09.761971Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-19T12:23:09.761973Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="smb://10.0.0.19/4tb/usr_src/linux-headers-6.8.0-60-generic/.config" added="2025-05-19T14:26:39.488317Z" modified="2025-05-19T14:26:47.713202Z" visited="2025-05-19T14:26:39.488318Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;/usr/bin/subl %F&apos;" modified="2025-05-19T14:26:39.488320Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-05-19T14:26:47.713201Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="sftp://10.0.0.19/usr/lib/apt/apt.systemd.daily" added="2025-05-21T00:51:16.125240Z" modified="2025-05-21T00:51:23.260607Z" visited="2025-05-21T00:51:16.125240Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;/usr/bin/subl %F&apos;" modified="2025-05-21T00:51:16.125242Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-05-21T00:51:23.260602Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.config/i3/config" added="2025-05-21T02:36:40.708223Z" modified="2025-06-01T05:32:16.592133Z" visited="2025-05-21T02:36:40.708224Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T05:32:16.592132Z" count="19"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-05-21T02:56:33.912867Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.config/Trolltech.conf" added="2025-05-21T02:44:10.580103Z" modified="2025-05-21T02:44:10.580107Z" visited="2025-05-21T02:44:10.580104Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-21T02:44:10.580105Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.config/yad.conf" added="2025-05-21T02:44:21.595058Z" modified="2025-05-21T02:44:21.595062Z" visited="2025-05-21T02:44:21.595058Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-21T02:44:21.595060Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/config.fish1" added="2025-05-21T02:50:51.769883Z" modified="2025-05-21T02:50:52.051623Z" visited="2025-05-21T02:50:51.769883Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-21T02:50:52.051621Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.config/polybar/config.ini" added="2025-05-21T03:12:40.224965Z" modified="2025-05-21T03:45:33.512969Z" visited="2025-05-21T03:12:40.224966Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-21T03:45:33.512968Z" count="24"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch%20My%20Way/i3/.config/polybar/config.ini" added="2025-05-21T03:38:45.253171Z" modified="2025-05-21T03:38:45.253175Z" visited="2025-05-21T03:38:45.253171Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-21T03:38:45.253173Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.xinitrc" added="2025-05-21T04:08:52.505514Z" modified="2025-05-28T22:39:02.175566Z" visited="2025-05-21T04:08:52.505515Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-28T22:39:02.175565Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.cache/wal/colors.sh" added="2025-05-21T04:09:28.836640Z" modified="2025-05-21T04:09:28.836644Z" visited="2025-05-21T04:09:28.836641Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-21T04:09:28.836643Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/92D6F6B9D6F69CA3/Users/Public/Libraries/desktop.ini" added="2025-05-22T03:11:55.887836Z" modified="2025-05-22T03:11:55.887841Z" visited="2025-05-22T03:11:55.887837Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-22T03:11:55.887839Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/win_script_wrapper.exe" added="2025-05-23T00:12:15.958643Z" modified="2025-05-23T00:56:31.142199Z" visited="2025-05-23T00:12:15.958644Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-msdownload"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;/usr/bin/subl %F&apos;" modified="2025-05-23T00:55:58.803229Z" count="2"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-23T00:12:24.916326Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-05-23T00:56:31.142195Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/wrapper.cpp" added="2025-05-23T00:56:26.670188Z" modified="2025-05-23T00:56:41.637241Z" visited="2025-05-23T00:56:26.670189Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;/usr/bin/subl %F&apos;" modified="2025-05-23T00:56:26.670192Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-05-23T00:56:41.637237Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Pictures/face.ico" added="2025-05-23T01:02:10.494114Z" modified="2025-05-23T01:02:10.523298Z" visited="2025-05-23T01:02:10.494116Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/vnd.microsoft.icon"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-05-23T01:02:10.523295Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="admin:///etc/sudoers.d/10-installer" added="2025-05-24T11:32:00.042831Z" modified="2025-05-24T11:32:03.386340Z" visited="2025-05-24T11:32:00.042832Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;xed %U&apos;" modified="2025-05-24T11:32:00.042833Z" count="1"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-24T11:32:03.386339Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/.git/config" added="2025-05-24T13:39:13.371865Z" modified="2025-05-24T13:42:38.471385Z" visited="2025-05-24T13:39:13.371866Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-24T13:42:38.471382Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/ad89d0a1-b793-44a1-bf50-88e1fdface31/Arch%20My%20Way/etc/pacman.conf/pacman.conf" added="2025-05-25T02:24:35.923429Z" modified="2025-05-25T02:24:35.923433Z" visited="2025-05-25T02:24:35.923429Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-25T02:24:35.923431Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/fix-sources.sh" added="2025-05-25T02:53:03.219520Z" modified="2025-05-25T02:53:03.503085Z" visited="2025-05-25T02:53:03.219521Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-25T02:53:03.503083Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Documents/check-mirror.sh" added="2025-05-25T02:53:51.207425Z" modified="2025-05-25T02:53:51.495391Z" visited="2025-05-25T02:53:51.207426Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-25T02:53:51.495389Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/180-ananicy.sh" added="2025-05-25T22:35:42.856702Z" modified="2025-05-25T22:35:42.856706Z" visited="2025-05-25T22:35:42.856703Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-25T22:35:42.856704Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/120-install-core-software.sh" added="2025-05-25T22:36:07.461845Z" modified="2025-05-25T22:48:15.977044Z" visited="2025-05-25T22:36:07.461845Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-25T22:48:15.977043Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/100-remove-software.sh" added="2025-05-25T22:43:57.423489Z" modified="2025-05-25T22:43:57.423493Z" visited="2025-05-25T22:43:57.423489Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-25T22:43:57.423491Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/110-install-nemesis-software.sh" added="2025-05-25T22:45:21.570355Z" modified="2025-05-25T22:45:21.570359Z" visited="2025-05-25T22:45:21.570355Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-25T22:45:21.570357Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/tmp" added="2025-05-26T03:51:00.042059Z" modified="2025-05-26T03:51:00.054438Z" visited="2025-05-26T03:51:00.042060Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.manjaro.pamac.manager" exec="&apos;gio open %u&apos;" modified="2025-05-26T03:51:00.042063Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-05-26T03:51:00.054436Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.xsession" added="2025-05-28T22:39:11.275097Z" modified="2025-05-28T22:39:11.275101Z" visited="2025-05-28T22:39:11.275098Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-28T22:39:11.275099Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/upgrade-flatpak-runtime.sh" added="2025-05-28T22:39:55.133593Z" modified="2025-05-28T22:39:55.133597Z" visited="2025-05-28T22:39:55.133594Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-28T22:39:55.133595Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.bin/arco" added="2025-05-28T22:42:06.359030Z" modified="2025-05-28T22:42:06.359034Z" visited="2025-05-28T22:42:06.359031Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-28T22:42:06.359033Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.bin/starwars" added="2025-05-28T22:42:39.725844Z" modified="2025-05-28T22:42:39.725849Z" visited="2025-05-28T22:42:39.725845Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-28T22:42:39.725847Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.bin/swapfile/change-the-size-of-your-current-swapfile.sh" added="2025-05-28T22:43:11.031238Z" modified="2025-05-28T22:43:11.031243Z" visited="2025-05-28T22:43:11.031239Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-28T22:43:11.031240Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.icons/default/index.theme" added="2025-05-28T22:52:43.154554Z" modified="2025-05-28T22:53:09.550063Z" visited="2025-05-28T22:52:43.154555Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;/usr/bin/subl %F&apos;" modified="2025-05-28T22:52:43.154556Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-05-28T22:52:57.785641Z" count="1"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-28T22:53:09.550062Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.config/i3/.picom.conf" added="2025-05-28T23:10:31.297138Z" modified="2025-05-28T23:10:31.297142Z" visited="2025-05-28T23:10:31.297139Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-28T23:10:31.297140Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/24d67cdc-c3b6-4ba1-962f-d3ccd4acddb1/home/pd0rk1n/.config/i3/picom.conf" added="2025-05-28T23:11:14.685690Z" modified="2025-05-28T23:11:14.685694Z" visited="2025-05-28T23:11:14.685691Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-28T23:11:14.685693Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="admin:///boot/efi/loader/loader.conf" added="2025-05-29T02:40:17.531853Z" modified="2025-05-29T02:40:37.431008Z" visited="2025-05-29T02:40:17.531854Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;xed %U&apos;" modified="2025-05-29T02:40:17.531861Z" count="1"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-29T02:40:37.431006Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/my%20arch2/120-install-core-software.sh" added="2025-05-29T02:52:20.637380Z" modified="2025-05-29T03:45:58.463297Z" visited="2025-05-29T02:52:20.637381Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-29T03:45:58.463296Z" count="10"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/my%20arch2/110-install-nemesis-software.sh" added="2025-05-29T02:53:48.462973Z" modified="2025-05-29T02:58:46.539223Z" visited="2025-05-29T02:53:48.462973Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-29T02:58:46.539222Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/my%20arch2/0-current-choices.sh" added="2025-05-29T02:54:40.582918Z" modified="2025-05-29T02:56:45.121801Z" visited="2025-05-29T02:54:40.582918Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-29T02:56:45.121800Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/my%20arch2/Personal/970-arch.sh" added="2025-05-29T02:55:50.879967Z" modified="2025-05-29T02:55:50.879975Z" visited="2025-05-29T02:55:50.879967Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-29T02:55:50.879969Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/my%20arch2/100-remove-software.sh" added="2025-05-29T02:57:03.507395Z" modified="2025-05-29T02:57:03.507399Z" visited="2025-05-29T02:57:03.507396Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-29T02:57:03.507398Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/my%20arch2/140-install-nemesis-icon-themes.sh" added="2025-05-29T02:59:51.103726Z" modified="2025-05-29T02:59:51.103730Z" visited="2025-05-29T02:59:51.103726Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-29T02:59:51.103728Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/my%20arch2/arch/when-on-Arch/pacman.conf" added="2025-05-29T03:45:40.710608Z" modified="2025-05-29T03:45:40.710612Z" visited="2025-05-29T03:45:40.710609Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-29T03:45:40.710610Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/my%20arch2/arch/when-on-Arch/install-yay-or-paru.sh" added="2025-05-29T03:46:05.206166Z" modified="2025-05-29T03:46:05.206170Z" visited="2025-05-29T03:46:05.206166Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-29T03:46:05.206168Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/my%20arch2/arcolinux-desktops/i3.sh" added="2025-05-29T03:46:56.523456Z" modified="2025-05-29T03:46:56.523462Z" visited="2025-05-29T03:46:56.523458Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-29T03:46:56.523459Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Downloads/nixos-graphical-25.05.802746.7282cb574e06-x86_64-linux.iso" added="2025-05-31T00:49:10.070408Z" modified="2025-05-31T00:49:10.320289Z" visited="2025-05-31T00:49:10.070409Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-31T00:49:10.320286Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/a7d9254a-3c3a-4bd5-8c75-837770c29357/home/pd0rk1n/.pki/nssdb/pkcs11.txt" added="2025-05-31T13:44:47.809639Z" modified="2025-05-31T13:44:47.809643Z" visited="2025-05-31T13:44:47.809639Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-31T13:44:47.809641Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/a7d9254a-3c3a-4bd5-8c75-837770c29357/home/pd0rk1n/.config/xfce4/helpers.rc" added="2025-05-31T13:49:32.815169Z" modified="2025-05-31T13:49:52.758031Z" visited="2025-05-31T13:49:32.815170Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-31T13:49:52.758029Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/a7d9254a-3c3a-4bd5-8c75-837770c29357/home/pd0rk1n/.config/xed/accels" added="2025-05-31T13:50:35.292306Z" modified="2025-05-31T13:50:35.292311Z" visited="2025-05-31T13:50:35.292307Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-31T13:50:35.292309Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/a7d9254a-3c3a-4bd5-8c75-837770c29357/home/pd0rk1n/.gitconfig" added="2025-05-31T13:51:40.002321Z" modified="2025-05-31T13:51:40.002326Z" visited="2025-05-31T13:51:40.002321Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-31T13:51:40.002323Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.config/fontconfig/fonts.conf" added="2025-05-31T13:55:58.125569Z" modified="2025-05-31T13:56:14.769868Z" visited="2025-05-31T13:55:58.125570Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;/usr/bin/subl %F&apos;" modified="2025-05-31T13:55:58.125575Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-05-31T13:56:02.636404Z" count="1"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-05-31T13:56:14.769866Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/0-current-choices.sh" added="2025-06-01T01:32:01.202118Z" modified="2025-06-01T01:40:22.228830Z" visited="2025-06-01T01:32:01.202118Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T01:40:22.228828Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/600-chadwm.sh" added="2025-06-01T01:44:45.060227Z" modified="2025-06-01T02:10:00.813030Z" visited="2025-06-01T01:44:45.060227Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:10:00.813027Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/Personal/settings/environment/environment" added="2025-06-01T01:46:07.925435Z" modified="2025-06-01T01:46:36.073134Z" visited="2025-06-01T01:46:07.925436Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T01:46:36.073133Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/Personal/settings/cursor/index.theme" added="2025-06-01T01:46:54.083771Z" modified="2025-06-01T01:46:54.083777Z" visited="2025-06-01T01:46:54.083772Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T01:46:54.083774Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/Personal/settings/nsswitch/nsswitch.conf" added="2025-06-01T01:47:25.149027Z" modified="2025-06-01T01:47:25.149032Z" visited="2025-06-01T01:47:25.149028Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T01:47:25.149030Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/100-remove-software.sh" added="2025-06-01T01:49:05.653336Z" modified="2025-06-01T01:49:05.653340Z" visited="2025-06-01T01:49:05.653337Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T01:49:05.653339Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/Personal/settings/voyage-of-chadwm/anduin-chadwm/1-all-in-one.sh" added="2025-06-01T01:50:18.548407Z" modified="2025-06-01T01:50:18.548412Z" visited="2025-06-01T01:50:18.548408Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T01:50:18.548410Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/180-ananicy.sh" added="2025-06-01T02:08:44.893155Z" modified="2025-06-01T02:08:44.893160Z" visited="2025-06-01T02:08:44.893156Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:08:44.893158Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/500-plasma.sh" added="2025-06-01T02:09:48.210687Z" modified="2025-06-01T02:09:48.210691Z" visited="2025-06-01T02:09:48.210687Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:09:48.210689Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/700-intervention.sh" added="2025-06-01T02:12:30.849786Z" modified="2025-06-01T02:12:30.849790Z" visited="2025-06-01T02:12:30.849787Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:12:30.849788Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/pacman.conf" added="2025-06-01T02:13:52.351646Z" modified="2025-06-01T02:14:26.405861Z" visited="2025-06-01T02:13:52.351647Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:14:26.405860Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/install-proper-repositories.sh" added="2025-06-01T02:14:44.765847Z" modified="2025-06-01T02:14:44.765851Z" visited="2025-06-01T02:14:44.765847Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:14:44.765849Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/Personal/settings/Kvantum/kvantum.kvconfig" added="2025-06-01T02:16:48.481956Z" modified="2025-06-01T02:16:48.481961Z" visited="2025-06-01T02:16:48.481956Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:16:48.481959Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/Personal/settings/Kvantum/KvGnomeDark%23/KvGnomeDark%23.kvconfig" added="2025-06-01T02:17:08.976638Z" modified="2025-06-01T02:17:08.976646Z" visited="2025-06-01T02:17:08.976638Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:17:08.976640Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/Personal/settings/Kvantum/ArcDark%23/ArcDark%23.kvconfig" added="2025-06-01T02:17:22.851944Z" modified="2025-06-01T02:17:22.851949Z" visited="2025-06-01T02:17:22.851945Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:17:22.851947Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/Personal/900-install-personal-settings-folders.sh" added="2025-06-01T02:17:49.443589Z" modified="2025-06-01T02:18:59.528850Z" visited="2025-06-01T02:17:49.443590Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:18:59.528848Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/Personal/990-skel.sh" added="2025-06-01T02:20:32.786882Z" modified="2025-06-01T02:20:32.786887Z" visited="2025-06-01T02:20:32.786883Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:20:32.786885Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/arcolinux-nemesis/Personal/999-last-changes.sh" added="2025-06-01T02:20:52.563985Z" modified="2025-06-01T02:20:52.563989Z" visited="2025-06-01T02:20:52.563985Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T02:20:52.563987Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Projects/choices/.git/config" added="2025-06-01T05:34:25.614733Z" modified="2025-06-01T05:34:25.614738Z" visited="2025-06-01T05:34:25.614734Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T05:34:25.614737Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Downloads/choices-main.zip" added="2025-06-01T05:44:24.609623Z" modified="2025-06-01T05:44:31.065936Z" visited="2025-06-01T05:44:24.609624Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-06-01T05:44:24.859746Z" count="2"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2025-06-01T05:44:31.065935Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.config/gtk-3.0/settings.ini" added="2025-06-01T15:38:26.961964Z" modified="2025-06-01T15:46:10.927162Z" visited="2025-06-01T15:38:26.961964Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T15:46:10.927161Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.config/gtk-3.0/bookmarks" added="2025-06-01T15:39:02.858100Z" modified="2025-06-01T15:45:57.653972Z" visited="2025-06-01T15:39:02.858101Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T15:45:57.653971Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/choices/Personal/settings/cursor/index.theme" added="2025-06-01T15:40:11.542833Z" modified="2025-06-01T15:40:11.542837Z" visited="2025-06-01T15:40:11.542834Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T15:40:11.542835Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/choices/Personal/settings/environment/environment" added="2025-06-01T15:40:21.149929Z" modified="2025-06-01T15:40:21.149933Z" visited="2025-06-01T15:40:21.149930Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T15:40:21.149931Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/choices/Personal/990-skel.sh" added="2025-06-01T15:41:16.581314Z" modified="2025-06-01T15:41:16.581318Z" visited="2025-06-01T15:41:16.581315Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T15:41:16.581316Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/choices/Personal/999-last-changes.sh" added="2025-06-01T15:51:44.960841Z" modified="2025-06-01T15:51:44.960845Z" visited="2025-06-01T15:51:44.960841Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T15:51:44.960843Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.config/gitahead.com/GitAhead.conf" added="2025-06-01T15:54:20.809179Z" modified="2025-06-01T15:54:20.809183Z" visited="2025-06-01T15:54:20.809180Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-06-01T15:54:20.809182Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

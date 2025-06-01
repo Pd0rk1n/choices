@@ -105,10 +105,13 @@ fi
 
 # All the software below will be installed on all desktops
 
+# sudo pacman -S --noconfirm --needed
+
 sudo pacman -S --noconfirm --needed fastfetch-git
 sudo pacman -S --noconfirm --needed neofetch-git
 sudo pacman -S --noconfirm --needed yay-git
 sudo pacman -S --noconfirm --needed paru-git
+sudo pacman -S --noconfirm --needed ulauncher
 
 sudo pacman -S --noconfirm --needed adobe-source-sans-fonts
 sudo pacman -S --noconfirm --needed aic94xx-firmware
