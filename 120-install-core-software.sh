@@ -49,6 +49,38 @@ echo "########################################################################"
 tput sgr0
 echo
 
+# when on Archcraft - only openbox or bspwm are our choices there
+if grep -q "archcraft" /etc/os-release; then
+  sudo pacman -S xfce4 xfce4-goodies --noconfirm --needed
+fi
+
+if [ ! -f /usr/share/wayland-sessions/plasma.desktop ] && \
+   [ ! -f /usr/share/xsessions/plasma.desktop ]; then
+    echo "Not on Plasma. Replacing sddm with sddm-git..."
+    
+    # Only remove if installed, suppress errors
+    if pacman -Q sddm &>/dev/null; then
+        sudo pacman -R --noconfirm sddm &>/dev/null
+    fi
+
+    # Install sddm-git if needed, suppress errors
+    sudo pacman -S --noconfirm --needed sddm-git &>/dev/null
+else
+    echo "Plasma detected. Keeping sddm."
+fi
+
+
+
+for pkg in simplescreenrecorder simplescreenrecorder-git; do
+    if pacman -Q "$pkg" &>/dev/null; then
+        echo "Removing $pkg..."
+        sudo pacman -Rns --noconfirm "$pkg" &>/dev/null
+    fi
+done
+
+sudo pacman -S --noconfirm --needed simplescreenrecorder-qt6-git
+
+
 # All the software below will be installed on all desktops except on Plasma
 if [ ! -f /usr/share/wayland-sessions/plasma.desktop ]; then
   sudo pacman -S --noconfirm --needed alacritty
@@ -60,9 +92,9 @@ if [ ! -f /usr/share/wayland-sessions/plasma.desktop ]; then
   sudo pacman -S --noconfirm --needed galculator
   sudo pacman -S --noconfirm --needed network-manager-applet
   sudo pacman -S --noconfirm --needed networkmanager-openvpn
+  sudo pacman -S --noconfirm --needed networkmanager
   sudo pacman -S --noconfirm --needed nitrogen
   sudo pacman -S --noconfirm --needed numlockx
-  sudo pacman -S --noconfirm --needed pamac-aur
   sudo pacman -S --noconfirm --needed pavucontrol
   sudo pacman -S --noconfirm --needed playerctl
   sudo pacman -S --noconfirm --needed sardi-icons
@@ -72,6 +104,12 @@ if [ ! -f /usr/share/wayland-sessions/plasma.desktop ]; then
 fi
 
 # All the software below will be installed on all desktops
+
+sudo pacman -S --noconfirm --needed fastfetch-git
+sudo pacman -S --noconfirm --needed neofetch-git
+sudo pacman -S --noconfirm --needed yay-git
+sudo pacman -S --noconfirm --needed paru-git
+
 sudo pacman -S --noconfirm --needed adobe-source-sans-fonts
 sudo pacman -S --noconfirm --needed aic94xx-firmware
 sudo pacman -S --noconfirm --needed archlinux-tools
@@ -83,25 +121,25 @@ sudo pacman -S --noconfirm --needed bibata-cursor-theme
 sudo pacman -S --noconfirm --needed brave-bin
 sudo pacman -S --noconfirm --needed breeze-icons
 sudo pacman -S --noconfirm --needed btop
-#sudo pacman -S --noconfirm --needed chromium
+sudo pacman -S --noconfirm --needed chromium
 sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed dconf-editor
+sudo pacman -S --noconfirm --needed debugedit
 sudo pacman -S --noconfirm --needed devtools
-sudo pacman -S --noconfirm --needed discord
+#sudo pacman -S --noconfirm --needed discord
 sudo pacman -S --noconfirm --needed downgrade
 #sudo pacman -S --noconfirm --needed dropbox
 if [ ! -f /usr/bin/duf ]; then
   sudo pacman -S --noconfirm --needed duf
 fi
-sudo pacman -S --noconfirm --needed dysk
 sudo pacman -S --noconfirm --needed expac
+sudo pacman -S --noconfirm --needed fakeroot
 sudo pacman -S --noconfirm --needed feh
-sudo pacman -S --noconfirm --needed fastfetch-git
 sudo pacman -S --noconfirm --needed file-roller
 sudo pacman -S --noconfirm --needed firefox
 sudo pacman -S --noconfirm --needed fish
 sudo pacman -S --noconfirm --needed font-manager
-3sudo pacman -S --noconfirm --needed gimp
+#sudo pacman -S --noconfirm --needed gimp
 sudo pacman -S --noconfirm --needed git
 sudo pacman -S --noconfirm --needed gnome-disk-utility
 sudo pacman -S --noconfirm --needed gnome-keyring
@@ -113,53 +151,51 @@ sudo pacman -S --noconfirm --needed hardinfo2
 sudo pacman -S --noconfirm --needed hddtemp
 sudo pacman -S --noconfirm --needed hw-probe
 sudo pacman -S --noconfirm --needed hyfetch
+sudo pacman -S --noconfirm --needed inetutils
 #sudo pacman -S --noconfirm --needed inkscape
-#sudo pacman -S --noconfirm --needed insync
+sudo pacman -S --noconfirm --needed insync
 sudo pacman -S --noconfirm --needed linux-firmware-qlogic
 sudo pacman -S --noconfirm --needed logrotate
 sudo pacman -S --noconfirm --needed lolcat
-sudo pacman -S --noconfirm --needed lollypop
 sudo pacman -S --noconfirm --needed lsb-release
 sudo pacman -S --noconfirm --needed lshw
-sudo pacman -S --noconfirm --needed lxappearance
 sudo pacman -S --noconfirm --needed man-db
 sudo pacman -S --noconfirm --needed man-pages
 sudo pacman -S --noconfirm --needed mkinitcpio-firmware
 sudo pacman -S --noconfirm --needed plocate
 sudo pacman -S --noconfirm --needed meld
+sudo pacman -S --noconfirm --needed micro
 sudo pacman -S --noconfirm --needed mintstick
 sudo pacman -S --noconfirm --needed most
 sudo pacman -S --noconfirm --needed namcap
-sudo pacman -S --noconfirm --needed neofetch
 sudo pacman -S --noconfirm --needed nomacs
 sudo pacman -S --noconfirm --needed noto-fonts
 sudo pacman -S --noconfirm --needed ntp
 sudo pacman -S --noconfirm --needed nss-mdns
 sudo pacman -S --noconfirm --needed oh-my-zsh-git
 sudo pacman -S --noconfirm --needed pacmanlogviewer
-sudo pacman -S --noconfirm --needed paru-git
 sudo pacman -S --noconfirm --needed polkit-gnome
 sudo pacman -S --noconfirm --needed python-pylint
 sudo pacman -S --noconfirm --needed python-pywal
 sudo pacman -S --noconfirm --needed pv
 #sudo pacman -S --noconfirm --needed qbittorrent
+sudo pacman -S --noconfirm --needed transmission-gtk
 sudo pacman -S --noconfirm --needed rate-mirrors
 sudo pacman -S --noconfirm --needed ripgrep
 sudo pacman -S --noconfirm --needed rsync
 sudo pacman -S --noconfirm --needed scrot
-sudo pacman -S --noconfirm --needed simplescreenrecorder-qt6-git
+sudo pacman -S --noconfirm --needed smartmontools
 sudo pacman -S --noconfirm --needed speedtest-cli
 sudo pacman -S --noconfirm --needed spotify
 sudo pacman -S --noconfirm --needed squashfs-tools
 sudo pacman -S --noconfirm --needed sublime-text-4
 sudo pacman -S --noconfirm --needed system-config-printer
-#sudo pacman -S --noconfirm --needed telegram-desktop
+sudo pacman -S --noconfirm --needed telegram-desktop
 sudo pacman -S --noconfirm --needed the_silver_searcher
 sudo pacman -S --noconfirm --needed time
 sudo pacman -S --noconfirm --needed thunar
 sudo pacman -S --noconfirm --needed thunar-archive-plugin
 sudo pacman -S --noconfirm --needed thunar-volman
-sudo pacman -S --noconfirm --needed transmission-gtk
 sudo pacman -S --noconfirm --needed tree
 sudo pacman -S --noconfirm --needed ttf-bitstream-vera
 sudo pacman -S --noconfirm --needed ttf-dejavu
@@ -167,9 +203,11 @@ sudo pacman -S --noconfirm --needed ttf-droid
 sudo pacman -S --noconfirm --needed ttf-hack
 sudo pacman -S --noconfirm --needed ttf-inconsolata
 sudo pacman -S --noconfirm --needed ttf-liberation
+sudo pacman -S --noconfirm --needed ttf-meslo-nerd-font-powerlevel10k
+sudo pacman -S --noconfirm --needed ttf-ms-fonts
 sudo pacman -S --noconfirm --needed ttf-roboto
 sudo pacman -S --noconfirm --needed ttf-roboto-mono
-sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
+sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family   
 sudo pacman -S --noconfirm --needed upd72020x-fw
 sudo pacman -S --noconfirm --needed variety
 sudo pacman -S --noconfirm --needed visual-studio-code-bin
@@ -179,7 +217,7 @@ sudo pacman -S --noconfirm --needed vlc
 sudo pacman -S --noconfirm --needed wd719x-firmware
 sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed xdg-user-dirs
-sudo pacman -S --noconfirm --needed yay-git
+sudo pacman -S --noconfirm --needed yad
 sudo pacman -S --noconfirm --needed zsh
 sudo pacman -S --noconfirm --needed zsh-completions
 sudo pacman -S --noconfirm --needed zsh-syntax-highlighting
@@ -191,6 +229,8 @@ sudo pacman -S --noconfirm --needed p7zip
 sudo pacman -S --noconfirm --needed unace
 sudo pacman -S --noconfirm --needed unrar
 sudo pacman -S --noconfirm --needed unzip
+sudo pacman -S --noconfirm --needed eza
+
 
 if [ ! -f /usr/share/xsessions/plasmax11.desktop ]; then
   sudo pacman -S --noconfirm --needed qt5ct

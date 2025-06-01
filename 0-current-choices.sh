@@ -1,16 +1,10 @@
 #!/bin/bash
 #set -e
+#
 ##################################################################################################################################
 # Author    : Erik Dubois
 # Website   : https://www.erikdubois.be
-# Website   : https://www.alci.online
-# Website   : https://www.ariser.eu
-# Website   : https://www.arcolinux.info
-# Website   : https://www.arcolinux.com
-# Website   : https://www.arcolinuxd.com
-# Website   : https://www.arcolinuxb.com
-# Website   : https://www.arcolinuxiso.com
-# Website   : https://www.arcolinuxforum.com
+# Youtube   : https://youtube.com/erikdubois
 ##################################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
@@ -30,6 +24,31 @@
 #tput sgr0
 ##################################################################################################################################
 
+set -uo pipefail  # Do not use -e, we want to continue on error
+
+# Trap all ERR conditions and call the handler
+trap 'on_error $LINENO "$BASH_COMMAND"' ERR
+
+on_error() {
+    local lineno="$1"
+    local cmd="$2"
+
+    # Set colors
+    RED=$(tput setaf 1)
+    YELLOW=$(tput setaf 3)
+    RESET=$(tput sgr0)
+
+    echo
+    echo "${RED}⚠️ ERROR DETECTED${RESET}"
+    echo "${YELLOW}✳️  Line: $lineno"
+    echo "📌  Command: '$cmd'"
+    echo "⏳  Waiting 10 seconds before continuing...${RESET}"
+    echo
+
+    sleep 10
+}
+
+
 #networkmanager issue
 #nmcli connection modify Wired\ connection\ 1 ipv6.method "disabled"
 
@@ -39,7 +58,7 @@ installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 ##################################################################################################################################
 
 # set DEBUG to true to be able to analyze the scripts file per file
-export DEBUG=true
+export DEBUG=false
 
 ##################################################################################################################################
 
@@ -95,6 +114,11 @@ read response
 
 if [[ "$response" == [yY] ]]; then
     touch /tmp/install-chadwm
+    for pkg in arcolinux-chadwm-pacman-hook-git arcolinux-chadwm-git; do
+        if pacman -Q "$pkg" &>/dev/null; then
+            sudo pacman -R --noconfirm "$pkg"
+        fi
+    done
 fi
 
 ##################################################################################################################################
@@ -111,16 +135,23 @@ Server = https://mirror.rackspace.com/archlinux/\$repo/os/\$arch
 Server = https://mirror.osbeck.com/archlinux/\$repo/os/\$arch
 Server = http://mirror.osbeck.com/archlinux/\$repo/os/\$arch
 Server = https://mirrors.kernel.org/archlinux/\$repo/os/\$arch"  | sudo tee /etc/pacman.d/mirrorlist
-  echo
+    echo
+    tput setaf 2
+    echo "################################################################################"
+    echo "Arch Linux Servers have been written to /etc/pacman.d/mirrorlist"
+    echo "Use nmirrorlist when on ArcoLinux to inspect"
+    echo "################################################################################"
+    tput sgr0
+    echo  
 fi
 
+echo
 tput setaf 2
 echo "################################################################################"
-echo "Arch Linux Servers have been written to /etc/pacman.d/mirrorlist"
-echo "Use nmirrorlist when on ArcoLinux to inspect"
+echo "Installing Chaotic keyring and Chaotic mirrorlist"
 echo "################################################################################"
 tput sgr0
-echo
+echo  
 
 # Installing chaotic-aur keys and mirrors
 pkg_dir="packages"
@@ -131,9 +162,13 @@ if [[ ! -d "$pkg_dir" ]]; then
     exit 1
 fi
 
-# Install all local packages using pacman
-find "$pkg_dir" -maxdepth 1 -name '*.pkg.tar.zst' -print0 | sudo xargs -0 pacman -U --noconfirm
-
+# Install each package
+for pkg in "$pkg_dir"/*.pkg.tar.zst; do
+    if [[ -f "$pkg" ]]; then
+        echo "Installing: $pkg"
+        sudo pacman -U --noconfirm "$pkg"
+    fi
+done
 
 # personal pacman.conf for Erik Dubois
 if [[ ! -f /etc/pacman.conf.nemesis ]]; then
@@ -159,6 +194,10 @@ else
 fi
 
 sudo cp -v pacman.conf /etc/pacman.conf
+sudo cp -v pacman.conf /etc/pacman.conf.edu
+
+# only for ArchBang/Manjaro/Garuda/Archcraft
+sh 700-intervention*
 
 echo
 tput setaf 2
@@ -169,9 +208,6 @@ tput sgr0
 echo
 
 sudo pacman -Syyu --noconfirm
-
-# only for ArchBang
-sh 700-intervention*
 
 echo
 tput setaf 2
@@ -185,9 +221,9 @@ echo
 sudo pacman -S sublime-text-4 --noconfirm --needed
 sudo pacman -S ripgrep --noconfirm --needed
 sudo pacman -S meld --noconfirm --needed
+sudo pacman -S xed --noconfirm --needed
 sudo pacman -S nemo --noconfirm --needed
 sudo pacman -S nemo-share --noconfirm --needed
-sudo pacman -S xed --noconfirm --needed
 
 # if on Arco... and systemd-boot is chosen, then proceed with
 if [[ -f /etc/dev-rel ]]; then
@@ -227,7 +263,7 @@ sh 170-install-cups*
 #sh 400-surfn-extras*
 
 # for arcoplasma
-#sh 500-plasma*
+sh 500-plasma*
 
 # installation of Chadwm
 #sh 600-chadwm*
@@ -243,34 +279,34 @@ echo
 installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 cd $installed_dir/Personal
 
-#sh 900-*
-#sh 910-*
-#sh 920-*
+sh 900-*
+sh 910-*
+sh 920-*
 
 
 
-#sh 970-all*
+sh 970-all*
 
-#sh 970-alci*
-#sh 970-archman*
-#sh 970-archcraft*
-#sh 970-arco*
-#sh 970-ariser*
-#sh 970-carli*
-#sh 970-eos*
-#sh 970-garuda*
-#sh 970-sierra*
-#sh 970-biglinux*
-#sh 970-rebornos*
-#sh 970-archbang*
-#sh 970-manjaro*
+sh 970-alci*
+sh 970-archman*
+sh 970-archcraft*
+sh 970-arco*
+sh 970-ariser*
+sh 970-carli*
+sh 970-eos*
+sh 970-garuda*
+sh 970-sierra*
+sh 970-biglinux*
+sh 970-rebornos*
+sh 970-archbang*
+sh 970-manjaro*
 
 #has to be last - they are all Arch
 sh 970-arch.sh
 
-#sh 990-skel*
+sh 990-skel*
 
-#sh 999-last*
+sh 999-last*
 
 tput setaf 3
 echo "########################################################################"

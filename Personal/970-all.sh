@@ -52,6 +52,12 @@ tput sgr0
 echo
 
 echo
+if ! grep -q "FONT=" /etc/vconsole.conf; then
+echo '
+FONT=lat4-19' | sudo tee --append /etc/vconsole.conf
+fi
+
+echo
 echo "Adding nanorc settings"
 echo
 
@@ -86,6 +92,7 @@ echo
 echo "Enable fstrim timer"
 sudo systemctl enable fstrim.timer
 
+
 echo
 echo "Testing if qemu agent is still active"
 result=$(systemd-detect-virt)
@@ -100,6 +107,8 @@ if [ $test == "enabled" ] && [ $result == "none" ] || [ $result == "oracle" ]; t
 	sudo systemctl disable qemu-guest-agent.service
 	echo
 fi
+
+
 
 # personal /etc/pacman.d/gnupg/gpg.conf for Erik Dubois
 

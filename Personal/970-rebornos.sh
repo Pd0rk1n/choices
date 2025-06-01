@@ -54,34 +54,12 @@ if grep -q "RebornOS" /etc/os-release; then
 	echo
 
 	echo
-	echo "Pacman parallel downloads	"
-	FIND="ParallelDownloads = 16"
-	REPLACE="ParallelDownloads = 20"
-	sudo sed -i "s/$FIND/$REPLACE/g" /etc/pacman.conf
-
-	echo "Variety conf ArcoLinux"
-	sudo pacman -S --noconfirm --needed arconet-variety-config
+	echo "Adding font to /etc/vconsole.conf"
 
 	echo
-	echo "Adding nanorc"
-	if [ -f /etc/nanorc ]; then
-    	sudo cp $installed_dir/settings/nano/nanorc /etc/nanorc
-	fi
-
-	echo	
-	echo "When on Xfce4"
-	if [ -f /usr/share/xsessions/xfce.desktop ]; then
-		echo
-		tput setaf 2
-		echo "########################################################################"
-		echo "################### We are on Xfce4"
-		echo "########################################################################"
-		tput sgr0
-		echo
-
-		echo "Changing theme and icon theme"
-		cp $installed_dir/settings/rebornos/xfce/xsettings.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
-
+	if ! grep -q "FONT=lat4-19" /etc/vconsole.conf; then
+	echo '
+	FONT=lat4-19' | sudo tee --append /etc/vconsole.conf
 	fi
 
 	echo

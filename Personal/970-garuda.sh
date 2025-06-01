@@ -55,66 +55,20 @@ if grep -q "Garuda" /etc/os-release; then
 	echo
 	tput sgr0
 
-	sudo pacman -S --noconfirm --needed edu-skel-git
-  	sudo pacman -S --noconfirm --needed edu-xfce-git
-  	sudo pacman -S --noconfirm --needed edu-system-git
-
-	if [ -f /etc/environment ]; then
-		echo "QT_QPA_PLATFORMTHEME=qt5ct" | sudo tee /etc/environment
-		echo "QT_STYLE_OVERRIDE=kvantum" | sudo tee -a /etc/environment
-		echo "EDITOR=nano" | sudo tee -a /etc/environment
-		echo "BROWSER=firefox" | sudo tee -a /etc/environment
-	fi
-
-	echo
-	echo "########################################################################"
-	echo "Getting latest /etc/nsswitch.conf from ArcoLinux"
-	echo "########################################################################"
-	echo
-	sudo cp /etc/nsswitch.conf /etc/nsswitch.conf.bak
-	sudo wget https://raw.githubusercontent.com/arconetpro/arconet-iso/refs/heads/main/archiso/airootfs/etc/nsswitch.conf -O $workdir/etc/nsswitch.conf
-
-
-  	if [ -f /usr/share/xsessions/xfce.desktop ]; then
+	# for EXT4 
+	if 	lsblk -f | grep ext4 > /dev/null 2>&1 ; then
 		echo
-		tput setaf 2
-		echo "########################################################################"
-		echo "################### We are on Xfce4"
-		echo "########################################################################"
-		tput sgr0
-		echo
-
-    	cp -arf /etc/skel/. ~
-
-		echo
-		echo "Changing the whiskermenu"
-		echo
-		cp $installed_dir/settings/garuda/whiskermenu-7.rc ~/.config/xfce4/panel/whiskermenu-7.rc
-		sudo cp $installed_dir/settings/garuda/whiskermenu-7.rc /etc/skel/.config/xfce4/panel/whiskermenu-7.rc
-
-		echo
-		echo "Changing the icons and theme"
-		echo
-
-		FIND="Arc-Dark"
-		REPLACE="Arc-Dawn-Dark"
-		sed -i "s/$FIND/$REPLACE/g" ~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
-    	sudo sed -i "s/$FIND/$REPLACE/g" /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
-
-		FIND="Sardi-Arc"
-		REPLACE="neo-candy-icons"
-		sed -i "s/$FIND/$REPLACE/g" ~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
-    	sudo sed -i "s/$FIND/$REPLACE/g" /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
-
-    fi
-
-	echo
-	tput setaf 6
-	echo "########################################################################"
-	echo "################### Done"
-	echo "########################################################################"
-	tput sgr0
-	echo
+		tput setaf 3
+		echo "################################################################## "
+		echo "Lets remove packages related to btrfs when on EXT4"
+		echo "################################################################## "
+	    tput sgr0
+	    echo
+	    sudo pacman -Rns garuda-system-maintenance
+	    sudo pacman -Rns snapper-support snapper-tools
+	    sudo pacman -Rns btrfsmaintenance garuda-common-systems
+	    sudo pacman -Rns btrfs-assistant btrfs-progs grub-btrfs
+	fi    
 
 fi
 

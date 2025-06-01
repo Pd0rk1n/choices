@@ -66,10 +66,10 @@ tput sgr0
 [ -d $HOME"/.config/gtk-4.0" ] || mkdir -p $HOME"/.config/gtk-4.0"
 [ -d $HOME"/.config/variety" ] || mkdir -p $HOME"/.config/variety"
 [ -d $HOME"/.config/fish" ] || mkdir -p $HOME"/.config/fish"
-[ -d $HOME"/.config/obs-studio" ] || mkdir -p $HOME"/.config/obs-studio"
+#[ -d $HOME"/.config/obs-studio" ] || mkdir -p $HOME"/.config/obs-studio"
 [ -d $HOME"/.config/neofetch" ] || mkdir -p $HOME"/.config/neofetch"
 [ -d $HOME"/DATA" ] || mkdir -p $HOME"/DATA"
-[ -d $HOME"/Insync" ] || mkdir -p $HOME"/Insync"
+#[ -d $HOME"/Insync" ] || mkdir -p $HOME"/Insync"
 [ -d $HOME"/Projects" ] || mkdir -p $HOME"/Projects"
 [ -d $HOME"/SHARED" ] || mkdir -p $HOME"/SHARED"
 

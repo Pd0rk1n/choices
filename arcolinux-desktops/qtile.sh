@@ -82,12 +82,13 @@ echo
 list=(
 alacritty
 archlinux-logout-git
+edu-rofi-git
+edu-rofi-themes-git
 awesome-terminal-fonts
 dmenu
 edu-qtile-git
 edu-xfce-git
 feh
-lxappearance
 nitrogen
 noto-fonts
 picom-git

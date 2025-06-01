@@ -86,7 +86,7 @@ func_install_chadwm() {
     lolcat
     lxappearance-gtk3
     make
-    picom
+    picom-git
     polkit-gnome
     rofi
     sxhkd
@@ -94,6 +94,7 @@ func_install_chadwm() {
     thunar-archive-plugin
     thunar-volman
     ttf-hack
+    ttf-font-awesome
     ttf-jetbrains-mono-nerd
     ttf-meslo-nerd-font-powerlevel10k
     volumeicon
@@ -116,7 +117,7 @@ func_install_chadwm() {
 }
 
 
-if [ -f /tmp/install-chadwm ]; then
+if [ -f /tmp/install-chadwm ] || [[ "$(basename "$0")" == "600-chadwm.sh" ]]; then
 
     echo
     tput setaf 2

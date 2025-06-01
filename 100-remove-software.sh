@@ -39,6 +39,25 @@ fi
 
 ##################################################################################################################################
 
+remove_if_installed() {
+    for pattern in "$@"; do
+        # Find all installed packages that match the pattern (exact + variants)
+        matches=$(pacman -Qq | grep "^${pattern}$\|^${pattern}-")
+        
+        if [ -n "$matches" ]; then
+            for pkg in $matches; do
+                echo "Removing package: $pkg"
+                sudo pacman -Rs --noconfirm "$pkg"
+            done
+        else
+            echo "No packages matching '$pattern' are installed."
+        fi
+    done
+}
+
+
+##################################################################################################################################
+
 echo
 tput setaf 2
 echo "##############################################################"
@@ -72,19 +91,26 @@ echo "########################################################################"
 tput sgr0
 echo
 
-if ! systemd-detect-virt | grep -q "oracle"; then
-  if pacman -Qi xf86-video-vmware &> /dev/null; then
-    sudo pacman -Rs xf86-video-vmware --noconfirm
+if command -v systemd-detect-virt &> /dev/null; then
+
+  if ! systemd-detect-virt | grep -q "oracle"; then
+    if pacman -Qi xf86-video-vmware &> /dev/null; then
+      sudo pacman -Rs xf86-video-vmware --noconfirm
+    fi
   fi
+
 fi
 
-
-sudo pacman -R rofi-lbonn-wayland --noconfirm
-sudo pacman -R rofi-lbonn-wayland-git --noconfirm
+remove_if_installed rofi-lbonn-wayland
+remove_if_installed rofi-lbonn-wayland-git
+remove_if_installed neofetch
+remove_if_installed fastfetch
+remove_if_installed yay
+remove_if_installed paru
+remove_if_installed picom
+remove_if_installed lxappearance
 
 # when on any ArcoLinux ISO
-
-
 if [[ -f /etc/dev-rel ]]; then
   echo
   tput setaf 3
@@ -115,10 +141,11 @@ if [[ -f /etc/dev-rel ]]; then
   tput sgr0
   echo
 
-  sudo pacman -Rns --noconfirm archlinux-tweak-tool-git
-
-  sudo pacman -Rs --noconfirm arcolinux-keyring
-  sudo pacman -Rs --noconfirm arcolinux-mirrorlist-git
+  #keep the dependencies
+  sudo pacman -R --noconfirm archlinux-tweak-tool-git  &>/dev/null
+  sudo pacman -R --noconfirm archlinux-tweak-tool-dev-git  &>/dev/null
+  sudo pacman -R --noconfirm arcolinux-keyring &>/dev/null
+  sudo pacman -R --noconfirm arcolinux-mirrorlist-git  &>/dev/null
 
   echo
   tput setaf 3
@@ -128,46 +155,79 @@ if [[ -f /etc/dev-rel ]]; then
   tput sgr0
   echo
 
-  sudo pacman -Rs --noconfirm arcolinux-pipemenus-git
+  remove_if_installed arcolinux-pipemenus-git
+  remove_if_installed arcolinux-meta-sddm-themes
 
-  sudo pacman -Rs --noconfirm a-candy-beauty-icon-theme-git
-  sudo pacman -Rs --noconfirm adobe-source-han-sans-cn-fonts
-  sudo pacman -Rs --noconfirm adobe-source-han-sans-jp-fonts
-  sudo pacman -Rs --noconfirm adobe-source-han-sans-kr-fonts
-  sudo pacman -Rs --noconfirm archlinux-kernel-manager
-  sudo pacman -Rs --noconfirm arcolinux-app-glade-git
-  sudo pacman -Rs --noconfirm arcolinux-arc-dawn-git
-  sudo pacman -Rs --noconfirm arcolinux-arc-kde
-  sudo pacman -Rs --noconfirm arcolinux-dconf-all-desktops-git
-  sudo pacman -Rs --noconfirm arcolinux-desktop-trasher-git
-  sudo pacman -Rs --noconfirm arcolinux-faces-git
-  sudo pacman -Rs --noconfirm arcolinux-fish-git
-  sudo pacman -Rs --noconfirm arcolinux-fonts-git
-  sudo pacman -Rs --noconfirm arcolinux-hblock-git
-  sudo pacman -Rs --noconfirm arcolinux-kvantum-git
-  sudo pacman -Rs --noconfirm arcolinux-local-applications-all-hide-git
-  sudo pacman -Rs --noconfirm arcolinux-local-applications-git
-  sudo pacman -Rs --noconfirm arcolinux-local-xfce4-git
-  sudo pacman -Rs --noconfirm arcolinux-logo-git
-  sudo pacman -Rs --noconfirm arcolinux-meta-log
-  sudo pacman -Rs --noconfirm arcolinux-root-git
-  sudo pacman -Rs --noconfirm arcolinux-sddm-simplicity-git
-  sudo pacman -Rs --noconfirm arcolinux-systemd-services-git
-  sudo pacman -Rs --noconfirm arcolinux-wallpapers-git
-  sudo pacman -Rs --noconfirm arcolinux-welcome-app-git
-  sudo pacman -Rs --noconfirm arcolinux-xfce-panel-profiles-git
-  sudo pacman -Rs --noconfirm arcolinux-zsh-git
-  sudo pacman -Rs --noconfirm arconet-variety-config
-  sudo pacman -Rs --noconfirm arconet-wallpapers
-  sudo pacman -Rs --noconfirm arconet-xfce
-  sudo pacman -Rs --noconfirm sofirem-git
+  remove_if_installed a-candy-beauty-icon-theme-git
+  remove_if_installed adobe-source-han-sans-cn-fonts
+  remove_if_installed adobe-source-han-sans-jp-fonts
+  remove_if_installed adobe-source-han-sans-kr-fonts
+  remove_if_installed archlinux-kernel-manager
+  remove_if_installed arcolinux-alacritty-git
+  remove_if_installed arcolinux-app-glade-git
+  remove_if_installed arcolinux-arc-dawn-git
+  remove_if_installed arcolinux-arc-kde
+  remove_if_installed arcolinux-bin-git
+  remove_if_installed arcolinux-bootloader-systemd-boot-git
+  remove_if_installed arcolinux-config-all-desktops-git
+  remove_if_installed arcolinux-cron-git
+  remove_if_installed arcolinux-dconf-all-desktops-git
+  remove_if_installed arcolinux-desktop-trasher-git
+  remove_if_installed arcolinux-faces-git
+  remove_if_installed arcolinux-fastfetch-git
+  remove_if_installed arcolinux-fish-git
+  remove_if_installed arcolinux-fonts-git
+  remove_if_installed arcolinux-gtk-sardi-arc-git
+  remove_if_installed arcolinux-hblock-git
+  remove_if_installed arcolinux-hyfetch-git
+  remove_if_installed arcolinux-kvantum-git
+  remove_if_installed arcolinux-local-applications-all-hide-git
+  remove_if_installed arcolinux-local-applications-git
+  remove_if_installed arcolinux-local-xfce4-git
+  remove_if_installed arcolinux-logo-git
+  remove_if_installed arcolinux-meta-log
+  remove_if_installed arcolinux-neofetch-git
+  remove_if_installed arcolinux-openbox-themes-git
+  remove_if_installed arcolinux-pacman-git
+  remove_if_installed arcolinux-paleofetch-git
+  remove_if_installed arcolinux-paru-git
+  remove_if_installed arcolinux-plank-git
+  remove_if_installed arcolinux-plank-themes-git
+  remove_if_installed arcolinux-polybar-git
+  remove_if_installed arcolinux-powermenu-git
+  remove_if_installed arcolinux-qt5-git
+  remove_if_installed arcolinux-reflector-simple-git
+  remove_if_installed arcolinux-rofi-git
+  remove_if_installed arcolinux-rofi-themes-git
+  remove_if_installed arcolinux-root-git
+  remove_if_installed arcolinux-sddm-simplicity-git
+  remove_if_installed arcolinux-system-config-git
+  remove_if_installed arcolinuxd-system-config-git
+  remove_if_installed arcolinux-systemd-services-git
+  remove_if_installed arcolinux-teamviewer
+  remove_if_installed arcolinux-termite-themes-git
+  remove_if_installed arcolinux-variety-autostart-git
+  remove_if_installed arcolinux-volumeicon-git
+  remove_if_installed arcolinux-wallpapers-git
+  remove_if_installed arcolinux-wallpapers-candy-git
+  remove_if_installed arcolinux-welcome-app-git
+  remove_if_installed arcolinuxd-welcome-app-git
+  remove_if_installed arcolinux-xfce-panel-profiles-git
+  remove_if_installed arcolinux-zsh-git
+  remove_if_installed arconet-variety-config
+  remove_if_installed arcopro-wallpapers
+  remove_if_installed arconet-wallpapers
+  remove_if_installed arconet-xfce
+  remove_if_installed sofirem-git
+
+  remove_if_installed simplicity-sddm-theme-git
 
   if [ -f /usr/share/wayland-sessions/plasma.desktop ]; then
-    sudo pacman -Rs --noconfirm arcolinux-plasma-keybindings-git
-    sudo pacman -Rs --noconfirm arcolinux-plasma-servicemenus-git
-    sudo pacman -Rs --noconfirm arcolinux-plasma-theme-candy-beauty-arc-dark-git
-    sudo pacman -Rs --noconfirm arcolinux-plasma-theme-candy-beauty-nordic-git
-    sudo pacman -Rs --noconfirm arcolinux-gtk-surfn-plasma-dark-git
+    remove_if_installed arcolinux-plasma-keybindings-git
+    remove_if_installed arcolinux-plasma-servicemenus-git
+    remove_if_installed arcolinux-plasma-theme-candy-beauty-arc-dark-git
+    remove_if_installed arcolinux-plasma-theme-candy-beauty-nordic-git
+    remove_if_installed arcolinux-gtk-surfn-plasma-dark-git
   fi
 
   echo
@@ -178,12 +238,12 @@ if [[ -f /etc/dev-rel ]]; then
   tput sgr0
   echo
 
-  sudo pacman -Rs --noconfirm bibata-cursor-theme-bin
-  sudo pacman -Rs --noconfirm fastfetch
-  sudo pacman -Rs --noconfirm mintstick-git
-  sudo pacman -Rs --noconfirm nomacs-qt6-git
-  sudo pacman -Rs --noconfirm rate-mirrors-bin
-  sudo pacman -Rs --noconfirm xfce4-artwork
+  remove_if_installed bibata-cursor-theme-bin
+  remove_if_installed fastfetch
+  remove_if_installed mintstick-git
+  remove_if_installed nomacs-qt6-git
+  remove_if_installed rate-mirrors-bin
+  remove_if_installed xfce4-artwork
 
   tput setaf 3
   echo "##############################################################"
@@ -207,6 +267,33 @@ if grep -q "Arch Linux" /etc/os-release && [ ! -e /bootloader ]; then
 
 fi
 
+# when on Ezarcher - remove
+if grep -q "ezarch" /etc/os-release; then
+
+  echo
+  tput setaf 3
+  echo "##############################################################"
+  echo "############### Removing software for Ezarch"
+  echo "##############################################################"
+  tput sgr0
+  echo
+
+  # I do not want the firewall
+  sudo systemctl disable firewalld
+  remove_if_installed firewalld
+
+  remove_if_installed abiword
+
+  echo
+  tput setaf 3
+  echo "##############################################################"
+  echo "################### Software removed"
+  echo "##############################################################"
+  tput sgr0
+  echo
+
+fi
+
 # when on EOS - remove
 if grep -q "EndeavourOS" /etc/os-release; then
 
@@ -220,10 +307,10 @@ if grep -q "EndeavourOS" /etc/os-release; then
 
   # I do not want the firewall
   sudo systemctl disable firewalld
-  sudo pacman -Rs --noconfirm firewalld
+  remove_if_installed firewalld
 
   # we will get the -git version and also paru-git
-  sudo pacman -Rs --noconfirm yay
+  remove_if_installed yay
 
   echo
   tput setaf 3
@@ -265,32 +352,32 @@ if grep -q "Garuda" /etc/os-release; then
   tput sgr0
   echo
 
-  sudo pacman -Rs --noconfirm garuda-common-settings
+  remove_if_installed garuda-common-settings
   
-  sudo pacman -Rs --noconfirm abiword
-  sudo pacman -Rs --noconfirm audacity
-  sudo pacman -Rs --noconfirm blueman
-  sudo pacman -Rs --noconfirm celluloid
-  sudo pacman -Rs --noconfirm fastfetch
-  sudo pacman -Rs --noconfirm garuda-browser-settings 
-  sudo pacman -Rs --noconfirm garuda-fish-config
-  sudo pacman -Rs --noconfirm garuda-icons
-  sudo pacman -Rs --noconfirm garuda-wallpapers
-  sudo pacman -Rs --noconfirm garuda-xfce-settings
-  sudo pacman -Rs --noconfirm geary
-  sudo pacman -Rs --noconfirm gestures
-  sudo pacman -Rs --noconfirm gtkhash
-  sudo pacman -Rs --noconfirm linux-wifi-hotspot garuda-network-assistant
-  sudo pacman -Rs --noconfirm modemmanager modem-manager-gui networkmanager-support
-  sudo pacman -Rs --noconfirm neofetch
-  sudo pacman -Rs --noconfirm onboard
-  sudo pacman -Rs --noconfirm paru
-  sudo pacman -Rs --noconfirm pitivi
-  sudo pacman -Rs --noconfirm redshift
-  sudo pacman -Rs --noconfirm transmission-gtk
-  sudo pacman -Rs --noconfirm veracrypt
-  sudo pacman -Rs --noconfirm vim vim-runtime
-  sudo pacman -Rs --noconfirm xfburn
+  remove_if_installed abiword
+  remove_if_installed audacity
+  remove_if_installed blueman
+  remove_if_installed celluloid
+  remove_if_installed fastfetch
+  remove_if_installed garuda-browser-settings 
+  remove_if_installed garuda-fish-config
+  remove_if_installed garuda-icons
+  remove_if_installed garuda-wallpapers
+  remove_if_installed garuda-xfce-settings
+  remove_if_installed geary
+  remove_if_installed gestures
+  remove_if_installed gtkhash
+  remove_if_installed linux-wifi-hotspot garuda-network-assistant
+  remove_if_installed modemmanager modem-manager-gui networkmanager-support
+  remove_if_installed neofetch
+  remove_if_installed onboard
+  remove_if_installed paru
+  remove_if_installed pitivi
+  remove_if_installed redshift
+  remove_if_installed transmission-gtk
+  remove_if_installed veracrypt
+  remove_if_installed vim vim-runtime
+  remove_if_installed xfburn
 
   echo
   tput setaf 2
@@ -314,10 +401,10 @@ if grep -q "Archman" /etc/os-release; then
   tput sgr0
 
   sudo systemctl disable firewalld
-  sudo pacman -Rs --noconfirm firewalld
-  sudo pacman -Rs --noconfirm imagewriter
-  sudo pacman -Rs --noconfirm surfn-icons
-  sudo pacman -Rs --noconfirm grml-zsh-config
+  remove_if_installed firewalld
+  remove_if_installed imagewriter
+  remove_if_installed surfn-icons
+  remove_if_installed grml-zsh-config
 
   sudo rm -r /etc/skel/.config/Thunar
   sudo rm -r /etc/skel/.config/xfce4
@@ -347,7 +434,8 @@ if grep -q "archcraft" /etc/os-release; then
   echo
   tput setaf 3
   echo "##############################################################"
-  echo "############### Removing software for Archcraft"
+  echo "############### Removing software for Archcraft - FREE ISO"
+  echo "############### Choosing only BSPWM during installation"
   echo "##############################################################"
   tput sgr0
   echo
@@ -357,13 +445,16 @@ if grep -q "archcraft" /etc/os-release; then
   sudo rm /etc/skel/.face
   sudo rm /etc/skel/.gtkrc-2.0
 
-  sudo pacman -Rs --noconfirm archcraft-skeleton
-  sudo pacman -Rs --noconfirm archcraft-omz
-  sudo pacman -Rs --noconfirm archcraft-skeleton
-  sudo pacman -Rs --noconfirm archcraft-openbox
-  sudo pacman -Rs --noconfirm archcraft-gtk-theme-arc
-  sudo pacman -Rs --noconfirm archcraft-config-qt
-
+  remove_if_installed archcraft-skeleton
+  remove_if_installed archcraft-omz
+  remove_if_installed archcraft-skeleton
+  remove_if_installed archcraft-openbox
+  remove_if_installed archcraft-bspwm
+  remove_if_installed archcraft-gtk-theme-arc
+  remove_if_installed archcraft-config-qt
+  remove_if_installed archcraft-neofetch
+  remove_if_installed archcraft-arandr
+  remove_if_installed simplescreenrecorder
   echo
   tput setaf 2
   echo "##############################################################"
@@ -384,7 +475,7 @@ if grep -q "BigLinux" /etc/os-release; then
   tput sgr0
   echo
 
-  sudo pacman -Rs --noconfirm big-skel
+  remove_if_installed big-skel
 
   echo
   tput setaf 2
@@ -406,7 +497,7 @@ if grep -q "RebornOS" /etc/os-release; then
   tput sgr0
   echo
 
-  sudo pacman -Rs parole --noconfirm
+  sudo pacman -Rdd --noconfirm v4l-utils
 
   echo
   tput setaf 2
@@ -430,26 +521,26 @@ if grep -q "cachyos" /etc/os-release; then
   tput sgr0
   echo
 
-  sudo pacman -R --noconfirm cachyos-kernel-manager
+  remove_if_installed cachyos-kernel-manager
 
-  sudo pacman -Rs --noconfirm btrfs-progs
-  sudo pacman -Rs --noconfirm cachy-browser
-  sudo pacman -Rs --noconfirm cachyos-fish-config
-  sudo pacman -Rs --noconfirm cachyos-hello
-  sudo pacman -Rs --noconfirm cachyos-micro-settings 
-  sudo pacman -Rs --noconfirm cachyos-packageinstaller
-  sudo pacman -Rs --noconfirm cachyos-rate-mirrors
-  sudo pacman -Rs --noconfirm cachyos-wallpapers
-  sudo pacman -Rs --noconfirm cachyos-zsh-config
-  sudo pacman -Rs --noconfirm fastfetch
-  sudo pacman -Rs --noconfirm octopi
-  sudo pacman -Rs --noconfirm paru
-  sudo pacman -Rs --noconfirm ufw
+  remove_if_installed btrfs-progs
+  remove_if_installed cachy-browser
+  remove_if_installed cachyos-fish-config fastfetch
+  remove_if_installed cachyos-hello
+  remove_if_installed cachyos-micro-settings 
+  remove_if_installed cachyos-packageinstaller
+  remove_if_installed cachyos-rate-mirrors
+  remove_if_installed cachyos-wallpapers
+  remove_if_installed cachyos-zsh-config
+  remove_if_installed fastfetch
+  remove_if_installed octopi
+  remove_if_installed paru
+  remove_if_installed ufw
 
   # for icons in chadwm
-  sudo pacman -R --noconfirm noto-color-emoji-fontconfig
-  sudo pacman -R --noconfirm noto-fonts-cjk
-  sudo pacman -R --noconfirm ttf-meslo-nerd
+  remove_if_installed noto-color-emoji-fontconfig
+  remove_if_installed noto-fonts-cjk
+  remove_if_installed ttf-meslo-nerd
 
 
   echo
@@ -472,7 +563,7 @@ if grep -q "Manjaro" /etc/os-release; then
   tput sgr0
   echo
 
-  sudo pacman -Rs manjaro-xfce-settings --noconfirm
+  remove_if_installed manjaro-xfce-settings
 
   echo
   tput setaf 2
@@ -484,6 +575,30 @@ if grep -q "Manjaro" /etc/os-release; then
 
 fi
 
+
+# when on Artix xfce - remove conflicting files - xfce iso is default
+if grep -q "artix" /etc/os-release; then
+  echo
+  tput setaf 2
+  echo "##############################################################"
+  echo "####### Removing software for Artix"
+  echo "##############################################################"
+  tput sgr0
+  echo
+
+  remove_if_installed artix-qt-presets
+  remove_if_installed artix-gtk-presets
+  remove_if_installed artix-desktop-presets
+
+  echo
+  tput setaf 2
+  echo "##############################################################"
+  echo "################### Software on Manjaro removed"
+  echo "##############################################################"
+  tput sgr0
+  echo
+
+fi
 
 echo
 tput setaf 6
