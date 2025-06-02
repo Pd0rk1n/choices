@@ -304,9 +304,9 @@ sh 970-manjaro*
 #has to be last - they are all Arch
 sh 970-arch.sh
 
-sh 990-skel*
+#h 990-skel*
 
-sh 999-last*
+#sh 999-last*
 
 tput setaf 3
 echo "########################################################################"
