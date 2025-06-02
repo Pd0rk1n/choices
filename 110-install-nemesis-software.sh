@@ -131,7 +131,7 @@ sudo pacman -S --noconfirm --needed hardcode-fixer-git
 #sudo pacman -S --noconfirm --needed lastpass
 sudo pacman -S --noconfirm --needed neo-candy-icons-git
 if ! grep -q "Manjaro" /etc/os-release; then  
-  sudo pacman -S --noconfirm --needed pamac-aur
+  sudo pacman -S --noconfirm --needed pamac
 fi
 sudo pacman -S --noconfirm --needed rofi
 sudo pacman -S --noconfirm --needed sparklines-git
