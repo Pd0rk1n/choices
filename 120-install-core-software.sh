@@ -166,6 +166,7 @@ sudo pacman -S --noconfirm --needed man-db
 sudo pacman -S --noconfirm --needed man-pages
 sudo pacman -S --noconfirm --needed mkinitcpio-firmware
 sudo pacman -S --noconfirm --needed plocate
+sudo pacman -S --noconfirm --needed picom
 sudo pacman -S --noconfirm --needed meld
 sudo pacman -S --noconfirm --needed micro
 sudo pacman -S --noconfirm --needed mintstick
