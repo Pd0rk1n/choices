@@ -32,7 +32,7 @@ super + F6
 
 #Virtualbox
 super + F7
-    virtualbox
+    transmission-gtk
 
 #Thunar
 super + F8
@@ -88,7 +88,7 @@ super + shift + x
 
 #Rofi theme selector
 #super + r
- #   rofi-theme-selector
+#    rofi-theme-selector
 
 #Urxvt
 super + t
@@ -129,7 +129,7 @@ super + shift + Return
 #	thunar
 
 #dmenu
-super + shift + d
+super + d
 	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
     
 #dmenu

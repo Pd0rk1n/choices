@@ -37,7 +37,6 @@ run sxhkd -c ~/.config/qtile/sxhkd/sxhkdrc &
 
 #starting utility applications at boot time
 run variety &
-ulauncher &
 run nm-applet &
 #run pamac-tray &
 run xfce4-power-manager &
