@@ -18,15 +18,24 @@ function run {
 #xrandr --output HDMI2 --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off
 #autorandr horizontal
 
+xrandr --output HDMI-1 --mode 1920x1080 --rate 74.99
+
+
+# Disable screen blanking and power saving
+xset s off          # Disable screensaver
+xset -dpms          # Disable DPMS (Energy Star) features
+xset s noblank      # Don't blank the video device
+
+
 ##changed via give-me-azerty-qtile
 #setxkbmap be
 
 #autostart ArcoLinux Welcome App
-run dex $HOME/.config/autostart/arcolinux-welcome-app.desktop &
+#run dex $HOME/.config/autostart/arcolinux-welcome-app.desktop &
 
 #Some ways to set your wallpaper besides variety or nitrogen
-feh --bg-fill /usr/share/backgrounds/archlinux/arch-wallpaper.jpg &
-feh --bg-fill /usr/share/backgrounds/arco/arco-wallpaper.jpg &
+#feh --bg-fill /usr/share/backgrounds/archlinux/arch-wallpaper.jpg &
+#feh --bg-fill /usr/share/backgrounds/arco/arco-wallpaper.jpg &
 #wallpaper for other Arch based systems
 #feh --bg-fill /usr/share/archlinux-tweak-tool/data/wallpaper/wallpaper.png &
 #start the conky to learn the shortcuts
@@ -38,9 +47,9 @@ run sxhkd -c ~/.config/qtile/sxhkd/sxhkdrc &
 #starting utility applications at boot time
 run variety &
 run nm-applet &
-#run pamac-tray &
+run pamac-tray &
 run xfce4-power-manager &
-numlockx on &
+#numlockx on &
 blueberry-tray &
 picom --config $HOME/.config/qtile/scripts/picom.conf &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
