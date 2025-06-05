@@ -49,6 +49,7 @@ run variety &
 run nm-applet &
 run pamac-tray &
 run xfce4-power-manager &
+run ulauncher &
 #numlockx on &
 blueberry-tray &
 picom --config $HOME/.config/qtile/scripts/picom.conf &
