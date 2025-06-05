@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "90df4406-1a5e-4fdc-b555-27d34e3e36b9",
+      "logo": {
+        "imageUrl": "3e86ca4c-6553-497e-9616-910182982f3d.png",
+        "destinationUrl": "https://search.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-search&mtm_content=dbda22c8-9d93-484a-bdc2-539fcc56247a&mtm_date=20250511",
+        "alt": "Brave Search - Protecting your privacy. Fighting censorship since 2021. - Try it now!",
+        "companyName": "Brave Search"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "e0ea9443-dc45-46f6-9c7e-bec185142469.jpg",
+          "creativeInstanceId": "dbda22c8-9d93-484a-bdc2-539fcc56247a",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "1721f6b0-bb8d-4a29-a7f2-6445c9fed510.jpg",
+          "creativeInstanceId": "340adebf-83b3-41f8-8d98-62bc8dfe7662",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "3e86ca4c-6553-497e-9616-910182982f3d.png",
+            "destinationUrl": "https://search.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-search&mtm_content=340adebf-83b3-41f8-8d98-62bc8dfe7662&mtm_date=20250511",
+            "alt": "Brave Search - Protecting your privacy. Fighting censorship since 2021. - Try it now!",
+            "companyName": "Brave Search"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "90df4406-1a5e-4fdc-b555-27d34e3e36b9",
+      "logo": {
+        "imageUrl": "3e86ca4c-6553-497e-9616-910182982f3d.png",
+        "destinationUrl": "https://search.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-search&mtm_content=dbda22c8-9d93-484a-bdc2-539fcc56247a&mtm_date=20250511",
+        "alt": "Brave Search - Protecting your privacy. Fighting censorship since 2021. - Try it now!",
+        "companyName": "Brave Search"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "e0ea9443-dc45-46f6-9c7e-bec185142469.jpg",
+          "creativeInstanceId": "dbda22c8-9d93-484a-bdc2-539fcc56247a",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "1721f6b0-bb8d-4a29-a7f2-6445c9fed510.jpg",
+          "creativeInstanceId": "340adebf-83b3-41f8-8d98-62bc8dfe7662",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "3e86ca4c-6553-497e-9616-910182982f3d.png",
+            "destinationUrl": "https://search.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-search&mtm_content=340adebf-83b3-41f8-8d98-62bc8dfe7662&mtm_date=20250511",
+            "alt": "Brave Search - Protecting your privacy. Fighting censorship since 2021. - Try it now!",
+            "companyName": "Brave Search"
+          }
+        }
+      ]
+    }
+  ]
+}
