@@ -268,6 +268,10 @@ def init_colors():
 
 colors = init_colors()
 
+#extra icons to choose from
+#http://fontawesome.io/cheatsheet/
+#       v              
+
 
 # WIDGETS FOR THE BAR
 
@@ -442,12 +446,29 @@ def init_widgets_list():
          #         foreground = colors[5],
          #         background = colors[1],
          #        ),
-        # widget.Sep(
-        #          linewidth = 1,
-        #          padding = 10,
-        #          foreground = colors[2],
-        #          background = colors[1]
-        #          ),
+         #  widget.Sep(
+         #          linewidth = 1,
+         #         padding = 10,
+         #         foreground = colors[2],
+         #         background = colors[0]
+         #         ),
+        widget.LaunchBar(
+                 progs = [("", "brave", "Brave web browser"),
+                          ("", "xfce4-terminal", " xfce4 terminal"),
+                          ("", "nemo", "nemo file manager"),
+                          ("", "vlc", "VLC media player")
+                         ], 
+                 fontsize = 14,
+                 padding = 12,
+                 foreground = colors[3],
+                 background=colors[0],
+                 ),
+        widget.Sep(
+                   linewidth = 1,
+                  padding = 10,
+                  foreground = colors[2],
+                  background = colors[0]
+                  ),
         widget.TextBox(
             font="FontAwesome",
             text="  ",
@@ -457,7 +478,7 @@ def init_widgets_list():
             fontsize=16
             ),
         widget.Clock(
-            foreground=colors[5],
+            foreground=colors[4],
             background=colors[0],
             fontsize=12,
             format="%Y-%m-%d %H:%M"
