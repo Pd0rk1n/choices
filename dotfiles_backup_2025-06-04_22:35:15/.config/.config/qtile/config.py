@@ -38,6 +38,8 @@ from libqtile.widget import Spacer
 
 # mod4 or mod = super key
 mod = "mod4"
+myTerm = "xfce4-terminal"      # My terminal of choice
+myBrowser = "brave"       # My browser of choice
 mod1 = "alt"
 mod2 = "control"
 home = os.path.expanduser('~')
@@ -540,38 +542,32 @@ dgroups_app_rules = []
 #########################################################
 ################ assgin apps to groups ##################
 #########################################################
-# @hook.subscribe.client_new
-# def assign_app_group(client):
-#     d = {}
-#     #####################################################################################
-#     ### Use xprop fo find  the value of WM_CLASS(STRING) -> First field is sufficient ###
-#     #####################################################################################
-#     d[group_names[0]] = ["Navigator", "Firefox", "Vivaldi-stable", "Vivaldi-snapshot", "Chromium", "Google-chrome", "Brave", "Brave-browser",
-#               "navigator", "firefox", "vivaldi-stable", "vivaldi-snapshot", "chromium", "google-chrome", "brave", "brave-browser", ]
-#     d[group_names[1]] = [ "Atom", "Subl", "Geany", "Brackets", "Code-oss", "Code", "TelegramDesktop", "Discord",
-#                "atom", "subl", "geany", "brackets", "code-oss", "code", "telegramDesktop", "discord", ]
-#     d[group_names[2]] = ["Inkscape", "Nomacs", "Ristretto", "Nitrogen", "Feh",
-#               "inkscape", "nomacs", "ristretto", "nitrogen", "feh", ]
-#     d[group_names[3]] = ["Gimp", "gimp" ]
-#     d[group_names[4]] = ["Meld", "meld", "org.gnome.meld" "org.gnome.Meld" ]
-#     d[group_names[5]] = ["Vlc","vlc", "Mpv", "mpv" ]
-#     d[group_names[6]] = ["VirtualBox Manager", "VirtualBox Machine", "Vmplayer",
-#               "virtualbox manager", "virtualbox machine", "vmplayer", ]
-#     d[group_names[7]] = ["Thunar", "Nemo", "Caja", "Nautilus", "org.gnome.Nautilus", "Pcmanfm", "Pcmanfm-qt",
-#               "thunar", "nemo", "caja", "nautilus", "org.gnome.nautilus", "pcmanfm", "pcmanfm-qt", ]
-#     d[group_names[8]] = ["Evolution", "Geary", "Mail", "Thunderbird",
-#               "evolution", "geary", "mail", "thunderbird" ]
-#     d[group_names[9]] = ["Spotify", "Pragha", "Clementine", "Deadbeef", "Audacious",
-#               "spotify", "pragha", "clementine", "deadbeef", "audacious" ]
-#     ######################################################################################
-#
-# wm_class = client.window.get_wm_class()[0]
-#
-#     for i in range(len(d)):
-#         if wm_class in list(d.values())[i]:
-#             group = list(d.keys())[i]
-#             client.togroup(group)
-#             client.group.cmd_toscreen(toggle=False)
+from libqtile import hook
+from libqtile.log_utils import logger
+
+@hook.subscribe.client_new
+def assign_app_group(client):
+    app_groups = {
+        "1": ["nemo"],
+        "2": ["xed"],
+        "3": ["brave", "brave-browser"],
+        "5": ["xfce4-terminal"],
+        "6": ["vlc"],
+        "7": ["transmission-gtk", "transmission-qt"]
+    }
+
+    wm_class = client.window.get_wm_class()
+    if wm_class:
+        app = wm_class[0].lower()
+        logger.warning(f"[Assign Hook] App started: {app}")
+        for group, apps in app_groups.items():
+            if app in [a.lower() for a in apps]:
+                client.togroup(group)
+                client.group.cmd_toscreen(toggle=False)  # ← this switches to the group
+                logger.warning(f"[Assign Hook] Moved {app} to group {group} and switched to it")
+                break
+
+
 
 # END
 # ASSIGN APPLICATIONS TO A SPECIFIC GROUPNAME
