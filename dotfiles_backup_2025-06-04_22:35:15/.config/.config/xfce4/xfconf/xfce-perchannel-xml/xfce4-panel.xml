@@ -101,8 +101,8 @@
         <value type="string" value="networkmanager applet"/>
       </property>
       <property name="known-items" type="array">
-        <value type="string" value="flameshot"/>
         <value type="string" value="ulauncher"/>
+        <value type="string" value="flameshot"/>
         <value type="string" value="Insync"/>
         <value type="string" value="chrome_status_icon_1"/>
         <value type="string" value="ckb-next_ckb-next"/>
@@ -111,8 +111,8 @@
       </property>
     </property>
     <property name="plugin-7" type="string" value="whiskermenu">
-      <property name="button-title" type="string" value="ArchLinux  "/>
-      <property name="button-icon" type="string" value="archlinux-logo"/>
+      <property name="button-title" type="string" value="ArcoLinux  "/>
+      <property name="button-icon" type="string" value="start-here-arcolinux"/>
       <property name="show-button-title" type="bool" value="true"/>
       <property name="hover-switch-category" type="bool" value="true"/>
       <property name="category-icon-size" type="int" value="2"/>
@@ -120,9 +120,9 @@
       <property name="position-search-alternate" type="bool" value="true"/>
       <property name="position-commands-alternate" type="bool" value="true"/>
       <property name="position-categories-alternate" type="bool" value="true"/>
-      <property name="menu-width" type="int" value="485"/>
-      <property name="menu-height" type="int" value="613"/>
-      <property name="menu-opacity" type="int" value="100"/>
+      <property name="menu-width" type="int" value="507"/>
+      <property name="menu-height" type="int" value="612"/>
+      <property name="menu-opacity" type="int" value="80"/>
       <property name="command-lockscreen" type="string" value="archlinux-logout"/>
       <property name="command-switchuser" type="string" value="xfce4-session-logout -u"/>
       <property name="show-command-switchuser" type="bool" value="true"/>
@@ -130,20 +130,14 @@
         <value type="string" value="brave-browser.desktop"/>
         <value type="string" value="nemo.desktop"/>
         <value type="string" value="xfce4-terminal.desktop"/>
-        <value type="string" value="transmission-gtk.desktop"/>
-        <value type="string" value="archlinux-tweak-tool.desktop"/>
         <value type="string" value="archlinux-betterlockscreen.desktop"/>
+        <value type="string" value="xfce-settings-manager.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="nemo.desktop"/>
         <value type="string" value="brave-browser.desktop"/>
+        <value type="string" value="xfce-settings-manager.desktop"/>
         <value type="string" value="xfce4-terminal.desktop"/>
-        <value type="string" value="transmission-gtk.desktop"/>
-        <value type="string" value="org.x.editor.desktop"/>
-        <value type="string" value="archlinux-betterlockscreen.desktop"/>
-        <value type="string" value="btop.desktop"/>
-        <value type="string" value="gitahead.desktop"/>
-        <value type="string" value="org.gnome.DiskUtility.desktop"/>
+        <value type="string" value="nemo.desktop"/>
       </property>
       <property name="search-actions" type="int" value="7">
         <property name="action-0" type="empty">
@@ -189,7 +183,6 @@
           <property name="regex" type="bool" value="false"/>
         </property>
       </property>
-      <property name="launcher-show-tooltip" type="bool" value="false"/>
     </property>
     <property name="clipman" type="empty">
       <property name="tweaks" type="empty">
@@ -199,7 +192,6 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="mpris-players" type="string" value="pragha;spotify"/>
-      <property name="known-players" type="string" value="Brave"/>
     </property>
   </property>
 </channel>
