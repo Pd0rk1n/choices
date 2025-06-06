@@ -333,7 +333,7 @@ def init_widgets_list():
                   font="Noto Sans",
                   fontsize=14,
                   interface="enp2s0",
-                  foreground=colors[4],
+                  foreground=colors[5],
                   background=colors[0],
                   padding = 0,
                   ),
@@ -343,20 +343,20 @@ def init_widgets_list():
                   foreground = colors[2],
                   background = colors[0]
                   ),
-         widget.NetGraph(
-                  font="Noto Sans",
-                  fontsize=12,
-                  bandwidth="down",
-                  interface="auto",
-                  fill_color = colors[4],
-                  foreground=colors[2],
-                  background=colors[0],
-                  graph_color = colors[8],
-                  border_color = colors[3],
-                  padding = 0,
-                  border_width = 1,
-                  line_width = 1,
-                  ),
+         #widget.NetGraph(
+         #         font="Noto Sans",
+         #         fontsize=12,
+         #         bandwidth="down",
+         #         interface="auto",
+         #         fill_color = colors[4],
+         #         foreground=colors[2],
+         #         background=colors[0],
+         #         graph_color = colors[8],
+         #         border_color = colors[3],
+         #         padding = 0,
+         #         border_width = 1,
+         #         line_width = 1,
+         #         ),
          widget.Sep(
                   linewidth = 1,
                   padding = 10,
@@ -409,10 +409,11 @@ def init_widgets_list():
                   padding = 0,
                   fontsize=16
                   ),
-         widget.CPUGraph(
+         widget.CPU(
                   border_color = colors[5],
                   fill_color = colors[6],
                   graph_color = colors[6],
+                  foreground=colors[4],
                   background=colors[0],
                   border_width = 1,
                   line_width = 1,
@@ -425,22 +426,22 @@ def init_widgets_list():
                   foreground = colors[2],
                   background = colors[0]
                   ),
-        # widget.TextBox(
-        #          font="FontAwesome",
-        #          text="  ",
-        #          foreground=colors[4],
-        #          background=colors[1],
-        #          padding = 0,
-        #          fontsize=16
-        #          ),
-        # widget.Memory(
-        #          font="Noto Sans",
-        #          format = '{MemUsed}M/{MemTotal}M',
-        #          update_interval = 1,
-        #          fontsize = 12,
-        #          foreground = colors[5],
-        #          background = colors[1],
-        #         ),
+         # widget.TextBox(
+         #         font="FontAwesome",
+         #         text="  ",
+         #         foreground=colors[4],
+         #         background=colors[1],
+         #         padding = 0,
+         #         fontsize=16
+         #         ),
+         # widget.Memory(
+         #         font="Noto Sans",
+         #         format = '{MemUsed}M/{MemTotal}M',
+         #         update_interval = 1,
+         #         fontsize = 12,
+         #         foreground = colors[5],
+         #         background = colors[1],
+         #        ),
         # widget.Sep(
         #          linewidth = 1,
         #          padding = 10,
