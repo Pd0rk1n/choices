@@ -27,6 +27,8 @@ DOTFILES=(
   ".Xresources"
   ".themes"
   ".config"
+  ".config/xfce"
+  ".config/gtk-3.0"
 )
 
 SECURE_DIRS=(

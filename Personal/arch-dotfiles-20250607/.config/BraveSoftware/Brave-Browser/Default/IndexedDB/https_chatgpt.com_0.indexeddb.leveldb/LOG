@@ -1,0 +1,6 @@
+2025/06/07-17:30:58.825 17f7 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/07-17:30:58.825 17f7 Recovering log #14
+2025/06/07-17:30:58.831 17f7 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/000014.log 
+2025/06/07-17:44:12.006 17f8 Level-0 table #18: started
+2025/06/07-17:44:12.025 17f8 Level-0 table #18: 1602823 bytes OK
+2025/06/07-17:44:12.028 17f8 Delete type=0 #14
