@@ -145,9 +145,19 @@ else
 	fi
 
 echo
+echo "Copying dotfiles into /etc/skel"
+if [ -d "$installed_dir/dotfiles" ]; then
+    sudo cp -arT "$installed_dir/dotfiles" /etc/skel
+    echo "Dotfiles successfully copied to /etc/skel"
+else
+    echo "dotfiles/ directory not found at $installed_dir"
+fi
+
+echo
 tput setaf 6
 echo "##############################################################"
 echo "###################  $(basename $0) done"
 echo "##############################################################"
 tput sgr0
 echo
+
