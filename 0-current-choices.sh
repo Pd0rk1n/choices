@@ -304,7 +304,7 @@ sh 970-manjaro*
 #has to be last - they are all Arch
 sh 970-arch.sh
 
-#h 990-skel*
+sh 990-skel*
 
 sh 999-last*
 
