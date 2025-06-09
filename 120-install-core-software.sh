@@ -195,6 +195,7 @@ sudo pacman -S --noconfirm --needed spotify
 sudo pacman -S --noconfirm --needed squashfs-tools
 sudo pacman -S --noconfirm --needed starship
 sudo pacman -S --noconfirm --needed sublime-text-4
+sudo pacman -S --noconfirm --needed sxhkd
 sudo pacman -S --noconfirm --needed system-config-printer
 sudo pacman -S --noconfirm --needed telegram-desktop
 sudo pacman -S --noconfirm --needed the_silver_searcher
