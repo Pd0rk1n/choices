@@ -41,4 +41,10 @@
   <property name="scrolling-on-output" type="bool" value="false"/>
   <property name="scrolling-unlimited" type="bool" value="true"/>
   <property name="color-foreground" type="string" value="#ffffbebe6f6f"/>
+  <property name="color-bold-use-default" type="bool" value="false"/>
+  <property name="color-selection-use-default" type="bool" value="false"/>
+  <property name="color-cursor-use-default" type="bool" value="false"/>
+  <property name="color-cursor" type="string" value="#f6f661615151"/>
+  <property name="color-selection-background" type="string" value="#dcdc8a8adddd"/>
+  <property name="color-bold" type="string" value="#35358484e4e4"/>
 </channel>

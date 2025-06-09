@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "d27ea1f6-7fbf-4f10-b398-8913c61f9eae",
+      "logo": {
+        "imageUrl": "99e1102e-66b8-47ab-af34-05d3aa0524b9/776595bf-8d14-456a-86c2-0625efee2355.png",
+        "destinationUrl": "https://brave.com/wallet/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=bitcoin&mtm_content=5b985f82-9d60-4941-84d2-a942d50e9247&mtm_date=20250608",
+        "alt": "Brave Wallet Now Supports Bitcoin!",
+        "companyName": "Brave"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "99e1102e-66b8-47ab-af34-05d3aa0524b9/e1709930-1fd2-45db-a1db-d1ffbaaca465.png",
+          "creativeInstanceId": "5b985f82-9d60-4941-84d2-a942d50e9247",
+          "focalPoint": {
+            "x": 1275,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "f7493177-cd2c-45e6-9228-3ba4246b43c2/5dec3770-1048-4ad8-9d29-30f616961897.png",
+          "creativeInstanceId": "f70b2dd1-7a8d-4a48-a6f6-e53c5c81023d",
+          "focalPoint": {
+            "x": 1275,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "f7493177-cd2c-45e6-9228-3ba4246b43c2/6f992c77-161f-4e04-8bcd-7d888653ba73.png",
+            "destinationUrl": "https://brave.com/wallet/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=bitcoin&mtm_content=f70b2dd1-7a8d-4a48-a6f6-e53c5c81023d&mtm_date=20250608",
+            "alt": "Brave Wallet Now Supports Bitcoin!",
+            "companyName": "Brave"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "d27ea1f6-7fbf-4f10-b398-8913c61f9eae",
+      "logo": {
+        "imageUrl": "99e1102e-66b8-47ab-af34-05d3aa0524b9/776595bf-8d14-456a-86c2-0625efee2355.png",
+        "destinationUrl": "https://brave.com/wallet/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=bitcoin&mtm_content=5b985f82-9d60-4941-84d2-a942d50e9247&mtm_date=20250608",
+        "alt": "Brave Wallet Now Supports Bitcoin!",
+        "companyName": "Brave"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "99e1102e-66b8-47ab-af34-05d3aa0524b9/e1709930-1fd2-45db-a1db-d1ffbaaca465.png",
+          "creativeInstanceId": "5b985f82-9d60-4941-84d2-a942d50e9247",
+          "focalPoint": {
+            "x": 1275,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "f7493177-cd2c-45e6-9228-3ba4246b43c2/5dec3770-1048-4ad8-9d29-30f616961897.png",
+          "creativeInstanceId": "f70b2dd1-7a8d-4a48-a6f6-e53c5c81023d",
+          "focalPoint": {
+            "x": 1275,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "f7493177-cd2c-45e6-9228-3ba4246b43c2/6f992c77-161f-4e04-8bcd-7d888653ba73.png",
+            "destinationUrl": "https://brave.com/wallet/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=bitcoin&mtm_content=f70b2dd1-7a8d-4a48-a6f6-e53c5c81023d&mtm_date=20250608",
+            "alt": "Brave Wallet Now Supports Bitcoin!",
+            "companyName": "Brave"
+          }
+        }
+      ]
+    }
+  ]
+}

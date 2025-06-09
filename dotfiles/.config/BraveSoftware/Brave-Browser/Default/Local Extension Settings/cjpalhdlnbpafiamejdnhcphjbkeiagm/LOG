@@ -1,3 +1,51 @@
-2025/06/07-17:27:37.494 17f9 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2025/06/07-17:27:37.500 17f9 Recovering log #5903
-2025/06/07-17:27:37.500 17f9 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/005903.log 
+2025/06/08-19:52:40.972 e18 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2025/06/08-19:52:40.975 e18 Recovering log #5966
+2025/06/08-19:52:40.976 e18 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/005966.log 
+2025/06/08-19:53:20.909 e18 Level-0 table #5970: started
+2025/06/08-19:53:20.925 e18 Level-0 table #5970: 4514235 bytes OK
+2025/06/08-19:53:20.928 e18 Delete type=0 #5966
+2025/06/08-19:54:14.680 e17 Level-0 table #5972: started
+2025/06/08-19:54:14.705 e17 Level-0 table #5972: 6091744 bytes OK
+2025/06/08-19:54:14.707 e17 Delete type=0 #5969
+2025/06/08-19:54:18.316 e18 Level-0 table #5974: started
+2025/06/08-19:54:18.348 e18 Level-0 table #5974: 7641775 bytes OK
+2025/06/08-19:54:18.351 e18 Delete type=0 #5971
+2025/06/08-19:54:18.352 e18 Compacting 4@0 + 3@1 files
+2025/06/08-19:54:18.365 e18 Generated table #5975@0: 7 keys, 2742161 bytes
+2025/06/08-19:54:18.376 e18 Generated table #5976@0: 8 keys, 2337824 bytes
+2025/06/08-19:54:18.406 e18 Generated table #5977@0: 3 keys, 8014480 bytes
+2025/06/08-19:54:18.451 e18 Generated table #5978@0: 2 keys, 7641775 bytes
+2025/06/08-19:54:18.460 e18 Generated table #5979@0: 11 keys, 1749977 bytes
+2025/06/08-19:54:18.460 e18 Compacted 4@0 + 3@1 files => 22486217 bytes
+2025/06/08-19:54:18.462 e18 compacted to: files[ 0 5 9 0 0 0 0 ]
+2025/06/08-19:54:18.462 e18 Delete type=2 #5970
+2025/06/08-19:54:18.462 e18 Delete type=2 #5959
+2025/06/08-19:54:18.462 e18 Delete type=2 #5972
+2025/06/08-19:54:18.462 e18 Delete type=2 #5967
+2025/06/08-19:54:18.462 e18 Delete type=2 #5974
+2025/06/08-19:54:18.462 e18 Delete type=2 #5963
+2025/06/08-19:54:18.462 e18 Delete type=2 #5960
+2025/06/08-19:54:18.465 e18 Compacting 1@1 + 1@2 files
+2025/06/08-19:54:18.511 e18 Generated table #5980@1: 2 keys, 7641775 bytes
+2025/06/08-19:54:18.512 e18 Compacted 1@1 + 1@2 files => 7641775 bytes
+2025/06/08-19:54:18.514 e18 compacted to: files[ 0 4 9 0 0 0 0 ]
+2025/06/08-19:54:18.514 e18 Delete type=2 #5931
+2025/06/08-19:54:18.514 e18 Delete type=2 #5978
+2025/06/08-19:54:18.516 e18 Compacting 1@1 + 1@2 files
+2025/06/08-19:54:18.525 e18 Generated table #5981@1: 20 keys, 1752575 bytes
+2025/06/08-19:54:18.525 e18 Compacted 1@1 + 1@2 files => 1752575 bytes
+2025/06/08-19:54:18.527 e18 compacted to: files[ 0 3 9 0 0 0 0 ]
+2025/06/08-19:54:18.527 e18 Delete type=2 #5926
+2025/06/08-19:54:18.527 e18 Delete type=2 #5979
+2025/06/08-19:54:18.528 e18 Compacting 1@1 + 4@2 files
+2025/06/08-19:54:18.538 e18 Generated table #5982@1: 8 keys, 2580631 bytes
+2025/06/08-19:54:18.548 e18 Generated table #5983@1: 6 keys, 2394046 bytes
+2025/06/08-19:54:18.557 e18 Generated table #5984@1: 3 keys, 2128764 bytes
+2025/06/08-19:54:18.567 e18 Generated table #5985@1: 6 keys, 2369602 bytes
+2025/06/08-19:54:18.568 e18 Compacted 1@1 + 4@2 files => 9473043 bytes
+2025/06/08-19:54:18.569 e18 compacted to: files[ 0 2 9 0 0 0 0 ]
+2025/06/08-19:54:18.570 e18 Delete type=2 #5946
+2025/06/08-19:54:18.570 e18 Delete type=2 #5947
+2025/06/08-19:54:18.570 e18 Delete type=2 #5975
+2025/06/08-19:54:18.570 e18 Delete type=2 #5944
+2025/06/08-19:54:18.570 e18 Delete type=2 #5945

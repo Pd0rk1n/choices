@@ -1,12 +1,41 @@
-2025/06/07-11:49:39.479 d863 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2025/06/07-11:49:39.489 d863 Recovering log #5887
-2025/06/07-11:49:39.489 d863 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/005887.log 
-2025/06/07-12:50:18.742 d853 Level-0 table #5900: started
-2025/06/07-12:50:18.758 d853 Level-0 table #5900: 4556879 bytes OK
-2025/06/07-12:50:18.760 d853 Delete type=0 #5887
-2025/06/07-12:51:13.399 d853 Level-0 table #5902: started
-2025/06/07-12:51:13.432 d853 Level-0 table #5902: 8423042 bytes OK
-2025/06/07-12:51:13.435 d853 Delete type=0 #5899
-2025/06/07-12:51:17.014 d852 Level-0 table #5904: started
-2025/06/07-12:51:17.058 d852 Level-0 table #5904: 6234960 bytes OK
-2025/06/07-12:51:17.061 d852 Delete type=0 #5901
+2025/06/08-18:06:06.159 ed4 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2025/06/08-18:06:06.165 ed4 Recovering log #5950
+2025/06/08-18:06:06.165 ed4 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/005950.log 
+2025/06/08-18:06:45.092 ed4 Level-0 table #5954: started
+2025/06/08-18:06:45.107 ed4 Level-0 table #5954: 4195574 bytes OK
+2025/06/08-18:06:45.109 ed4 Delete type=0 #5950
+2025/06/08-18:07:09.471 ed4 Level-0 table #5956: started
+2025/06/08-18:07:09.506 ed4 Level-0 table #5956: 4191889 bytes OK
+2025/06/08-18:07:09.510 ed4 Delete type=0 #5953
+2025/06/08-18:08:16.240 ed4 Level-0 table #5958: started
+2025/06/08-18:08:16.274 ed4 Level-0 table #5958: 7035273 bytes OK
+2025/06/08-18:08:16.276 ed4 Delete type=0 #5955
+2025/06/08-18:08:16.278 ed4 Compacting 4@0 + 2@1 files
+2025/06/08-18:08:16.290 ed4 Generated table #5959@0: 7 keys, 2740827 bytes
+2025/06/08-18:08:16.301 ed4 Generated table #5960@0: 8 keys, 2337824 bytes
+2025/06/08-18:08:16.310 ed4 Generated table #5961@0: 5 keys, 2252715 bytes
+2025/06/08-18:08:16.343 ed4 Generated table #5962@0: 2 keys, 6316337 bytes
+2025/06/08-18:08:16.363 ed4 Generated table #5963@0: 13 keys, 1750032 bytes
+2025/06/08-18:08:16.363 ed4 Compacted 4@0 + 2@1 files => 15397735 bytes
+2025/06/08-18:08:16.365 ed4 compacted to: files[ 0 5 9 0 0 0 0 ]
+2025/06/08-18:08:16.365 ed4 Delete type=2 #5942
+2025/06/08-18:08:16.365 ed4 Delete type=2 #5951
+2025/06/08-18:08:16.365 ed4 Delete type=2 #5956
+2025/06/08-18:08:16.365 ed4 Delete type=2 #5958
+2025/06/08-18:08:16.365 ed4 Delete type=2 #5943
+2025/06/08-18:08:16.365 ed4 Delete type=2 #5954
+2025/06/08-18:08:16.368 ed4 Compacting 1@1 + 1@2 files
+2025/06/08-18:08:16.382 ed4 Generated table #5964@1: 10 keys, 2843912 bytes
+2025/06/08-18:08:16.382 ed4 Compacted 1@1 + 1@2 files => 2843912 bytes
+2025/06/08-18:08:16.384 ed4 compacted to: files[ 0 4 9 0 0 0 0 ]
+2025/06/08-18:08:16.384 ed4 Delete type=2 #5949
+2025/06/08-18:08:16.384 ed4 Delete type=2 #5961
+2025/06/08-18:08:16.385 ed4 Compacting 1@1 + 1@2 files
+2025/06/08-18:08:16.421 ed4 Generated table #5965@1: 8 keys, 7490359 bytes
+2025/06/08-18:08:16.421 ed4 Compacted 1@1 + 1@2 files => 7490359 bytes
+2025/06/08-18:08:16.423 ed4 compacted to: files[ 0 3 9 0 0 0 0 ]
+2025/06/08-18:08:16.424 ed4 Delete type=2 #5962
+2025/06/08-18:08:16.424 ed4 Delete type=2 #5897
+2025/06/08-18:08:19.884 ed5 Level-0 table #5967: started
+2025/06/08-18:08:19.938 ed5 Level-0 table #5967: 6174417 bytes OK
+2025/06/08-18:08:19.940 ed5 Delete type=0 #5957
