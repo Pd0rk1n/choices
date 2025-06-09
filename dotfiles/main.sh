@@ -1,9 +1,17 @@
 #!/bin/bash
 
-set -e  # Exit on any error
+set -e  # Exit if any command fails
 
 echo "🔧 Starting full dotfiles installation from: $(pwd)"
 echo "-----------------------------------------------"
+
+# === Step 0: Ensure user directories exist ===
+if [ -f ./ensure_user_dirs.sh ]; then
+  echo "📁 Step 0: Ensuring standard user directories exist..."
+  bash ./ensure_user_dirs.sh
+else
+  echo "⚠️  Skipping: ensure_user_dirs.sh not found."
+fi
 
 # === Step 1: Install user files (pd0rk1n/) ===
 if [ -f ./install_pd0rk1n_user_files.sh ]; then
@@ -30,3 +38,4 @@ else
 fi
 
 echo "✅ All steps completed. Your system should now be set up!"
+
