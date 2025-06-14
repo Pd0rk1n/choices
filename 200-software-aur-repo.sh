@@ -25,9 +25,21 @@
 #tput setaf 6 = cyan
 #tput setaf 7 = gray
 #tput setaf 8 = light blue
+
+#end colors
+#tput sgr0
 ##################################################################################################################################
 
+#networkmanager issue
+#nmcli connection modify Wired\ connection\ 1 ipv6.method "disabled"
+
+# what is the present working directory
 installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
+
+##################################################################################################################################
+
+# set DEBUG to true to be able to analyze the scripts file per file
+export DEBUG=false
 
 ##################################################################################################################################
 
@@ -43,69 +55,79 @@ fi
 
 ##################################################################################################################################
 
-# software from AUR (Arch User Repositories)
-# https://aur.archlinux.org/packages/
+if ! grep -q -e "Manjaro" -e "Artix" /etc/os-release; then
+
+  echo "Deleting current /etc/pacman.d/mirrorlist and replacing with"
+  echo
+echo "## Best Arch Linux servers worldwide from arcolinux-nemesis
+
+Server = https://geo.mirror.pkgbuild.com/\$repo/os/\$arch
+Server = http://mirror.rackspace.com/archlinux/\$repo/os/\$arch
+Server = https://mirror.rackspace.com/archlinux/\$repo/os/\$arch
+Server = https://mirror.osbeck.com/archlinux/\$repo/os/\$arch
+Server = http://mirror.osbeck.com/archlinux/\$repo/os/\$arch
+Server = https://mirrors.kernel.org/archlinux/\$repo/os/\$arch"  | sudo tee /etc/pacman.d/mirrorlist
+  echo
+fi
+
+tput setaf 2
+echo "################################################################################"
+echo "Arch Linux Servers have been written to /etc/pacman.d/mirrorlist"
+echo "Use nmirrorlist when on ArcoLinux to inspect"
+echo "################################################################################"
+tput sgr0
+echo
+
+# Installing chaotic-aur keys and mirrors
+pkg_dir="packages"
+
+# Ensure directory exists
+if [[ ! -d "$pkg_dir" ]]; then
+    echo "Directory not found: $pkg_dir"
+    exit 1
+fi
+
+# Install all local packages using pacman
+find "$pkg_dir" -maxdepth 1 -name '*.pkg.tar.zst' -print0 | sudo xargs -0 pacman -U --noconfirm
+
+
+# personal pacman.conf for Erik Dubois
+if [[ ! -f /etc/pacman.conf.nemesis ]]; then
+    echo
+    tput setaf 2
+    echo "################################################################################"
+    echo "Copying /etc/pacman.conf to /etc/pacman.conf.nemesis"
+    echo "Use npacman when on ArcoLinux to inspect"
+    echo "################################################################################"
+    tput sgr0
+    echo
+    sudo cp -v /etc/pacman.conf /etc/pacman.conf.nemesis
+    echo
+else
+    echo
+    tput setaf 2
+    echo "################################################################################"
+    echo "Backup already exists: /etc/pacman.conf.nemesis"
+    echo "Use npacman when on ArcoLinux to inspect"
+    echo "################################################################################"
+    tput sgr0
+    echo
+fi
+
+sudo cp -v pacman.conf /etc/pacman.conf
 
 echo
 tput setaf 2
-echo "########################################################################"
-echo "################### AUR from folder - Software to install"
-echo "########################################################################"
-tput sgr0
-echo
-if ! grep -q "artix" /etc/os-release; then
-	result=$(systemd-detect-virt)
-
-	if [ $result = "none" ];then
-
-		echo
-		tput setaf 2
-		echo "########################################################################"
-		echo "####### Installing VirtualBox"
-		echo "########################################################################"
-		tput sgr0
-		echo	
-
-		sh AUR/install-virtualbox-for-linux.sh	
-
-	else
-
-
-		echo
-		tput setaf 3
-		echo "########################################################################"
-		echo "### You are on a virtual machine - skipping VirtualBox"
-		echo "########################################################################"
-		tput sgr0
-		echo
-
-	fi
-fi
-
-echo
-tput setaf 2
-echo "########################################################################"
-echo "################### Build from AUR"
-echo "########################################################################"
+echo "################################################################################"
+echo "Updating the system - sudo pacman -Syyu"
+echo "################################################################################"
 tput sgr0
 echo
 
-if ! pacman -Qi opera &>/dev/null; then
-    yay -S opera --noconfirm
-else
-    echo "Opera is already installed."
-fi
+sudo pacman -Syyu --noconfirm
 
-if ! pacman -Qi signal-in-tray &>/dev/null; then
-    yay -S signal-in-tray --noconfirm
-else
-    echo "signal-in-tray is already installed."
-fi
-
-echo
-tput setaf 6
-echo "##############################################################"
-echo "###################  $(basename $0) done"
-echo "##############################################################"
+tput setaf 3
+echo "########################################################################"
+echo "End"
+echo "########################################################################"
 tput sgr0
-echo
