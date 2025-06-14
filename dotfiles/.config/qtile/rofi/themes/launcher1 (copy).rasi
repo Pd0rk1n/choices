@@ -115,3 +115,13 @@ element selected {
 element-text selected {
     text-color:                     @ac;
 }
+
+element-icon {
+    background-color: #44475a;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+element-icon selected {
+    background-color: #6272a4;
+}
