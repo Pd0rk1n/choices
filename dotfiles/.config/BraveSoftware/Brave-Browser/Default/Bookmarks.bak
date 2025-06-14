@@ -1,5 +1,5 @@
 {
-   "checksum": "c9c120eb40f26bd24767c721df6a224a",
+   "checksum": "984dd66e0e33249a11be5ab51187f1a9",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -72,7 +72,7 @@
             "url": "http://10.0.0.19:32400/web/index.html#!/"
          }, {
             "date_added": "13391646116510758",
-            "date_last_used": "13393893970367662",
+            "date_last_used": "13394341260612639",
             "guid": "6a73ba11-d95b-4233-8167-7117f40da740",
             "id": "138",
             "meta_info": {
@@ -94,7 +94,7 @@
             "url": "https://archlinux.org/"
          }, {
             "date_added": "13377885030084600",
-            "date_last_used": "13392963283102868",
+            "date_last_used": "13394338609676217",
             "guid": "a5642c4e-3fde-48ab-8fae-e4919f0b5f13",
             "id": "55",
             "meta_info": {
@@ -105,7 +105,7 @@
             "url": "https://linuxcapable.com/how-to-install-plex-media-server-on-linux-mint/"
          }, {
             "date_added": "13391323116135761",
-            "date_last_used": "13393776577242806",
+            "date_last_used": "13394339738412986",
             "guid": "8c83336d-d531-42dc-93db-c3b4d539b36b",
             "id": "132",
             "meta_info": {
@@ -116,7 +116,7 @@
             "url": "https://github.com/Pd0rk1n"
          }, {
             "date_added": "13389694670419360",
-            "date_last_used": "13393640872274026",
+            "date_last_used": "13394340260803534",
             "guid": "11a7beba-a78b-4de8-b43b-89e550ece412",
             "id": "121",
             "meta_info": {
@@ -895,7 +895,7 @@
          "date_modified": "13393736227523335",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
-         "name": "Bookmarks",
+         "name": "Bookmarks bar",
          "type": "folder"
       },
       "other": {

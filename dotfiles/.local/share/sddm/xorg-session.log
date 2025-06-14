@@ -1,0 +1,72 @@
+** Message: 22:32:33.121: Failed to fetch _NET_NUMBER_OF_DESKTOPS; assuming 1
+** Message: 22:32:33.121: Failed to get _NET_WORKAREA; using full screen dimensions
+** Message: 22:32:33.121: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+** Message: 22:32:33.121: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+xfce4-session-Message: 22:32:33.126: GNOME compatibility is enabled and gnome-keyring-daemon is found on the system. Skipping gpg/ssh-agent startup.
+env: ‘kdeinit4’: No such file or directory
+env: ‘qdbus’: No such file or directory
+gnome-keyring-daemon: no process capabilities, insecure memory might get used
+discover_other_daemon: 1** Message: 22:32:33.908: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+
+** (wrapper-2.0:810): WARNING **: 22:32:35.666: Binding 'XF86AudioPlay' failed!
+
+** (wrapper-2.0:810): WARNING **: 22:32:35.667: Binding 'XF86AudioStop' failed!
+
+** (wrapper-2.0:810): WARNING **: 22:32:35.667: Binding 'XF86AudioPrev' failed!
+
+** (wrapper-2.0:810): WARNING **: 22:32:35.667: Binding 'XF86AudioNext' failed!
+
+(wrapper-2.0:810): xfce4-pulseaudio-plugin-WARNING **: 22:32:35.667: Could not have grabbed multimedia control keys.
+[ 2025-06-13 22:32:35.966 session_init FATAL ERROR ] Another composite manager is already running
+[ 2025-06-13 22:32:35.966 main FATAL ERROR ] Failed to create new session.
+
+(pamac-tray:886): Gdk-CRITICAL **: 22:32:36.423: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(ulauncher:875): libayatana-appindicator-WARNING **: 22:32:37.179: libayatana-appindicator is deprecated. Please use libayatana-appindicator-glib in newly written code.
+WARNING: 2025-06-13 22:32:56,544: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+
+(variety:876): libayatana-appindicator-WARNING **: 22:32:56.547: libayatana-appindicator is deprecated. Please use libayatana-appindicator-glib in newly written code.
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+
+(xfdesktop:809): GLib-GObject-CRITICAL **: 22:32:58.666: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(xfdesktop:809): GLib-GIO-CRITICAL **: 22:32:58.666: g_file_query_file_type: assertion 'G_IS_FILE(file)' failed
+
+(xfdesktop:809): GLib-GIO-CRITICAL **: 22:32:58.666: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:809): GLib-GObject-CRITICAL **: 22:32:58.666: invalid (NULL) pointer instance
+
+(xfdesktop:809): GLib-GObject-CRITICAL **: 22:32:58.666: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(xfdesktop:809): GLib-GObject-CRITICAL **: 22:32:58.666: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+** Message: 22:33:06.952: updates_checker.vala:59: check updates
+
+(nemo:3506): Nemo-WARNING **: 22:33:34.405: Current gtk theme is not known to have nemo support (Dracula) - checking...
+
+(nemo:3506): Nemo-WARNING **: 22:33:34.576: Action '90_new-launcher.nemo_action' is missing dependency: cinnamon-desktop-editor
+Nemo-Share-Message: 22:33:34.984: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+Nemo-Share-Message: 22:34:09.943: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+
+(nemo:3506): Nemo-WARNING **: 22:34:26.221: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+
+** (gdk-pixbuf-thumbnailer:3531): WARNING **: 22:34:35.145: Could not thumbnail 'file:///home/pd0rk1n/choices/dotfiles/Pictures/Wallpapers/default-wallpaper.jpg': Couldn’t recognize the image file format for file “/home/pd0rk1n/choices/dotfiles/Pictures/Wallpapers/default-wallpaper.jpg”
+
+(nemo:3506): Nemo-WARNING **: 22:34:55.022: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+Nemo-Share-Message: 22:35:00.728: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+
+(nemo:3506): Nemo-WARNING **: 22:35:13.866: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+Nemo-Share-Message: 22:35:43.595: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+
+(nemo:3506): Nemo-WARNING **: 22:35:52.953: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+
+(nemo:3506): Nemo-WARNING **: 22:35:56.573: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
