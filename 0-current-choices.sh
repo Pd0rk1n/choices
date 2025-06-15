@@ -1,6 +1,5 @@
 #!/bin/bash
 #set -e
-#
 ##################################################################################################################################
 # Author    : Erik Dubois
 # Website   : https://www.erikdubois.be
@@ -24,7 +23,7 @@
 #tput sgr0
 ##################################################################################################################################
 
-set -uo pipefail  # Do not use -e, we want to continue on error
+set -uo pipefail  # Do not use set -e, we want to continue on error
 
 # Trap all ERR conditions and call the handler
 trap 'on_error $LINENO "$BASH_COMMAND"' ERR
@@ -58,6 +57,11 @@ installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 ##################################################################################################################################
 
 # set DEBUG to true to be able to analyze the scripts file per file
+#
+# works on Bash not Fish
+# sudo chsh -s /usr/bin/bash erik
+# logout and login to change from zsh or fish to bash
+
 export DEBUG=false
 
 ##################################################################################################################################
@@ -125,27 +129,67 @@ fi
 
 if ! grep -q -e "Manjaro" -e "Artix" /etc/os-release; then
 
-  echo "Deleting current /etc/pacman.d/mirrorlist and replacing with"
-  echo
+    # backup original mirrorlist
+    if [[ ! -f /etc/pacman.d/mirrorlist.nemesis ]]; then
+        echo
+        tput setaf 2
+        echo "################################################################################"
+        echo "Copying /etc/pacman.d/mirrorlist to /etc/pacman.d/mirrorlist-nemesis"
+        echo "Making a backup that ends with -nemesis"
+        echo "################################################################################"
+        tput sgr0
+        echo
+        sudo cp -v /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist-nemesis
+        echo
+    else
+        echo
+        tput setaf 2
+        echo "################################################################################"
+        echo "Backup already exists: /etc/pacman.d/mirrorlist-nemesis"
+        echo "################################################################################"
+        tput sgr0
+        echo
+    fi
+
+    # personal mirrorlist for Erik Dubois
+    tput setaf 2
+    echo "################################################################################"    
+    echo "Replacing content of current /etc/pacman.d/mirrorlist"
+    echo "Backup exists here: /etc/pacman.d/mirrorlist-nemesis"
+    echo "################################################################################"
+    tput sgr0
+
 echo "## Best Arch Linux servers worldwide from arcolinux-nemesis
 
-Server = https://geo.mirror.pkgbuild.com/\$repo/os/\$arch
-Server = http://mirror.rackspace.com/archlinux/\$repo/os/\$arch
-Server = https://mirror.rackspace.com/archlinux/\$repo/os/\$arch
 Server = https://mirror.osbeck.com/archlinux/\$repo/os/\$arch
+Server = https://mirror.rackspace.com/archlinux/\$repo/os/\$arch
+Server = https://geo.mirror.pkgbuild.com/\$repo/os/\$arch
 Server = http://mirror.osbeck.com/archlinux/\$repo/os/\$arch
+Server = http://mirror.rackspace.com/archlinux/\$repo/os/\$arch
 Server = https://mirrors.kernel.org/archlinux/\$repo/os/\$arch"  | sudo tee /etc/pacman.d/mirrorlist
     echo
     tput setaf 2
     echo "################################################################################"
     echo "Arch Linux Servers have been written to /etc/pacman.d/mirrorlist"
     echo "Use nmirrorlist when on ArcoLinux to inspect"
+    echo "Use nano /etc/pacman.d/mirrorlist to inspect on others"
     echo "################################################################################"
     tput sgr0
     echo  
 fi
 
+# order is important - dependencies
+echo
+tput setaf 2
+echo "################################################################################"
+echo "Installing Chaotic keyring and Chaotic mirrorlist"
+echo "################################################################################"
+tput sgr0
+echo
 
+for pkg in packages/*.pkg.tar.zst; do
+    [ -f "$pkg" ] && sudo pacman -U --noconfirm "$pkg"
+done
 
 # personal pacman.conf for Erik Dubois
 if [[ ! -f /etc/pacman.conf.nemesis ]]; then
@@ -154,6 +198,7 @@ if [[ ! -f /etc/pacman.conf.nemesis ]]; then
     echo "################################################################################"
     echo "Copying /etc/pacman.conf to /etc/pacman.conf.nemesis"
     echo "Use npacman when on ArcoLinux to inspect"
+    echo "Use nano /etc/pacman.conf to inspect"
     echo "################################################################################"
     tput sgr0
     echo
@@ -165,6 +210,7 @@ else
     echo "################################################################################"
     echo "Backup already exists: /etc/pacman.conf.nemesis"
     echo "Use npacman when on ArcoLinux to inspect"
+    echo "Use nano /etc/pacman.conf to inspect"
     echo "################################################################################"
     tput sgr0
     echo
@@ -172,14 +218,48 @@ fi
 
 sudo cp -v pacman.conf /etc/pacman.conf
 sudo cp -v pacman.conf /etc/pacman.conf.edu
+echo
+echo "/etc/pacman.conf.edu is there to have a backup"
+echo
 
-# only for ArchBang/Manjaro/Garuda/Archcraft
+echo
+tput setaf 3
+echo "########################################################################"
+echo "######## Removing the Arch Linux Tweak Tool"
+echo "######## Removing arcolinux-keyring"
+echo "######## Removing arcolinux-mirrorlist-git"
+echo "######## if present"
+echo "########################################################################"
+tput sgr0
+echo
+
+for pkg in \
+  archlinux-tweak-tool-git \
+  archlinux-tweak-tool-dev-git \
+  arcolinux-keyring \
+  arcolinux-mirrorlist-git; do
+  if pacman -Q "$pkg" &>/dev/null; then
+    sudo pacman -R --noconfirm "$pkg"
+  fi
+done
+
+echo
+tput setaf 2
+echo "################################################################################"
+echo "Updating the system - sudo pacman -Syyu - before 700-intervention"
+echo "################################################################################"
+tput sgr0
+echo
+
+sudo pacman -Syyu --noconfirm
+
+# only for ArchBang/Manjaro/Garuda/Archcraft/...
 sh 700-intervention*
 
 echo
 tput setaf 2
 echo "################################################################################"
-echo "Updating the system - sudo pacman -Syyu"
+echo "Updating the system - sudo pacman -Syyu - after 700-intervention"
 echo "################################################################################"
 tput sgr0
 echo
@@ -233,9 +313,10 @@ sh 120-install-core-software*
 
 sh 160-install-bluetooth*
 sh 170-install-cups*
+sh 180-ananicy*
 
 #packages we need to build
-sh 200-software-aur-repo*
+#sh 200-software-aur-repo*
 #sh 300-sardi-extras*
 #sh 400-surfn-extras*
 
@@ -243,7 +324,7 @@ sh 200-software-aur-repo*
 sh 500-plasma*
 
 # installation of Chadwm
-#sh 600-chadwm*
+sh 600-chadwm*
 
 echo
 tput setaf 3
