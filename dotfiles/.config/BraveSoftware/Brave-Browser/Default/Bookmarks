@@ -1,5 +1,5 @@
 {
-   "checksum": "984dd66e0e33249a11be5ab51187f1a9",
+   "checksum": "c9c120eb40f26bd24767c721df6a224a",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -105,7 +105,7 @@
             "url": "https://linuxcapable.com/how-to-install-plex-media-server-on-linux-mint/"
          }, {
             "date_added": "13391323116135761",
-            "date_last_used": "13394339738412986",
+            "date_last_used": "13394515887309285",
             "guid": "8c83336d-d531-42dc-93db-c3b4d539b36b",
             "id": "132",
             "meta_info": {
@@ -895,7 +895,7 @@
          "date_modified": "13393736227523335",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
-         "name": "Bookmarks bar",
+         "name": "Bookmarks",
          "type": "folder"
       },
       "other": {

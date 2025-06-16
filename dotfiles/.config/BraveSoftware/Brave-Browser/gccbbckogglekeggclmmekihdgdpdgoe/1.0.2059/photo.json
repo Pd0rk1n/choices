@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "e165b936-5e18-4e6e-aa3b-bb42a3c2ae80",
+      "logo": {
+        "imageUrl": "51dfd626-12ec-478e-b53c-4657a35cbf09/3b57b1ec-f205-42af-84f3-3b0b5c09f0e6.png",
+        "destinationUrl": "https://search.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-search&mtm_content=05dffd2c-841a-4848-bc78-00deba3cf7c9&mtm_date=20250615",
+        "alt": "Protecting your privacy. Fighting censorship. Since 2021.",
+        "companyName": "Brave"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "51dfd626-12ec-478e-b53c-4657a35cbf09/71a0dc63-4bed-435d-a0fa-079833d8b43b.jpg",
+          "creativeInstanceId": "05dffd2c-841a-4848-bc78-00deba3cf7c9",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "b9a7f528-c4d5-4457-807f-2c6220782014/62d5c548-dc59-4150-bb5e-86455335d09c.jpg",
+          "creativeInstanceId": "9e287e66-bbdf-416e-9ca9-2bb7621237d5",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "b9a7f528-c4d5-4457-807f-2c6220782014/6fdadfdf-d72b-4872-ad3c-67642170e382.png",
+            "destinationUrl": "https://search.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-search&mtm_content=9e287e66-bbdf-416e-9ca9-2bb7621237d5&mtm_date=20250615",
+            "alt": "Protecting your privacy. Fighting censorship. Since 2021.",
+            "companyName": "Brave"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "e165b936-5e18-4e6e-aa3b-bb42a3c2ae80",
+      "logo": {
+        "imageUrl": "51dfd626-12ec-478e-b53c-4657a35cbf09/3b57b1ec-f205-42af-84f3-3b0b5c09f0e6.png",
+        "destinationUrl": "https://search.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-search&mtm_content=05dffd2c-841a-4848-bc78-00deba3cf7c9&mtm_date=20250615",
+        "alt": "Protecting your privacy. Fighting censorship. Since 2021.",
+        "companyName": "Brave"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "51dfd626-12ec-478e-b53c-4657a35cbf09/71a0dc63-4bed-435d-a0fa-079833d8b43b.jpg",
+          "creativeInstanceId": "05dffd2c-841a-4848-bc78-00deba3cf7c9",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "b9a7f528-c4d5-4457-807f-2c6220782014/62d5c548-dc59-4150-bb5e-86455335d09c.jpg",
+          "creativeInstanceId": "9e287e66-bbdf-416e-9ca9-2bb7621237d5",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "b9a7f528-c4d5-4457-807f-2c6220782014/6fdadfdf-d72b-4872-ad3c-67642170e382.png",
+            "destinationUrl": "https://search.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-search&mtm_content=9e287e66-bbdf-416e-9ca9-2bb7621237d5&mtm_date=20250615",
+            "alt": "Protecting your privacy. Fighting censorship. Since 2021.",
+            "companyName": "Brave"
+          }
+        }
+      ]
+    }
+  ]
+}
