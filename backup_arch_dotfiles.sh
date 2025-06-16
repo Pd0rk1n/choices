@@ -11,8 +11,6 @@ DOTFILES=(
   ".bashrc"
   ".zshrc"
   ".zshrc-nemesis"
-  ".ssh"
-  ".gnupg"
   ".face"
   ".screenrc"
   ".fonts"
