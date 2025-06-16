@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "e6a297f1-787d-40c2-8980-1bf0f3b5d12a",
+      "logo": {
+        "imageUrl": "0f401cdc-e8e5-4b50-a22a-973d71522fdc/4f152463-54f7-428f-a116-14d90849fcb2.png",
+        "destinationUrl": "https://rareevo.io/?tracking=braveperks",
+        "alt": "RareEVO - The next 100 people get a free GA ticket! - Use code Brave - Claim now",
+        "companyName": "Rare Social"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "0f401cdc-e8e5-4b50-a22a-973d71522fdc/f156e57e-c8b0-41fe-b363-a4bb8989b322.jpg",
+          "creativeInstanceId": "fc916579-769f-4d29-af92-2e1fb639141b",
+          "focalPoint": {
+            "x": 1164,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "e9607573-996c-41b1-9440-86ffe1e872ef/f04995d5-73c0-4577-b442-7b913bb66958.jpg",
+          "creativeInstanceId": "4bc146ec-0b7e-4683-b0c7-15946d4ef3f0",
+          "focalPoint": {
+            "x": 1044,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "e9607573-996c-41b1-9440-86ffe1e872ef/4f152463-54f7-428f-a116-14d90849fcb2.png",
+            "destinationUrl": "https://rareevo.io/?tracking=braveperks",
+            "alt": "RareEVO - The next 100 people get a free GA ticket! - Use code Brave - Claim now",
+            "companyName": "Rare Social"
+          }
+        },
+        {
+          "imageUrl": "09b18a63-43f5-49d5-b9c2-08ee05ef13e0/9ea7a9e2-731f-4ee8-8f9d-623a847ead2d.jpg",
+          "creativeInstanceId": "c92398d0-e07d-45cf-8c38-406ee29eae05",
+          "focalPoint": {
+            "x": 996,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "09b18a63-43f5-49d5-b9c2-08ee05ef13e0/4f152463-54f7-428f-a116-14d90849fcb2.png",
+            "destinationUrl": "https://rareevo.io/?tracking=braveperks",
+            "alt": "RareEVO - The next 100 people get a free GA ticket! - Use code Brave - Claim now",
+            "companyName": "Rare Social"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "e6a297f1-787d-40c2-8980-1bf0f3b5d12a",
+      "logo": {
+        "imageUrl": "0f401cdc-e8e5-4b50-a22a-973d71522fdc/4f152463-54f7-428f-a116-14d90849fcb2.png",
+        "destinationUrl": "https://rareevo.io/?tracking=braveperks",
+        "alt": "RareEVO - The next 100 people get a free GA ticket! - Use code Brave - Claim now",
+        "companyName": "Rare Social"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "0f401cdc-e8e5-4b50-a22a-973d71522fdc/f156e57e-c8b0-41fe-b363-a4bb8989b322.jpg",
+          "creativeInstanceId": "fc916579-769f-4d29-af92-2e1fb639141b",
+          "focalPoint": {
+            "x": 1164,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "e9607573-996c-41b1-9440-86ffe1e872ef/f04995d5-73c0-4577-b442-7b913bb66958.jpg",
+          "creativeInstanceId": "4bc146ec-0b7e-4683-b0c7-15946d4ef3f0",
+          "focalPoint": {
+            "x": 1044,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "e9607573-996c-41b1-9440-86ffe1e872ef/4f152463-54f7-428f-a116-14d90849fcb2.png",
+            "destinationUrl": "https://rareevo.io/?tracking=braveperks",
+            "alt": "RareEVO - The next 100 people get a free GA ticket! - Use code Brave - Claim now",
+            "companyName": "Rare Social"
+          }
+        },
+        {
+          "imageUrl": "09b18a63-43f5-49d5-b9c2-08ee05ef13e0/9ea7a9e2-731f-4ee8-8f9d-623a847ead2d.jpg",
+          "creativeInstanceId": "c92398d0-e07d-45cf-8c38-406ee29eae05",
+          "focalPoint": {
+            "x": 996,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "09b18a63-43f5-49d5-b9c2-08ee05ef13e0/4f152463-54f7-428f-a116-14d90849fcb2.png",
+            "destinationUrl": "https://rareevo.io/?tracking=braveperks",
+            "alt": "RareEVO - The next 100 people get a free GA ticket! - Use code Brave - Claim now",
+            "companyName": "Rare Social"
+          }
+        }
+      ]
+    }
+  ]
+}

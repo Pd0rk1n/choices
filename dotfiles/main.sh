@@ -13,6 +13,10 @@ else
   echo "⚠️  Skipping: ensure_user_dirs.sh not found."
 fi
 
+# === Step 0.5: Create iso/ and github/ directories ===
+echo "📁 Step 0.5: Creating ~/iso and ~/github directories..."
+mkdir -p "$HOME/iso" "$HOME/github"
+
 # === Step 1: Install user files (pd0rk1n/) ===
 if [ -f ./install_pd0rk1n_user_files.sh ]; then
   echo "🧰 Step 1: Installing user files from pd0rk1n/..."

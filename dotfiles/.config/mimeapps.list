@@ -101,3 +101,4 @@ application/x-theme=org.x.editor.desktop
 application/xml=org.x.editor.desktop
 text/x-python=org.x.editor.desktop
 text/x-log=sublime_text.desktop
+

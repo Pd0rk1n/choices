@@ -25,6 +25,7 @@ DOTFILES=(
   ".gtkrc-2.0"
   ".xinitrc"
   ".Xresources"
+  ".xprofile"
   ".themes"
   ".config"
   ".config/xfce"

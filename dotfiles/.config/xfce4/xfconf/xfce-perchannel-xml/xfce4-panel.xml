@@ -95,6 +95,7 @@
         <value type="string" value="clipman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="pasystray"/>
         <value type="string" value="blueberry-tray.py"/>
         <value type="string" value="clipman"/>
         <value type="string" value="pamac-tray"/>
@@ -134,8 +135,8 @@
         <value type="string" value="xfce-settings-manager.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="brave-browser.desktop"/>
         <value type="string" value="xfce4-terminal.desktop"/>
+        <value type="string" value="brave-browser.desktop"/>
         <value type="string" value="nemo.desktop"/>
         <value type="string" value="xfce-settings-manager.desktop"/>
       </property>
