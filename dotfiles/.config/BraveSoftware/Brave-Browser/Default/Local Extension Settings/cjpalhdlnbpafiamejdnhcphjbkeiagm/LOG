@@ -1,12 +1,43 @@
-2025/06/16-17:04:28.034 15a4 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2025/06/16-17:04:28.041 15a4 Recovering log #6019
-2025/06/16-17:04:28.042 15a4 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/006019.log 
-2025/06/16-17:05:07.642 15a5 Level-0 table #6039: started
-2025/06/16-17:05:07.658 15a5 Level-0 table #6039: 4123535 bytes OK
-2025/06/16-17:05:07.661 15a5 Delete type=0 #6019
-2025/06/16-17:06:08.450 15a5 Level-0 table #6041: started
-2025/06/16-17:06:08.490 15a5 Level-0 table #6041: 9413556 bytes OK
-2025/06/16-17:06:08.493 15a5 Delete type=0 #6038
-2025/06/16-17:06:12.213 15a5 Level-0 table #6043: started
-2025/06/16-17:06:12.249 15a5 Level-0 table #6043: 7829460 bytes OK
-2025/06/16-17:06:12.251 15a5 Delete type=0 #6040
+2025/06/18-09:52:24.349 1d97 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2025/06/18-09:52:24.354 1d97 Recovering log #6074
+2025/06/18-09:52:24.356 1d97 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/006074.log 
+2025/06/18-09:53:04.027 1d97 Level-0 table #6078: started
+2025/06/18-09:53:04.055 1d97 Level-0 table #6078: 4492244 bytes OK
+2025/06/18-09:53:04.057 1d97 Delete type=0 #6074
+2025/06/18-09:54:03.869 1d97 Level-0 table #6080: started
+2025/06/18-09:54:03.922 1d97 Level-0 table #6080: 9187960 bytes OK
+2025/06/18-09:54:03.925 1d97 Delete type=0 #6077
+2025/06/18-09:54:03.927 1d97 Compacting 4@0 + 4@1 files
+2025/06/18-09:54:03.946 1d97 Generated table #6081@0: 4 keys, 2375567 bytes
+2025/06/18-09:54:03.980 1d97 Generated table #6082@0: 9 keys, 3140049 bytes
+2025/06/18-09:54:04.028 1d97 Generated table #6083@0: 5 keys, 7282852 bytes
+2025/06/18-09:54:04.059 1d97 Generated table #6084@0: 11 keys, 1403597 bytes
+2025/06/18-09:54:04.059 1d97 Compacted 4@0 + 4@1 files => 14202065 bytes
+2025/06/18-09:54:04.061 1d97 compacted to: files[ 0 4 9 0 0 0 0 ]
+2025/06/18-09:54:04.062 1d97 Delete type=2 #6080
+2025/06/18-09:54:04.062 1d97 Delete type=2 #6073
+2025/06/18-09:54:04.062 1d97 Delete type=2 #6068
+2025/06/18-09:54:04.062 1d97 Delete type=2 #6070
+2025/06/18-09:54:04.062 1d97 Delete type=2 #6075
+2025/06/18-09:54:04.062 1d97 Delete type=2 #6078
+2025/06/18-09:54:04.062 1d97 Delete type=2 #6069
+2025/06/18-09:54:04.062 1d97 Delete type=2 #6071
+2025/06/18-09:54:04.067 1d97 Compacting 1@1 + 2@2 files
+2025/06/18-09:54:04.081 1d97 Generated table #6085@1: 8 keys, 2156117 bytes
+2025/06/18-09:54:04.100 1d97 Generated table #6086@1: 10 keys, 2870990 bytes
+2025/06/18-09:54:04.100 1d97 Compacted 1@1 + 2@2 files => 5027107 bytes
+2025/06/18-09:54:04.101 1d97 compacted to: files[ 0 3 9 0 0 0 0 ]
+2025/06/18-09:54:04.102 1d97 Delete type=2 #6082
+2025/06/18-09:54:04.102 1d97 Delete type=2 #6035
+2025/06/18-09:54:04.102 1d97 Delete type=2 #6034
+2025/06/18-09:54:04.103 1d97 Compacting 1@1 + 2@2 files
+2025/06/18-09:54:04.120 1d97 Generated table #6087@1: 10 keys, 2871073 bytes
+2025/06/18-09:54:04.166 1d97 Generated table #6088@1: 8 keys, 7492642 bytes
+2025/06/18-09:54:04.167 1d97 Compacted 1@1 + 2@2 files => 10363715 bytes
+2025/06/18-09:54:04.169 1d97 compacted to: files[ 0 2 9 0 0 0 0 ]
+2025/06/18-09:54:04.169 1d97 Delete type=2 #6036
+2025/06/18-09:54:04.169 1d97 Delete type=2 #6083
+2025/06/18-09:54:04.169 1d97 Delete type=2 #6086
+2025/06/18-09:54:07.585 1d96 Level-0 table #6090: started
+2025/06/18-09:54:07.642 1d96 Level-0 table #6090: 6210766 bytes OK
+2025/06/18-09:54:07.644 1d96 Delete type=0 #6079

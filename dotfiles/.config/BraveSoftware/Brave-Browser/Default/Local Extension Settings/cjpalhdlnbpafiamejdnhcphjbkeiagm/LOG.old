@@ -1,3 +1,25 @@
-2025/06/16-14:37:44.528 18c8 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2025/06/16-14:37:44.532 18c8 Recovering log #6019
-2025/06/16-14:37:44.532 18c8 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/006019.log 
+2025/06/17-18:05:57.795 12d3 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2025/06/17-18:05:57.802 12d3 Recovering log #6063
+2025/06/17-18:05:57.803 12d3 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/006063.log 
+2025/06/17-18:06:02.008 12d3 Level-0 table #6067: started
+2025/06/17-18:06:02.038 12d3 Level-0 table #6067: 4240761 bytes OK
+2025/06/17-18:06:02.042 12d3 Delete type=0 #6063
+2025/06/17-18:06:02.043 12d3 Compacting 4@0 + 2@1 files
+2025/06/17-18:06:02.062 12d3 Generated table #6068@0: 5 keys, 2620163 bytes
+2025/06/17-18:06:02.083 12d3 Generated table #6069@0: 5 keys, 2420359 bytes
+2025/06/17-18:06:02.091 12d3 Generated table #6070@0: 3 keys, 300992 bytes
+2025/06/17-18:06:02.104 12d3 Generated table #6071@0: 10 keys, 1220415 bytes
+2025/06/17-18:06:02.104 12d3 Compacted 4@0 + 2@1 files => 6561929 bytes
+2025/06/17-18:06:02.106 12d3 compacted to: files[ 0 4 9 0 0 0 0 ]
+2025/06/17-18:06:02.106 12d3 Delete type=2 #6064
+2025/06/17-18:06:02.106 12d3 Delete type=2 #6060
+2025/06/17-18:06:02.106 12d3 Delete type=2 #6067
+2025/06/17-18:06:02.106 12d3 Delete type=2 #6062
+2025/06/17-18:06:02.107 12d3 Delete type=2 #6049
+2025/06/17-18:06:02.107 12d3 Delete type=2 #6048
+2025/06/17-18:07:00.432 12d2 Level-0 table #6073: started
+2025/06/17-18:07:00.484 12d2 Level-0 table #6073: 9479875 bytes OK
+2025/06/17-18:07:00.487 12d2 Delete type=0 #6066
+2025/06/17-18:07:04.146 12d2 Level-0 table #6075: started
+2025/06/17-18:07:04.214 12d2 Level-0 table #6075: 6201745 bytes OK
+2025/06/17-18:07:04.216 12d2 Delete type=0 #6072

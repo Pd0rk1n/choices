@@ -44,6 +44,13 @@
     <property name="plugin-15" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
+      <property name="items" type="array">
+        <value type="string" value="17501109843.desktop"/>
+        <value type="string" value="17469873943.desktop"/>
+        <value type="string" value="17491632233.desktop"/>
+        <value type="string" value="17498395333.desktop"/>
+        <value type="string" value="17500978143.desktop"/>
+      </property>
     </property>
     <property name="plugin-4" type="string" value="pager">
       <property name="rows" type="uint" value="2"/>
@@ -136,8 +143,8 @@
       </property>
       <property name="recent" type="array">
         <value type="string" value="xfce4-terminal.desktop"/>
-        <value type="string" value="brave-browser.desktop"/>
         <value type="string" value="nemo.desktop"/>
+        <value type="string" value="brave-browser.desktop"/>
         <value type="string" value="xfce-settings-manager.desktop"/>
       </property>
       <property name="search-actions" type="int" value="7">
@@ -193,6 +200,33 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="mpris-players" type="string" value="pragha;spotify"/>
+    </property>
+    <property name="plugin-13" type="empty">
+      <property name="items" type="array">
+        <value type="string" value="17501109841.desktop"/>
+        <value type="string" value="17469873941.desktop"/>
+        <value type="string" value="17491632231.desktop"/>
+        <value type="string" value="17498395331.desktop"/>
+        <value type="string" value="17500978141.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-14" type="empty">
+      <property name="items" type="array">
+        <value type="string" value="17501109842.desktop"/>
+        <value type="string" value="17469873942.desktop"/>
+        <value type="string" value="17491632232.desktop"/>
+        <value type="string" value="17498395332.desktop"/>
+        <value type="string" value="17500978142.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-16" type="empty">
+      <property name="items" type="array">
+        <value type="string" value="17501109844.desktop"/>
+        <value type="string" value="17469873944.desktop"/>
+        <value type="string" value="17491632234.desktop"/>
+        <value type="string" value="17498395334.desktop"/>
+        <value type="string" value="17500978144.desktop"/>
+      </property>
     </property>
   </property>
 </channel>
