@@ -1,5 +1,9 @@
-FileManager=custom-FileManager
+[Preferred Applications]
 TerminalEmulator=xfce4-terminal
-MailReader=evolution
+
+FileManager=custom-FileManager
+
+MailReader=Thunderbird
 
 WebBrowser=brave-browser
+

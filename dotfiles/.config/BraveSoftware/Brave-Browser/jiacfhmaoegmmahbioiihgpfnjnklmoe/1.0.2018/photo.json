@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "0a246fe9-8a89-4e38-a5aa-d0db61b678ae",
+      "logo": {
+        "imageUrl": "151e3233-8900-4da0-8fea-a958c24e524e/fc6e77ad-1286-44cc-97ce-7487fc027a49.png",
+        "destinationUrl": "https://brave.com/firewall-vpn/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-vpn&mtm_content=22a38e4f-06fb-43d7-b051-3e4074677a16&mtm_date=20250529",
+        "alt": "Traveling or on a Public Wi-fi? No Worries. Protect Yourself with Brave VPN. Try Brave VPN",
+        "companyName": "Brave VPN"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "151e3233-8900-4da0-8fea-a958c24e524e/59f51a62-0a43-41cd-8a49-c0f561e528e5.jpg",
+          "creativeInstanceId": "22a38e4f-06fb-43d7-b051-3e4074677a16",
+          "focalPoint": {
+            "x": 974,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "5bad82f1-71de-4ab5-8040-bc8ad3ff0a77/1f8e1e8f-8344-493e-aae2-cee69dcf2a48.jpg",
+          "creativeInstanceId": "16fd42d4-17d3-4edb-99e2-b273f2aec1ed",
+          "focalPoint": {
+            "x": 1331,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "5bad82f1-71de-4ab5-8040-bc8ad3ff0a77/869946f7-9ccc-4793-ae22-c0594db7bcd3.png",
+            "destinationUrl": "https://brave.com/firewall-vpn/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-vpn&mtm_content=16fd42d4-17d3-4edb-99e2-b273f2aec1ed&mtm_date=20250529",
+            "alt": "Traveling or on a Public Wi-fi? No Worries. Protect Yourself with Brave VPN. Try Brave VPN!",
+            "companyName": "Brave"
+          }
+        },
+        {
+          "imageUrl": "80692141-4588-4d80-bfa5-903dd5830425/8f946c46-6f3f-4393-ae7a-47217ad165f3.jpg",
+          "creativeInstanceId": "439b7cbb-04b6-4306-92b3-723df0928eef",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "80692141-4588-4d80-bfa5-903dd5830425/6f6112d2-bca1-4cc9-98d6-fe1465f81e63.png",
+            "destinationUrl": "https://brave.com/firewall-vpn/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-vpn&mtm_content=439b7cbb-04b6-4306-92b3-723df0928eef&mtm_date=20250529",
+            "alt": "Traveling or on a Public Wi-fi? No Worries. Protect Yourself with Brave VPN. Try Brave VPN!",
+            "companyName": "Brave"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "0a246fe9-8a89-4e38-a5aa-d0db61b678ae",
+      "logo": {
+        "imageUrl": "151e3233-8900-4da0-8fea-a958c24e524e/fc6e77ad-1286-44cc-97ce-7487fc027a49.png",
+        "destinationUrl": "https://brave.com/firewall-vpn/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-vpn&mtm_content=22a38e4f-06fb-43d7-b051-3e4074677a16&mtm_date=20250529",
+        "alt": "Traveling or on a Public Wi-fi? No Worries. Protect Yourself with Brave VPN. Try Brave VPN",
+        "companyName": "Brave VPN"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "151e3233-8900-4da0-8fea-a958c24e524e/59f51a62-0a43-41cd-8a49-c0f561e528e5.jpg",
+          "creativeInstanceId": "22a38e4f-06fb-43d7-b051-3e4074677a16",
+          "focalPoint": {
+            "x": 974,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "5bad82f1-71de-4ab5-8040-bc8ad3ff0a77/1f8e1e8f-8344-493e-aae2-cee69dcf2a48.jpg",
+          "creativeInstanceId": "16fd42d4-17d3-4edb-99e2-b273f2aec1ed",
+          "focalPoint": {
+            "x": 1331,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "5bad82f1-71de-4ab5-8040-bc8ad3ff0a77/869946f7-9ccc-4793-ae22-c0594db7bcd3.png",
+            "destinationUrl": "https://brave.com/firewall-vpn/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-vpn&mtm_content=16fd42d4-17d3-4edb-99e2-b273f2aec1ed&mtm_date=20250529",
+            "alt": "Traveling or on a Public Wi-fi? No Worries. Protect Yourself with Brave VPN. Try Brave VPN!",
+            "companyName": "Brave"
+          }
+        },
+        {
+          "imageUrl": "80692141-4588-4d80-bfa5-903dd5830425/8f946c46-6f3f-4393-ae7a-47217ad165f3.jpg",
+          "creativeInstanceId": "439b7cbb-04b6-4306-92b3-723df0928eef",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "80692141-4588-4d80-bfa5-903dd5830425/6f6112d2-bca1-4cc9-98d6-fe1465f81e63.png",
+            "destinationUrl": "https://brave.com/firewall-vpn/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-vpn&mtm_content=439b7cbb-04b6-4306-92b3-723df0928eef&mtm_date=20250529",
+            "alt": "Traveling or on a Public Wi-fi? No Worries. Protect Yourself with Brave VPN. Try Brave VPN!",
+            "companyName": "Brave"
+          }
+        }
+      ]
+    }
+  ]
+}

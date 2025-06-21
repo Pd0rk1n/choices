@@ -30,6 +30,9 @@ configs:
       row: 3
       col: 0
       last_seen: 1746987395657235
+    "/home/pd0rk1n/Desktop/iso":
+      row: 0
+      col: 0
     "/home/pd0rk1n":
       row: 0
       col: 0

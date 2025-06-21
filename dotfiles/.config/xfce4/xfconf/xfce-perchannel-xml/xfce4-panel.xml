@@ -142,8 +142,8 @@
         <value type="string" value="xfce-settings-manager.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="xfce4-terminal.desktop"/>
         <value type="string" value="nemo.desktop"/>
+        <value type="string" value="xfce4-terminal.desktop"/>
         <value type="string" value="brave-browser.desktop"/>
         <value type="string" value="xfce-settings-manager.desktop"/>
       </property>

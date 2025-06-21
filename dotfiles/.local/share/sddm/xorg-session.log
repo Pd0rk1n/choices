@@ -1,72 +1,299 @@
-** Message: 22:32:33.121: Failed to fetch _NET_NUMBER_OF_DESKTOPS; assuming 1
-** Message: 22:32:33.121: Failed to get _NET_WORKAREA; using full screen dimensions
-** Message: 22:32:33.121: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
-** Message: 22:32:33.121: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+** Message: 20:30:44.232: Failed to fetch _NET_NUMBER_OF_DESKTOPS; assuming 1
+** Message: 20:30:44.232: Failed to get _NET_WORKAREA; using full screen dimensions
+** Message: 20:30:44.232: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+** Message: 20:30:44.232: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
 /usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
-xfce4-session-Message: 22:32:33.126: GNOME compatibility is enabled and gnome-keyring-daemon is found on the system. Skipping gpg/ssh-agent startup.
+xfce4-session-Message: 20:30:44.238: GNOME compatibility is enabled and gnome-keyring-daemon is found on the system. Skipping gpg/ssh-agent startup.
 env: ‘kdeinit4’: No such file or directory
 env: ‘qdbus’: No such file or directory
 gnome-keyring-daemon: no process capabilities, insecure memory might get used
-discover_other_daemon: 1** Message: 22:32:33.908: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+discover_other_daemon: 1** Message: 20:30:45.013: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
 
-** (wrapper-2.0:810): WARNING **: 22:32:35.666: Binding 'XF86AudioPlay' failed!
+** (wrapper-2.0:5079): WARNING **: 20:30:45.608: Binding 'XF86AudioPlay' failed!
 
-** (wrapper-2.0:810): WARNING **: 22:32:35.667: Binding 'XF86AudioStop' failed!
+** (wrapper-2.0:5079): WARNING **: 20:30:45.608: Binding 'XF86AudioStop' failed!
 
-** (wrapper-2.0:810): WARNING **: 22:32:35.667: Binding 'XF86AudioPrev' failed!
+** (wrapper-2.0:5079): WARNING **: 20:30:45.608: Binding 'XF86AudioPrev' failed!
 
-** (wrapper-2.0:810): WARNING **: 22:32:35.667: Binding 'XF86AudioNext' failed!
+** (wrapper-2.0:5079): WARNING **: 20:30:45.608: Binding 'XF86AudioNext' failed!
 
-(wrapper-2.0:810): xfce4-pulseaudio-plugin-WARNING **: 22:32:35.667: Could not have grabbed multimedia control keys.
-[ 2025-06-13 22:32:35.966 session_init FATAL ERROR ] Another composite manager is already running
-[ 2025-06-13 22:32:35.966 main FATAL ERROR ] Failed to create new session.
+(wrapper-2.0:5079): xfce4-pulseaudio-plugin-WARNING **: 20:30:45.609: Could not have grabbed multimedia control keys.
 
-(pamac-tray:886): Gdk-CRITICAL **: 22:32:36.423: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+(xfce4-session:5002): xfce4-session-WARNING **: 20:30:45.754: Unable to launch "dropbox" (specified by autostart/dropbox.desktop): Failed to execute child process “dropbox” (No such file or directory)
 
-(ulauncher:875): libayatana-appindicator-WARNING **: 22:32:37.179: libayatana-appindicator is deprecated. Please use libayatana-appindicator-glib in newly written code.
-WARNING: 2025-06-13 22:32:56,544: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+(xfce4-session:5002): xfce4-session-WARNING **: 20:30:45.759: Unable to launch "discord" (specified by autostart/discord.desktop): Failed to execute child process “discord” (No such file or directory)
 
-(variety:876): libayatana-appindicator-WARNING **: 22:32:56.547: libayatana-appindicator is deprecated. Please use libayatana-appindicator-glib in newly written code.
+(xfce4-session:5002): xfce4-session-WARNING **: 20:30:45.766: Unable to launch "telegram-desktop" (specified by autostart/telegram.desktop): Failed to execute child process “telegram-desktop” (No such file or directory)
+[ 2025-06-20 20:30:45.807 session_init FATAL ERROR ] Another composite manager is already running
+[ 2025-06-20 20:30:45.807 main FATAL ERROR ] Failed to create new session.
+
+(pamac-tray:5119): Gdk-CRITICAL **: 20:30:46.256: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+** (xfdesktop:5081): WARNING **: 20:30:46.527: Failed to register the newly set background with AccountsService '/home/pd0rk1n/.config/variety/wallpaper/wallpaper-auto-rotated-ff1f1705baeb948b6da8d4f016399bf2.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+
+(ulauncher:5123): libayatana-appindicator-WARNING **: 20:30:46.837: libayatana-appindicator is deprecated. Please use libayatana-appindicator-glib in newly written code.
+
+(nemo:5272): Nemo-WARNING **: 20:30:48.472: Current gtk theme is not known to have nemo support (Dracula) - checking...
+
+(nemo:5272): Nemo-WARNING **: 20:30:48.651: Action '90_new-launcher.nemo_action' is missing dependency: cinnamon-desktop-editor
+Nemo-Share-Message: 20:30:48.901: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+WARNING: 2025-06-20 20:31:06,311: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+
+(variety:5122): libayatana-appindicator-WARNING **: 20:31:06.315: libayatana-appindicator is deprecated. Please use libayatana-appindicator-glib in newly written code.
 WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
 
 
-(xfdesktop:809): GLib-GObject-CRITICAL **: 22:32:58.666: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+(xfdesktop:5081): GLib-GObject-CRITICAL **: 20:31:08.206: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
 
-(xfdesktop:809): GLib-GIO-CRITICAL **: 22:32:58.666: g_file_query_file_type: assertion 'G_IS_FILE(file)' failed
+(xfdesktop:5081): GLib-GIO-CRITICAL **: 20:31:08.206: g_file_query_file_type: assertion 'G_IS_FILE(file)' failed
 
-(xfdesktop:809): GLib-GIO-CRITICAL **: 22:32:58.666: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+(xfdesktop:5081): GLib-GIO-CRITICAL **: 20:31:08.206: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
 
-(xfdesktop:809): GLib-GObject-CRITICAL **: 22:32:58.666: invalid (NULL) pointer instance
+(xfdesktop:5081): GLib-GObject-CRITICAL **: 20:31:08.206: invalid (NULL) pointer instance
 
-(xfdesktop:809): GLib-GObject-CRITICAL **: 22:32:58.666: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+(xfdesktop:5081): GLib-GObject-CRITICAL **: 20:31:08.206: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
 
-(xfdesktop:809): GLib-GObject-CRITICAL **: 22:32:58.666: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
-** Message: 22:33:06.952: updates_checker.vala:59: check updates
+(xfdesktop:5081): GLib-GObject-CRITICAL **: 20:31:08.206: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
 
-(nemo:3506): Nemo-WARNING **: 22:33:34.405: Current gtk theme is not known to have nemo support (Dracula) - checking...
+** (xfdesktop:5081): WARNING **: 20:31:08.279: Failed to register the newly set background with AccountsService '/home/pd0rk1n/.config/variety/wallpaper/wallpaper-auto-rotated-53826224b113d33b9bbe3f19bcceada4.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
 
-(nemo:3506): Nemo-WARNING **: 22:33:34.576: Action '90_new-launcher.nemo_action' is missing dependency: cinnamon-desktop-editor
-Nemo-Share-Message: 22:33:34.984: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+
+(xfdesktop:5081): GLib-GObject-CRITICAL **: 20:31:13.050: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(xfdesktop:5081): GLib-GIO-CRITICAL **: 20:31:13.050: g_file_query_file_type: assertion 'G_IS_FILE(file)' failed
+
+(xfdesktop:5081): GLib-GIO-CRITICAL **: 20:31:13.050: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:5081): GLib-GObject-CRITICAL **: 20:31:13.050: invalid (NULL) pointer instance
+
+(xfdesktop:5081): GLib-GObject-CRITICAL **: 20:31:13.050: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(xfdesktop:5081): GLib-GObject-CRITICAL **: 20:31:13.050: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+** (xfdesktop:5081): WARNING **: 20:31:13.119: Failed to register the newly set background with AccountsService '/home/pd0rk1n/.config/variety/wallpaper/wallpaper-auto-rotated-5a9432f41984649fa2152168a6d3fc02.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+** Message: 20:31:16.952: updates_checker.vala:59: check updates
+Nemo-Share-Message: 20:31:50.671: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
 net usershare: usershares are currently disabled
 
-Nemo-Share-Message: 22:34:09.943: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+Nemo-Share-Message: 20:32:20.096: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
 net usershare: usershares are currently disabled
 
 
-(nemo:3506): Nemo-WARNING **: 22:34:26.221: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+(xed:9258): libpeas-WARNING **: 20:32:56.330: Failed to load module 'python3loader': /usr/lib/libpeas-1.0/loaders/libpython3loader.so: cannot open shared object file: No such file or directory
 
-** (gdk-pixbuf-thumbnailer:3531): WARNING **: 22:34:35.145: Could not thumbnail 'file:///home/pd0rk1n/choices/dotfiles/Pictures/Wallpapers/default-wallpaper.jpg': Couldn’t recognize the image file format for file “/home/pd0rk1n/choices/dotfiles/Pictures/Wallpapers/default-wallpaper.jpg”
+(xed:9258): libpeas-WARNING **: 20:32:56.330: Could not load plugin loader 'python3'
 
-(nemo:3506): Nemo-WARNING **: 22:34:55.022: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
-Nemo-Share-Message: 22:35:00.728: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+** (xed:9258): WARNING **: 20:32:56.330: Failed to load builtin plugin: Text Size
+
+** (xed:9258): WARNING **: 20:32:56.330: Failed to load builtin plugin: Join Lines
+
+** (xed:9258): WARNING **: 20:32:56.330: Failed to load builtin plugin: Open URI
+
+(xed:9258): libenchant-WARNING **: 20:32:56.544: broker.vala:159: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:9258): libenchant-WARNING **: 20:32:56.544: broker.vala:159: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:9258): libenchant-WARNING **: 20:32:56.545: broker.vala:159: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:9258): libenchant-WARNING **: 20:32:56.545: broker.vala:159: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:9258): libenchant-WARNING **: 20:32:56.545: broker.vala:159: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:9258): libenchant-WARNING **: 20:32:56.546: broker.vala:159: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:9258): libenchant-WARNING **: 20:32:56.546: broker.vala:159: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:9258): libenchant-WARNING **: 20:32:56.546: broker.vala:159: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+Nemo-Share-Message: 20:33:08.060: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+Nemo-Share-Message: 20:33:50.032: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
 net usershare: usershares are currently disabled
 
 
-(nemo:3506): Nemo-WARNING **: 22:35:13.866: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
-Nemo-Share-Message: 22:35:43.595: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+(xed:9275): libpeas-WARNING **: 20:34:12.351: Failed to load module 'python3loader': /usr/lib/libpeas-1.0/loaders/libpython3loader.so: cannot open shared object file: No such file or directory
+
+(xed:9275): libpeas-WARNING **: 20:34:12.351: Could not load plugin loader 'python3'
+
+** (xed:9275): WARNING **: 20:34:12.351: Failed to load builtin plugin: Text Size
+
+** (xed:9275): WARNING **: 20:34:12.351: Failed to load builtin plugin: Join Lines
+
+** (xed:9275): WARNING **: 20:34:12.351: Failed to load builtin plugin: Open URI
+
+(xed:9275): libenchant-WARNING **: 20:34:12.562: broker.vala:159: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:9275): libenchant-WARNING **: 20:34:12.562: broker.vala:159: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:9275): libenchant-WARNING **: 20:34:12.563: broker.vala:159: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:9275): libenchant-WARNING **: 20:34:12.564: broker.vala:159: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:9275): libenchant-WARNING **: 20:34:12.564: broker.vala:159: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:9275): libenchant-WARNING **: 20:34:12.564: broker.vala:159: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:9275): libenchant-WARNING **: 20:34:12.564: broker.vala:159: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:9275): libenchant-WARNING **: 20:34:12.564: broker.vala:159: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+Nemo-Share-Message: 20:35:08.068: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
 net usershare: usershares are currently disabled
 
 
-(nemo:3506): Nemo-WARNING **: 22:35:52.953: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+(xed:9295): libpeas-WARNING **: 20:35:25.221: Failed to load module 'python3loader': /usr/lib/libpeas-1.0/loaders/libpython3loader.so: cannot open shared object file: No such file or directory
 
-(nemo:3506): Nemo-WARNING **: 22:35:56.573: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+(xed:9295): libpeas-WARNING **: 20:35:25.221: Could not load plugin loader 'python3'
+
+** (xed:9295): WARNING **: 20:35:25.221: Failed to load builtin plugin: Text Size
+
+** (xed:9295): WARNING **: 20:35:25.221: Failed to load builtin plugin: Join Lines
+
+** (xed:9295): WARNING **: 20:35:25.221: Failed to load builtin plugin: Open URI
+
+(xed:9295): libenchant-WARNING **: 20:35:25.436: broker.vala:159: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:9295): libenchant-WARNING **: 20:35:25.436: broker.vala:159: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:9295): libenchant-WARNING **: 20:35:25.437: broker.vala:159: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:9295): libenchant-WARNING **: 20:35:25.437: broker.vala:159: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:9295): libenchant-WARNING **: 20:35:25.437: broker.vala:159: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:9295): libenchant-WARNING **: 20:35:25.438: broker.vala:159: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:9295): libenchant-WARNING **: 20:35:25.438: broker.vala:159: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:9295): libenchant-WARNING **: 20:35:25.438: broker.vala:159: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:9312): libpeas-WARNING **: 20:35:56.252: Failed to load module 'python3loader': /usr/lib/libpeas-1.0/loaders/libpython3loader.so: cannot open shared object file: No such file or directory
+
+(xed:9312): libpeas-WARNING **: 20:35:56.252: Could not load plugin loader 'python3'
+
+** (xed:9312): WARNING **: 20:35:56.252: Failed to load builtin plugin: Text Size
+
+** (xed:9312): WARNING **: 20:35:56.252: Failed to load builtin plugin: Join Lines
+
+** (xed:9312): WARNING **: 20:35:56.252: Failed to load builtin plugin: Open URI
+
+(xed:9312): libenchant-WARNING **: 20:35:56.456: broker.vala:159: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:9312): libenchant-WARNING **: 20:35:56.456: broker.vala:159: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:9312): libenchant-WARNING **: 20:35:56.457: broker.vala:159: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:9312): libenchant-WARNING **: 20:35:56.458: broker.vala:159: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:9312): libenchant-WARNING **: 20:35:56.458: broker.vala:159: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:9312): libenchant-WARNING **: 20:35:56.458: broker.vala:159: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:9312): libenchant-WARNING **: 20:35:56.458: broker.vala:159: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:9312): libenchant-WARNING **: 20:35:56.458: broker.vala:159: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+Nemo-Share-Message: 20:36:35.777: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+Nemo-Share-Message: 20:37:25.827: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+
+(pamac-tray:5119): GLib-CRITICAL **: 20:37:51.684: Source ID 26 was not found when attempting to remove it
+** Message: 20:37:56.692: updates_checker.vala:59: check updates
+
+(xed:11661): libpeas-WARNING **: 20:38:24.400: Failed to load module 'python3loader': /usr/lib/libpeas-1.0/loaders/libpython3loader.so: cannot open shared object file: No such file or directory
+
+(xed:11661): libpeas-WARNING **: 20:38:24.400: Could not load plugin loader 'python3'
+
+** (xed:11661): WARNING **: 20:38:24.400: Failed to load builtin plugin: Text Size
+
+** (xed:11661): WARNING **: 20:38:24.400: Failed to load builtin plugin: Join Lines
+
+** (xed:11661): WARNING **: 20:38:24.400: Failed to load builtin plugin: Open URI
+
+(xed:11661): libenchant-WARNING **: 20:38:24.606: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:11661): libenchant-WARNING **: 20:38:24.606: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:11661): libenchant-WARNING **: 20:38:24.607: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:11661): libenchant-WARNING **: 20:38:24.607: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:11661): libenchant-WARNING **: 20:38:24.607: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:11661): libenchant-WARNING **: 20:38:24.607: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:11661): libenchant-WARNING **: 20:38:24.608: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:11661): libenchant-WARNING **: 20:38:24.608: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:11676): libpeas-WARNING **: 20:38:29.307: Failed to load module 'python3loader': /usr/lib/libpeas-1.0/loaders/libpython3loader.so: cannot open shared object file: No such file or directory
+
+(xed:11676): libpeas-WARNING **: 20:38:29.307: Could not load plugin loader 'python3'
+
+** (xed:11676): WARNING **: 20:38:29.308: Failed to load builtin plugin: Text Size
+
+** (xed:11676): WARNING **: 20:38:29.308: Failed to load builtin plugin: Join Lines
+
+** (xed:11676): WARNING **: 20:38:29.308: Failed to load builtin plugin: Open URI
+
+(xed:11676): libenchant-WARNING **: 20:38:29.510: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:11676): libenchant-WARNING **: 20:38:29.511: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:11676): libenchant-WARNING **: 20:38:29.512: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:11676): libenchant-WARNING **: 20:38:29.512: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:11676): libenchant-WARNING **: 20:38:29.512: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:11676): libenchant-WARNING **: 20:38:29.512: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:11676): libenchant-WARNING **: 20:38:29.512: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:11676): libenchant-WARNING **: 20:38:29.513: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:11684): libpeas-WARNING **: 20:38:45.589: Failed to load module 'python3loader': /usr/lib/libpeas-1.0/loaders/libpython3loader.so: cannot open shared object file: No such file or directory
+
+(xed:11684): libpeas-WARNING **: 20:38:45.590: Could not load plugin loader 'python3'
+
+** (xed:11684): WARNING **: 20:38:45.590: Failed to load builtin plugin: Text Size
+
+** (xed:11684): WARNING **: 20:38:45.590: Failed to load builtin plugin: Join Lines
+
+** (xed:11684): WARNING **: 20:38:45.590: Failed to load builtin plugin: Open URI
+
+(xed:11684): libenchant-WARNING **: 20:38:45.796: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:11684): libenchant-WARNING **: 20:38:45.797: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:11684): libenchant-WARNING **: 20:38:45.798: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:11684): libenchant-WARNING **: 20:38:45.798: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:11684): libenchant-WARNING **: 20:38:45.798: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:11684): libenchant-WARNING **: 20:38:45.798: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:11684): libenchant-WARNING **: 20:38:45.798: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:11684): libenchant-WARNING **: 20:38:45.799: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+Nemo-Share-Message: 20:39:03.181: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+Nemo-Share-Message: 20:39:28.835: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+
+(nemo:5272): Nemo-WARNING **: 20:39:40.324: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+
+(nemo:5272): Nemo-WARNING **: 20:39:45.368: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+
+(nemo:5272): Nemo-WARNING **: 20:40:22.657: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+
+(nemo:5272): Nemo-WARNING **: 20:40:30.903: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+
+(nemo:5272): Nemo-WARNING **: 20:40:34.276: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
