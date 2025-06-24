@@ -14,3 +14,6 @@ export PATH=$PATH:/usr/lib/xfce4/xfce4-settings
 which exo-preferred-applications
 sudo pacman -S xfce4-settings
 fish
+~/.local/share/qtile/qtile.log
+sudo ~/.local/share/qtile/qtile.log
+sudo nano ~/.local/share/qtile/qtile.log
