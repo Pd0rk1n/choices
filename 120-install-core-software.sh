@@ -239,6 +239,7 @@ sudo pacman -S --noconfirm --needed unzip
 sudo pacman -S --noconfirm --needed eza
 sudo pacman -S --noconfirm --needed ufw
 sudo pacman -S --noconfirm --needed pasystray
+sudo pacman -S --noconfirm --needed power-profiles-daemon
 
 
 if [ ! -f /usr/share/xsessions/plasmax11.desktop ]; then
