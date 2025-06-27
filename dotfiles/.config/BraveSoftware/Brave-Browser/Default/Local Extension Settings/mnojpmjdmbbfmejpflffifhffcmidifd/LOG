@@ -1,9 +1,0 @@
-2025/06/23-20:24:39.303 dbf Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
-2025/06/23-20:24:39.304 dbf Recovering log #2206
-2025/06/23-20:24:39.320 dbf Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/002206.log 
-2025/06/23-20:35:40.050 dbf Compacting 1@1 + 1@2 files
-2025/06/23-20:35:40.058 dbf Generated table #2209@1: 8 keys, 118806 bytes
-2025/06/23-20:35:40.058 dbf Compacted 1@1 + 1@2 files => 118806 bytes
-2025/06/23-20:35:40.060 dbf compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/06/23-20:35:40.060 dbf Delete type=2 #2203
-2025/06/23-20:35:40.060 dbf Delete type=2 #2205

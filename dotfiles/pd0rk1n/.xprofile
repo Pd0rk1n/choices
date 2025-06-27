@@ -1,5 +1,0 @@
-xrandr --output HDMI1 --mode 1920x1080 --rate 75
-
-xset -dpms
-xset s off
-
