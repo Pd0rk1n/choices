@@ -1,0 +1,15 @@
+2025/06/21-13:11:00.062 cd21 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_thepiratebay.org_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/21-13:11:00.062 cd21 Recovering log #67
+2025/06/21-13:11:00.062 cd21 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_thepiratebay.org_0.indexeddb.leveldb/000067.log 
+2025/06/21-13:21:28.165 cd22 Level-0 table #72: started
+2025/06/21-13:21:28.167 cd22 Level-0 table #72: 190 bytes OK
+2025/06/21-13:21:28.170 cd22 Delete type=0 #67
+2025/06/21-13:21:28.170 cd22 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/06/21-13:21:28.170 cd22 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 77 : 1
+2025/06/21-13:21:28.171 cd22 Compacting 1@1 + 1@2 files
+2025/06/21-13:21:28.173 cd22 Generated table #73@1: 19 keys, 504 bytes
+2025/06/21-13:21:28.173 cd22 Compacted 1@1 + 1@2 files => 504 bytes
+2025/06/21-13:21:28.175 cd22 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/06/21-13:21:28.175 cd22 Delete type=2 #69
+2025/06/21-13:21:28.176 cd22 Delete type=2 #72
+2025/06/21-13:21:28.176 cd22 Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 77 : 1 .. (end); will stop at (end)
