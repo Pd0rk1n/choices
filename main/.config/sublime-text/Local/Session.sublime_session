@@ -1,6 +1,8 @@
 {
 	"file_history":
 	[
+		"/home/pd0rk1n/.config/fastfetch/config.jsonc",
+		"/home/pd0rk1n/.config/qtile/config.py",
 		"/home/pd0rk1n/.config/Thunar/accels.scm",
 		"/home/pd0rk1n/Desktop/iso/archiso/airootfs/etc/sudoers.d/g_wheel",
 		"/home/pd0rk1n/.config/qtile/rofi/launcher2.rasi",
@@ -11,7 +13,6 @@
 		"/home/pd0rk1n/Downloads/calamares-3.3.15-06/CMakeLists.txt",
 		"/home/pd0rk1n/Downloads/calamares-3.3.15-06/README.md",
 		"/home/pd0rk1n/backups/backup-20250602.log",
-		"/home/pd0rk1n/.config/qtile/config.py",
 		"/home/pd0rk1n/Projects/archinstall/renovate.json",
 		"/home/pd0rk1n/.config/fontconfig/fonts.conf",
 		"/home/pd0rk1n/.icons/default/index.theme",
@@ -35,7 +36,7 @@
 	"last_version": 4200,
 	"last_window_id": 1,
 	"log_indexing": false,
-	"next_update_check": 1750516573,
+	"next_update_check": 1751294173,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -85,6 +86,8 @@
 			},
 			"file_history":
 			[
+				"/home/pd0rk1n/.config/fastfetch/config.jsonc",
+				"/home/pd0rk1n/.config/qtile/config.py",
 				"/home/pd0rk1n/.config/Thunar/accels.scm",
 				"/home/pd0rk1n/Desktop/iso/archiso/airootfs/etc/sudoers.d/g_wheel",
 				"/home/pd0rk1n/.config/qtile/rofi/launcher2.rasi",
@@ -95,7 +98,6 @@
 				"/home/pd0rk1n/Downloads/calamares-3.3.15-06/CMakeLists.txt",
 				"/home/pd0rk1n/Downloads/calamares-3.3.15-06/README.md",
 				"/home/pd0rk1n/backups/backup-20250602.log",
-				"/home/pd0rk1n/.config/qtile/config.py",
 				"/home/pd0rk1n/Projects/archinstall/renovate.json",
 				"/home/pd0rk1n/.config/fontconfig/fonts.conf",
 				"/home/pd0rk1n/.icons/default/index.theme",
@@ -250,6 +252,8 @@
 			},
 			"file_history":
 			[
+				"/home/pd0rk1n/.config/fastfetch/config.jsonc",
+				"/home/pd0rk1n/.config/qtile/config.py",
 				"/home/pd0rk1n/.config/Thunar/accels.scm",
 				"/home/pd0rk1n/Desktop/iso/archiso/airootfs/etc/sudoers.d/g_wheel",
 				"/home/pd0rk1n/.config/qtile/rofi/launcher2.rasi",
@@ -260,7 +264,6 @@
 				"/home/pd0rk1n/Downloads/calamares-3.3.15-06/CMakeLists.txt",
 				"/home/pd0rk1n/Downloads/calamares-3.3.15-06/README.md",
 				"/home/pd0rk1n/backups/backup-20250602.log",
-				"/home/pd0rk1n/.config/qtile/config.py",
 				"/home/pd0rk1n/Projects/archinstall/renovate.json",
 				"/home/pd0rk1n/.config/fontconfig/fonts.conf",
 				"/home/pd0rk1n/.icons/default/index.theme",

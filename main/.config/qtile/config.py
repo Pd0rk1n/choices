@@ -272,7 +272,7 @@ colors = init_colors()
 
 #extra icons to choose from
 #http://fontawesome.io/cheatsheet/
-#       v              
+#            v               
 
 
 # WIDGETS FOR THE BAR
@@ -298,9 +298,9 @@ def init_widgets_list():
             font="JetBrainsMono Nerd Font",  # Or any monospaced font you have installed
             fontsize=16,
             margin_y=3,
-            margin_x=3,
+            margin_x=2,
             padding_y=4,
-            padding_x=2,
+            padding_x=0,
             borderwidth=0,
             disable_drag=True,
             active=colors[2],
@@ -455,8 +455,8 @@ def init_widgets_list():
          #         background = colors[0]
          #         ),
         widget.LaunchBar(
-                 progs = [("", "brave", "Brave web browser"),
-                          ("", "xfce4-terminal", " xfce4 terminal"),
+                 progs = [("", "brave", "Brave web browser"),
+                          (" ", "xfce4-terminal", " xfce4 terminal"),
                           ("", "nemo", "nemo file manager"),
                           ("", "vlc", "VLC media player")
                          ], 

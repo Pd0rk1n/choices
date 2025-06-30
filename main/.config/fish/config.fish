@@ -551,6 +551,7 @@ alias fixtray="/home/pd0rk1n/.local/bin/restart-tray-apps.sh"
 
 
 
-
-
-neofetch
+#fastfetch
+#fastfetch --logo tux
+#neofetch
+neofetch --ascii_distro tux
