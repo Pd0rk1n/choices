@@ -281,6 +281,10 @@ sudo pacman -S meld --noconfirm --needed
 sudo pacman -S xed --noconfirm --needed
 sudo pacman -S nemo --noconfirm --needed
 sudo pacman -S nemo-share --noconfirm --needed
+sudo pacman -S nemo-fileroller --noconfirm --needed
+sudo pacman -S nemo-terminal --noconfirm --needed
+
+
 
 # if on Arco... and systemd-boot is chosen, then proceed with
 #if [[ -f /etc/dev-rel ]]; then
