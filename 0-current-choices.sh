@@ -283,21 +283,21 @@ sudo pacman -S nemo --noconfirm --needed
 sudo pacman -S nemo-share --noconfirm --needed
 
 # if on Arco... and systemd-boot is chosen, then proceed with
-if [[ -f /etc/dev-rel ]]; then
+#if [[ -f /etc/dev-rel ]]; then
 
-    if [[ "$(sudo bootctl is-installed 2>/dev/null)" == "yes" ]]; then
-        echo
-        tput setaf 3
-        echo "########################################################################"
-        echo "################### By default we choose systemd-boot"
-        echo "################### This is to be able to change the kernel"
-        echo "########################################################################"
-        tput sgr0
-        echo
+#    if [[ "$(sudo bootctl is-installed 2>/dev/null)" == "yes" ]]; then
+#        echo
+#        tput setaf 3
+#        echo "########################################################################"
+#        echo "################### By default we choose systemd-boot"
+#        echo "################### This is to be able to change the kernel"
+#        echo "########################################################################"
+#        tput sgr0
+ #       echo
 
-        sudo pacman -S --noconfirm --needed pacman-hook-kernel-install
-    fi
-fi
+#        sudo pacman -S --noconfirm --needed pacman-hook-kernel-install
+#    fi
+#fi
 
 echo
 tput setaf 3
