@@ -338,7 +338,9 @@ echo "########################################################################"
 tput sgr0
 echo
 
-installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
+#installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
+
+installed_dir=$(dirname $(readlink -f "$0"))
 cd $installed_dir/Personal
 
 sh 900-*
@@ -347,21 +349,21 @@ sh 920-*
 
 
 
-sh 970-all*
+#sh 970-all*
 
-sh 970-alci*
-sh 970-archman*
-sh 970-archcraft*
-sh 970-arco*
-sh 970-ariser*
-sh 970-carli*
-sh 970-eos*
-sh 970-garuda*
-sh 970-sierra*
-sh 970-biglinux*
-sh 970-rebornos*
-sh 970-archbang*
-sh 970-manjaro*
+#sh 970-alci*
+#sh 970-archman*
+#sh 970-archcraft*
+#sh 970-arco*
+#sh 970-ariser*
+#sh 970-carli*
+#sh 970-eos*
+#sh 970-garuda*
+#sh 970-sierra*
+#sh 970-biglinux*
+#sh 970-rebornos*
+#sh 970-archbang*
+#sh 970-manjaro*
 
 #has to be last - they are all Arch
 sh 970-arch.sh
