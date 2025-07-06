@@ -492,7 +492,7 @@ def init_widgets_list():
                   background = colors[0]
                   ),
         widget.Systray(
-            background=colors[4],
+            background=colors[0],
             icon_size=22,
             padding=3
             ),
