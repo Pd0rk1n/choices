@@ -549,7 +549,7 @@ from libqtile.log_utils import logger
 def assign_app_group(client):
     app_groups = {
         "1": ["nemo"],
-        "2": ["xed"],
+        "2": ["xed", "sublime_text"],
         "3": ["brave", "brave-browser"],
         "5": ["xfce4-terminal"],
         "6": ["vlc"],
