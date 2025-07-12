@@ -1,8 +1,38 @@
 {
 	"file_history":
 	[
-		"/home/pd0rk1n/.config/fastfetch/config.jsonc",
+		"/home/pd0rk1n/.config/archlinux-logout/archlinux-logout.conf",
+		"/home/pd0rk1n/choices/main/.config/archlinux-logout/archlinux-logout.conf",
+		"/home/pd0rk1n/fix-mdns.sh",
+		"/home/pd0rk1n/.pki/nssdb/pkcs11.txt",
+		"/home/pd0rk1n/choices/main/install_pd0rk1n_user_files.sh",
+		"/home/pd0rk1n/choices/main/.local/state/btop.log",
+		"/home/pd0rk1n/choices/main/install_config.sh",
+		"/home/pd0rk1n/choices/main/main.sh",
+		"/home/pd0rk1n/.local/bin/lockscreen",
+		"/home/pd0rk1n/Videos/www.UIndex.org    -    How to Train Your Dragon 2025 1080p TS EN FR-RGB/readme.txt",
+		"/home/pd0rk1n/Videos/www.UIndex.org    -    How to Train Your Dragon 2025 1080p TS EN FR-RGB/How to Train Your Dragon 2025 1080p TS EN FR-RGB.mkv.nfo",
+		"/etc/nanorc",
+		"/home/pd0rk1n/choices/Fixes/BraveUnlock.txt",
+		"/home/pd0rk1n/.nanorc",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_sys-linux.cfg",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_sys.cfg",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_pxe-linux.cfg",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_pxe.cfg",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_head.cfg",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/personal_repo/x86_64/updaterepo.sh",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/grub/loopback.cfg",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/grub/grub.cfg",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/efiboot/loader/loader.conf",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/efiboot/loader/entries/01-archiso-x86_64-linux.conf",
+		"/home/pd0rk1n/.config/awesome/rc.lua",
+		"/home/pd0rk1n/.config/awesome/autostart.sh",
 		"/home/pd0rk1n/.config/qtile/config.py",
+		"/home/pd0rk1n/Videos/www.UIndex.org    -    Jurassic World Rebirth 2025 1080p TS ENG-RGB/Jurassic World Rebirth 2025 1080p TS ENG-RGB.mkv.nfo",
+		"/home/pd0rk1n/.config/qtile/scripts/autostart.sh",
+		"/home/pd0rk1n/.config/fish/config.fish",
+		"/home/pd0rk1n/Downloads/edu-shells/etc/skel/.config/fish/config.fish",
+		"/home/pd0rk1n/.config/fastfetch/config.jsonc",
 		"/home/pd0rk1n/.config/Thunar/accels.scm",
 		"/home/pd0rk1n/Desktop/iso/archiso/airootfs/etc/sudoers.d/g_wheel",
 		"/home/pd0rk1n/.config/qtile/rofi/launcher2.rasi",
@@ -36,7 +66,7 @@
 	"last_version": 4200,
 	"last_window_id": 1,
 	"log_indexing": false,
-	"next_update_check": 1751294173,
+	"next_update_check": 1752404959,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -44,7 +74,7 @@
 		"new_window_maximized": false,
 		"new_window_position":
 		[
-			970.0,
+			10.0,
 			65.0
 		],
 		"new_window_settings":
@@ -86,8 +116,38 @@
 			},
 			"file_history":
 			[
-				"/home/pd0rk1n/.config/fastfetch/config.jsonc",
+				"/home/pd0rk1n/.config/archlinux-logout/archlinux-logout.conf",
+				"/home/pd0rk1n/choices/main/.config/archlinux-logout/archlinux-logout.conf",
+				"/home/pd0rk1n/fix-mdns.sh",
+				"/home/pd0rk1n/.pki/nssdb/pkcs11.txt",
+				"/home/pd0rk1n/choices/main/install_pd0rk1n_user_files.sh",
+				"/home/pd0rk1n/choices/main/.local/state/btop.log",
+				"/home/pd0rk1n/choices/main/install_config.sh",
+				"/home/pd0rk1n/choices/main/main.sh",
+				"/home/pd0rk1n/.local/bin/lockscreen",
+				"/home/pd0rk1n/Videos/www.UIndex.org    -    How to Train Your Dragon 2025 1080p TS EN FR-RGB/readme.txt",
+				"/home/pd0rk1n/Videos/www.UIndex.org    -    How to Train Your Dragon 2025 1080p TS EN FR-RGB/How to Train Your Dragon 2025 1080p TS EN FR-RGB.mkv.nfo",
+				"/etc/nanorc",
+				"/home/pd0rk1n/choices/Fixes/BraveUnlock.txt",
+				"/home/pd0rk1n/.nanorc",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_sys-linux.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_sys.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_pxe-linux.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_pxe.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_head.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/personal_repo/x86_64/updaterepo.sh",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/grub/loopback.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/grub/grub.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/efiboot/loader/loader.conf",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/efiboot/loader/entries/01-archiso-x86_64-linux.conf",
+				"/home/pd0rk1n/.config/awesome/rc.lua",
+				"/home/pd0rk1n/.config/awesome/autostart.sh",
 				"/home/pd0rk1n/.config/qtile/config.py",
+				"/home/pd0rk1n/Videos/www.UIndex.org    -    Jurassic World Rebirth 2025 1080p TS ENG-RGB/Jurassic World Rebirth 2025 1080p TS ENG-RGB.mkv.nfo",
+				"/home/pd0rk1n/.config/qtile/scripts/autostart.sh",
+				"/home/pd0rk1n/.config/fish/config.fish",
+				"/home/pd0rk1n/Downloads/edu-shells/etc/skel/.config/fish/config.fish",
+				"/home/pd0rk1n/.config/fastfetch/config.jsonc",
 				"/home/pd0rk1n/.config/Thunar/accels.scm",
 				"/home/pd0rk1n/Desktop/iso/archiso/airootfs/etc/sudoers.d/g_wheel",
 				"/home/pd0rk1n/.config/qtile/rofi/launcher2.rasi",
@@ -117,7 +177,7 @@
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 32.0
 			},
 			"find_in_files":
 			{
@@ -131,6 +191,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"xed"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -149,7 +210,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 32.0
 			},
 			"input":
 			{
@@ -166,7 +227,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 60.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -206,7 +267,7 @@
 			{
 			}
 		},
-		"new_window_width": 940.0
+		"new_window_width": 1900.0
 	},
 	"windows":
 	[
@@ -252,8 +313,38 @@
 			},
 			"file_history":
 			[
-				"/home/pd0rk1n/.config/fastfetch/config.jsonc",
+				"/home/pd0rk1n/.config/archlinux-logout/archlinux-logout.conf",
+				"/home/pd0rk1n/choices/main/.config/archlinux-logout/archlinux-logout.conf",
+				"/home/pd0rk1n/fix-mdns.sh",
+				"/home/pd0rk1n/.pki/nssdb/pkcs11.txt",
+				"/home/pd0rk1n/choices/main/install_pd0rk1n_user_files.sh",
+				"/home/pd0rk1n/choices/main/.local/state/btop.log",
+				"/home/pd0rk1n/choices/main/install_config.sh",
+				"/home/pd0rk1n/choices/main/main.sh",
+				"/home/pd0rk1n/.local/bin/lockscreen",
+				"/home/pd0rk1n/Videos/www.UIndex.org    -    How to Train Your Dragon 2025 1080p TS EN FR-RGB/readme.txt",
+				"/home/pd0rk1n/Videos/www.UIndex.org    -    How to Train Your Dragon 2025 1080p TS EN FR-RGB/How to Train Your Dragon 2025 1080p TS EN FR-RGB.mkv.nfo",
+				"/etc/nanorc",
+				"/home/pd0rk1n/choices/Fixes/BraveUnlock.txt",
+				"/home/pd0rk1n/.nanorc",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_sys-linux.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_sys.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_pxe-linux.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_pxe.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_head.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/personal_repo/x86_64/updaterepo.sh",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/grub/loopback.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/grub/grub.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/efiboot/loader/loader.conf",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/efiboot/loader/entries/01-archiso-x86_64-linux.conf",
+				"/home/pd0rk1n/.config/awesome/rc.lua",
+				"/home/pd0rk1n/.config/awesome/autostart.sh",
 				"/home/pd0rk1n/.config/qtile/config.py",
+				"/home/pd0rk1n/Videos/www.UIndex.org    -    Jurassic World Rebirth 2025 1080p TS ENG-RGB/Jurassic World Rebirth 2025 1080p TS ENG-RGB.mkv.nfo",
+				"/home/pd0rk1n/.config/qtile/scripts/autostart.sh",
+				"/home/pd0rk1n/.config/fish/config.fish",
+				"/home/pd0rk1n/Downloads/edu-shells/etc/skel/.config/fish/config.fish",
+				"/home/pd0rk1n/.config/fastfetch/config.jsonc",
 				"/home/pd0rk1n/.config/Thunar/accels.scm",
 				"/home/pd0rk1n/Desktop/iso/archiso/airootfs/etc/sudoers.d/g_wheel",
 				"/home/pd0rk1n/.config/qtile/rofi/launcher2.rasi",
@@ -283,7 +374,7 @@
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 32.0
 			},
 			"find_in_files":
 			{
@@ -297,6 +388,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"xed"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -323,7 +415,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 32.0
 			},
 			"input":
 			{
@@ -360,11 +452,11 @@
 				]
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,965,31,1905,1065,1920,1080,0",
+			"position": "0,0,0,0,0,5,31,1905,1065,1920,1080,1",
 			"project": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 60.0
 			},
 			"save_all_on_build": true,
 			"select_file":

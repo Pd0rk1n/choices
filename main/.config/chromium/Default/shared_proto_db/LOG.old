@@ -1,2 +1,3 @@
-2025/05/28-18:35:42.306 208f Creating DB /home/pd0rk1n/.config/chromium/Default/shared_proto_db since it was missing.
-2025/05/28-18:35:42.314 208f Reusing MANIFEST /home/pd0rk1n/.config/chromium/Default/shared_proto_db/MANIFEST-000001
+2025/07/06-17:05:13.964 192bc1 Reusing MANIFEST /home/pd0rk1n/.config/chromium/Default/shared_proto_db/MANIFEST-000001
+2025/07/06-17:05:13.965 192bc1 Recovering log #3
+2025/07/06-17:05:13.965 192bc1 Reusing old log /home/pd0rk1n/.config/chromium/Default/shared_proto_db/000003.log 
