@@ -14,3 +14,13 @@ export PATH=$PATH:/usr/lib/xfce4/xfce4-settings
 which exo-preferred-applications
 sudo pacman -S xfce4-settings
 fish
+att
+update
+iso
+cd
+choices
+tofish
+sudo nano /etc/hosts
+fish
+sudo nano /etc/hosts
+fish
