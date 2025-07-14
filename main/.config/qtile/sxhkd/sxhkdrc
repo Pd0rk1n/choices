@@ -28,7 +28,7 @@ super + F5
 
 #Vlc
 super + F6
-    vlc --video-on-top
+    sh -c 'env DISPLAY=$DISPLAY XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR flatpak run org.videolan.VLC'
 
 #Virtualbox
 super + F7
@@ -38,9 +38,9 @@ super + F7
 super + F8
     thunar
 
-#Audio player
+#Restart Qtile
 super + F9
-    lollypop
+    ~/.config/qtile/scripts/restart-Qbar.sh  
 
 #Spotify
 super + F10
@@ -121,7 +121,7 @@ super + KP_Enter
 
 #File-Manager
 super + shift + Return
-	nemo
+	thunar
 
 #Keyboard dependent
 #File-Manager
