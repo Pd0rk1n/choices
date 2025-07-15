@@ -111,7 +111,7 @@ sudo pacman -S --noconfirm --needed fastfetch-git
 sudo pacman -S --noconfirm --needed neofetch-git
 sudo pacman -S --noconfirm --needed yay-git
 sudo pacman -S --noconfirm --needed paru-git
-#sudo pacman -S --noconfirm --needed 
+sudo pacman -S --noconfirm --needed ulauncher
 
 sudo pacman -S --noconfirm --needed adobe-source-sans-fonts
 sudo pacman -S --noconfirm --needed aic94xx-firmware
@@ -140,9 +140,6 @@ sudo pacman -S --noconfirm --needed fakeroot
 sudo pacman -S --noconfirm --needed feh
 sudo pacman -S --noconfirm --needed file-roller
 sudo pacman -S --noconfirm --needed firefox
-sudo pacman -S --noconfirm --needed firefox-ublock-origin
-sudo pacman -S --noconfirm --needed firefox-adblock-plus
-sudo pacman -S --noconfirm --needed firefox-dark-reader
 sudo pacman -S --noconfirm --needed fish
 sudo pacman -S --noconfirm --needed font-manager
 #sudo pacman -S --noconfirm --needed gimp
@@ -159,7 +156,7 @@ sudo pacman -S --noconfirm --needed hw-probe
 sudo pacman -S --noconfirm --needed hyfetch
 sudo pacman -S --noconfirm --needed inetutils
 #sudo pacman -S --noconfirm --needed inkscape
-#sudo pacman -S --noconfirm --needed insync
+sudo pacman -S --noconfirm --needed insync
 sudo pacman -S --noconfirm --needed linux-firmware-qlogic
 sudo pacman -S --noconfirm --needed logrotate
 sudo pacman -S --noconfirm --needed lolcat
@@ -191,7 +188,6 @@ sudo pacman -S --noconfirm --needed transmission-gtk
 sudo pacman -S --noconfirm --needed rate-mirrors
 sudo pacman -S --noconfirm --needed ripgrep
 sudo pacman -S --noconfirm --needed rsync
-sudo pacman -S --noconfirm --needed rclone
 sudo pacman -S --noconfirm --needed scrot
 sudo pacman -S --noconfirm --needed smartmontools
 sudo pacman -S --noconfirm --needed speedtest-cli
@@ -201,7 +197,7 @@ sudo pacman -S --noconfirm --needed starship
 sudo pacman -S --noconfirm --needed sublime-text-4
 sudo pacman -S --noconfirm --needed sxhkd
 sudo pacman -S --noconfirm --needed system-config-printer
-#sudo pacman -S --noconfirm --needed telegram-desktop
+sudo pacman -S --noconfirm --needed telegram-desktop
 sudo pacman -S --noconfirm --needed the_silver_searcher
 sudo pacman -S --noconfirm --needed time
 sudo pacman -S --noconfirm --needed thunar
@@ -224,7 +220,7 @@ sudo pacman -S --noconfirm --needed variety
 sudo pacman -S --noconfirm --needed visual-studio-code-bin
 #sudo pacman -S --noconfirm --needed vivaldi
 #sudo pacman -S --noconfirm --needed vivaldi-ffmpeg-codecs
-#sudo pacman -S --noconfirm --needed vlc
+sudo pacman -S --noconfirm --needed vlc
 sudo pacman -S --noconfirm --needed wd719x-firmware
 sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed xdg-user-dirs
